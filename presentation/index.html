@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CISCSR — Présentation du design web</title>
+  <title>CISCSR — Sistema visual do website</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" />
   <link rel="stylesheet" href="css/ciscsr-theme.css" />
@@ -15,366 +15,424 @@
       <!-- 1 Title -->
       <section class="slide-bg-navy title-slide" data-background-color="#08101C">
         <div class="title-frame">
-          <p class="subtitle">CISCSR · Design du site web</p>
-          <h1>Design do Website</h1>
-          <h1 style="font-size:1.4em; color:#E8D7B5;">Présentation du design web</h1>
+          <p class="subtitle">CISCSR · Design do site web</p>
+          <h1>Sistema Visual</h1>
+          <h1 style="font-size:1.35em; color:#E8D7B5;">Système visuel</h1>
           <div class="ornament-line"></div>
           <p class="url">pfigueiredo.github.io/CICSR_REAA</p>
           <p class="title-tagline">
-            Um site que comunica continuidade, sobriedade e respeito — antes de comunicar conteúdo.<br>
-            Un site qui communique la continuité, la sobriété et le respect — avant même le contenu.
+            Tipografia, cor e espaço — a teoria da representação visual.<br>
+            Typographie, couleur et espace — la théorie de la représentation visuelle.
           </p>
         </div>
-        <aside class="notes">Ouvrir le site en direct dans un autre onglet. ~15–20 min. Ce deck vend le pourquoi, pas la liste des fonctionnalités.</aside>
+        <aside class="notes">Este deck cobre apenas forma visual: letras, cores e composição espacial. Não aborda conteúdo nem tom verbal. ~20 min.</aside>
       </section>
 
       <!-- 2 Scope -->
       <section class="slide-bg-paper">
         <h2>Âmbito / Périmètre</h2>
-        <p class="slide-thesis">Não listamos funcionalidades — explicamos por que cada escolha serve a credibilidade da Confederação. / Nous n'énumérons pas des fonctionnalités — nous expliquons pourquoi chaque choix sert la crédibilité de la Confédération.</p>
-        <div class="bilingual">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li>Explicamos <strong>porque</strong> cada decisão visual reforça a presença internacional</li>
-              <li>A missão da Confederação é outro orador — aqui o design fala por si</li>
-              <li>Para que cada jurisdição se reconheça numa porta digital comum e digna</li>
-            </ul>
+        <p class="slide-thesis">Três sistemas interligados — não uma lista de funcionalidades. / Trois systèmes liés — pas une liste de fonctionnalités.</p>
+        <div class="pillar-overview">
+          <div class="pillar-card">
+            <span class="pillar-num">I</span>
+            <strong>Tipografia</strong>
+            <span class="pillar-fr">Typographie</span>
+            <p>Hierarquia, classificação e função de cada tipo</p>
           </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li>Nous expliquons <strong>pourquoi</strong> chaque choix visuel renforce la présence internationale</li>
-              <li>La mission de la Confédération est un autre orateur — ici le design se défend seul</li>
-              <li>Pour que chaque juridiction se reconnaisse dans une porte numérique commune et digne</li>
-            </ul>
+          <div class="pillar-card">
+            <span class="pillar-num">II</span>
+            <strong>Cor</strong>
+            <span class="pillar-fr">Couleur</span>
+            <p>Teoria da paleta e papel de cada token</p>
+          </div>
+          <div class="pillar-card">
+            <span class="pillar-num">III</span>
+            <strong>Espaço visual</strong>
+            <span class="pillar-fr">Espace visuel</span>
+            <p>Scroll, ritmo de secções e composição</p>
           </div>
         </div>
+        <aside class="notes">Enquadrar: vamos falar de como o olho lê o site, não do que o texto diz.</aside>
       </section>
 
-      <!-- 3 Challenge -->
+      <!-- ═══ TYPOGRAPHY ═══ -->
+
+      <!-- 3 Type theory -->
       <section class="slide-bg-parchment">
-        <h2>Desafio / Défi de design</h2>
-        <p class="slide-thesis">O site não pode parecer uma empresa, uma campanha ou uma rede social. / Le site ne peut pas ressembler à une entreprise, une campagne ou un réseau social.</p>
+        <h2>I · Tipografia / Typographie — Teoria</h2>
+        <p class="slide-thesis">Duas famílias, dois papéis visuais: voz gravada vs. superfície de leitura. / Deux familles, deux rôles visuels : voix gravée vs. surface de lecture.</p>
         <div class="bilingual">
           <div class="col-pt">
             <h3>Português</h3>
             <ul>
-              <li><strong>Evita</strong> o tom comercial que erosiona a discrição diplomática entre Supremos Conselhos</li>
-              <li><strong>Garante</strong> peso visual ao texto constitucional — não o trata como marketing</li>
-              <li><strong>Assegura</strong> quatro idiomas com paridade, porque a legitimidade é multilateral</li>
+              <li><strong>Serif (Georgia):</strong> títulos, nome institucional, rótulos — peso vertical, remates que ancoram o olho como em tipos de arquivo impresso</li>
+              <li><strong>Sans (Trebuchet MS):</strong> corpo, navegação, formulários — traço aberto, ritmo horizontal contínuo para leitura longa em ecrã</li>
+              <li><strong>Princípio:</strong> contraste de <em>classificação</em>, não de tamanho apenas — o visitante distingue «cabeçalho de documento» de «texto corrido» antes de ler uma palavra</li>
             </ul>
           </div>
           <div class="col-fr">
             <h3>Français</h3>
             <ul>
-              <li><strong>Évite</strong> le ton commercial qui érode la discrétion diplomatique entre Suprêmes Conseils</li>
-              <li><strong>Garantit</strong> un poids visuel au texte constitutionnel — pas un traitement marketing</li>
-              <li><strong>Assure</strong> quatre langues à parité, car la légitimité est multilatérale</li>
+              <li><strong>Serif (Georgia) :</strong> titres, nom institutionnel, labels — poids vertical, empattements qui ancrent l'œil comme dans l'imprimé d'archive</li>
+              <li><strong>Sans (Trebuchet MS) :</strong> corps, navigation, formulaires — tracé ouvert, rythme horizontal pour lecture longue à l'écran</li>
+              <li><strong>Principe :</strong> contraste de <em>classification</em>, pas seulement de taille — le visiteur distingue « en-tête de document » et « texte courant » avant de lire un mot</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- 4 Concept -->
+      <!-- 4 Georgia -->
       <section class="slide-bg-paper">
-        <h2>Conceito / Concept — Institutionnel classique</h2>
-        <p class="slide-thesis">Escolhemos o aspeto de documento oficial — porque a Confederação não vende, declara. / Nous avons choisi l'aspect de document officiel — parce que la Confédération ne vend pas, elle déclare.</p>
-        <div class="bilingual">
+        <h2>Georgia — Serif de autoridade</h2>
+        <p class="slide-thesis">Serif de transição, desenhada para ecrã a partir da tradição do Times — legível em tamanhos grandes sem parecer display. / Serif de transition, conçue pour l'écran à partir de la tradition Times.</p>
+        <div class="type-deep-specimen serif-block">
+          <p class="specimen-xl">Confederação Internacional des Suprêmes Conseils</p>
+          <p class="specimen-meta">Georgia · títulos h1–h3 · .lead · overlines em serif · signatários</p>
+        </div>
+        <div class="bilingual compact">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Pergaminho:</strong> evoca arquivo e tradição; o visitante sente continuidade, não uma landing page</li>
-              <li><strong>Hero escuro:</strong> limiar solene — o nome institucional é recebido com gravidade, não como slogan</li>
-              <li><strong>Cantos rectos, sem animação:</strong> formalidade e permanência; rejeitamos a linguagem de apps e consumo</li>
+              <li><strong>Classificação:</strong> old-style/transitional — eixos moderados, contraste médio entre traços grossos e finos</li>
+              <li><strong>Função visual:</strong> marca zonas de «nome próprio» e «secção» — o olho pára; a letra ocupa espaço como cabeçalho de ata</li>
+              <li><strong>Escala:</strong> <code>clamp(34px, 5.2vw, 68px)</code> no hero — proporção monumental sem quebrar em mobile</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Parchemin :</strong> évoque l'archive et la tradition ; le visiteur ressent la continuité, pas une landing page</li>
-              <li><strong>Hero sombre :</strong> seuil solennel — le nom institutionnel est accueilli avec gravité, pas comme slogan</li>
-              <li><strong>Coins droits, sans animation :</strong> formalité et permanence ; nous rejetons le langage des apps et de la consommation</li>
+              <li><strong>Classification :</strong> old-style/transitional — axes modérés, contraste moyen entre pleins et déliés</li>
+              <li><strong>Fonction visuelle :</strong> marque les zones de « nom propre » et « section » — l'œil s'arrête ; la lettre occupe l'espace comme en-tête d'acte</li>
+              <li><strong>Échelle :</strong> <code>clamp()</code> au hero — proportion monumentale sans rupture mobile</li>
             </ul>
           </div>
         </div>
-        <aside class="notes">PT: Insistir — não é estética por gosto pessoal; é linguagem visual que os delegados já reconhecem de documentos que respeitam. FR: Même argument. Pausa après « ne vend pas, elle déclare ». Slide clé — ne pas lire les bullets mot à mot, les illustrer avec le site ouvert.</aside>
       </section>
 
-      <!-- 5 Colour -->
+      <!-- 5 Trebuchet -->
       <section class="slide-bg-parchment">
-        <h2>Cor / Couleur</h2>
-        <p class="slide-thesis">As cores não decoram — comunicam confiança, calor institucional e gravidade. / Les couleurs ne décorent pas — elles communiquent confiance, chaleur institutionnelle et gravité.</p>
-        <div class="swatch-row">
-          <div class="swatch"><div class="swatch-color" style="background:#08101C"></div><div class="swatch-label">navy-deep</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#111A2A"></div><div class="swatch-label">navy</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#B08A4A"></div><div class="swatch-label">gold</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#7F6234"></div><div class="swatch-label">gold-dark</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#F3E8D2"></div><div class="swatch-label">parchment</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#FBF6EA"></div><div class="swatch-label">paper</div></div>
-          <div class="swatch"><div class="swatch-color" style="background:#691B24"></div><div class="swatch-label">burgundy</div></div>
+        <h2>Trebuchet MS — Sans de leitura</h2>
+        <p class="slide-thesis">Humanista, com formas inspiradas na escrita manuscrita — mais orgânica que uma grotesque geométrica. / Humaniste, formes inspirées de l'écriture — plus organique qu'une grotesque géométrique.</p>
+        <div class="type-deep-specimen sans-block">
+          <p class="specimen-lg">Instituição confederal dedicada à cooperação fraterna entre Supremos Conselhos soberanos e regulares.</p>
+          <p class="specimen-meta">Trebuchet MS · parágrafos · nav · botões · labels de interface</p>
         </div>
-        <div class="bilingual">
+        <div class="bilingual compact">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Pergaminho, não branco:</strong> convida à leitura longa de textos oficiais; o branco corporativo seria neutro e frio</li>
-              <li><strong>Dourado contido:</strong> honra o Rito sem teatralidade digital</li>
-              <li><strong>Tokens únicos:</strong> a identidade evolui num só lugar — coerência para páginas futuras</li>
+              <li><strong>Classificação:</strong> sans humanista — terminais levemente inclinados, «a» de faixa única, espaço generoso entre letras</li>
+              <li><strong>Função visual:</strong> fundo neutro tipográfico — não compete com Georgia; sustenta blocos densos (declaração, listas)</li>
+              <li><strong>Interlinha 1.6:</strong> respiro vertical para parágrafos longos sem abrir demasiado o scroll</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Parchemin, pas blanc :</strong> invite à la lecture longue des textes officiels ; le blanc corporate serait neutre et froid</li>
-              <li><strong>Or contenu :</strong> honore le Rite sans théâtralité numérique</li>
-              <li><strong>Tokens uniques :</strong> l'identité évolue en un seul endroit — cohérence pour les pages futures</li>
+              <li><strong>Classification :</strong> sans humaniste — terminaux légèrement inclinés, « a » à un seul étage, espace généreux</li>
+              <li><strong>Fonction visuelle :</strong> fond neutre — ne rivalise pas avec Georgia ; soutient les blocs denses</li>
+              <li><strong>Interligne 1.6 :</strong> respiration verticale pour longs paragraphes sans allonger excessivement le scroll</li>
             </ul>
           </div>
         </div>
-        <aside class="notes">Montrer les swatches du doigt. PT: « Pergaminho » — comparar mentalmente com site bancário branco. FR: Insister sur bordeaux du motto comme punctuation émotionnelle, pas décoration. Lier or au Rite sans ostentation.</aside>
       </section>
 
-      <!-- 6 Typography -->
+      <!-- 6 Noto + hierarchy -->
       <section class="slide-bg-paper">
-        <h2>Tipografia / Typographie</h2>
-        <p class="slide-thesis">A letra deve inspirar confiança silenciosa — não moda nem publicidade. / La lettre doit inspirer une confiance silencieuse — ni mode ni publicité.</p>
-        <div class="type-specimen">
-          <div class="serif-sample">Georgia — Confédération Internationale des Suprêmes Conseils</div>
-          <div class="sans-sample">Trebuchet MS — Institution confédérale dédiée à la coopération fraternelle.</div>
-          <div class="arabic-sample">Noto Sans Arabic — الاتحاد الدولي للمجالس العليا</div>
+        <h2>Noto Sans Arabic · Hierarquia</h2>
+        <p class="slide-thesis">Paridade de massa visual entre scripts — o árabe ocupa o mesmo peso que o latim no layout. / Parité de masse visuelle entre écritures — l'arabe occupe le même poids que le latin.</p>
+        <div class="type-deep-specimen">
+          <p class="specimen-xl arabic-block">الاتحاد الدولي للمجالس العليا السيادية والمنتظمة</p>
+          <p class="specimen-meta">Noto Sans Arabic · RTL · mesma escala de corpo que Trebuchet</p>
         </div>
-        <div class="bilingual">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li><strong>Georgia nos títulos:</strong> autoridade silenciosa — como documentos impressos que já respeitamos</li>
-              <li><strong>Trebuchet no corpo:</strong> legível sem competir com os títulos nem parecer «marketing»</li>
-              <li><strong>Sem fontes trendy:</strong> Inter ou Poppins diriam «startup» — prejudicaria uma instituição centenária</li>
-            </ul>
-          </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li><strong>Georgia aux titres :</strong> autorité silencieuse — comme les documents imprimés que nous respectons déjà</li>
-              <li><strong>Trebuchet au corps :</strong> lisible sans rivaliser avec les titres ni paraître « marketing »</li>
-              <li><strong>Pas de polices trendy :</strong> Inter ou Poppins diraient « startup » — nuirait à une institution centenaire</li>
-            </ul>
-          </div>
+        <div class="hierarchy-ladder">
+          <div class="rung"><span class="rung-role">Overline</span><span class="rung-sample overline-sample">DOCUMENTO OFICIAL</span></div>
+          <div class="rung"><span class="rung-role">H2</span><span class="rung-sample h2-sample">Declaração de Princípios</span></div>
+          <div class="rung"><span class="rung-role">Lead</span><span class="rung-sample lead-sample">Texto introdutório em serif maior</span></div>
+          <div class="rung"><span class="rung-role">Body</span><span class="rung-sample body-sample">Parágrafo corrido em sans para leitura contínua.</span></div>
         </div>
-        <aside class="notes">Lire à voix haute le spécimen Georgia. PT: Delegados associam serif a atas e estatutos. FR: Noto Arabic — mentionner que l'arabe n'est pas une traduction de second ordre visuellement. Contraste avec ce qu'on voit sur les sites maçonniques trop modernes.</aside>
+        <aside class="notes">Mostrar site em árabe. Explicar que RTL inverte eixo de leitura mas mantém mesma escala e contraste — decisão de composição, não de tradução.</aside>
       </section>
 
-      <!-- 7 Page structure -->
+      <!-- 7 Rejected type -->
       <section class="slide-bg-parchment">
-        <h2>Estrutura / Structure de la page</h2>
-        <p class="slide-thesis">Uma única página — porque a Confederação precisa de um folheto soberano, não de um labirinto. / Une seule page — parce que la Confédération a besoin d'une brochure souveraine, pas d'un labyrinthe.</p>
-        <div class="bilingual">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li><strong>Hero primeiro:</strong> identidade imediata — quem somos antes do que fazemos</li>
-              <li><strong>Pilares → Declaração:</strong> orientação rápida, depois o coração jurídico com peso visual</li>
-              <li><strong>Membros → Documentos → Contacto:</strong> alcance internacional, arquivo e canal reservado</li>
-            </ul>
+        <h2>O que não entrou / Ce qui n'a pas été retenu</h2>
+        <p class="slide-thesis">Fontes geométricas de moda alteram a leitura visual do conjunto — associam-se a produto digital, não a documento. / Les géométriques à la mode lisent « produit numérique », pas « document ».</p>
+        <div class="reject-compare">
+          <div class="reject-col reject-no">
+            <p class="reject-label">Rejeitado / Rejeté</p>
+            <p class="reject-inter">Inter · Poppins · Playfair Display</p>
+            <p class="reject-note">Geometria perfeita, x-height alto, curvas de tendência — leitura «app» ou «convite»</p>
           </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li><strong>Hero d'abord :</strong> identité immédiate — qui nous sommes avant ce que nous faisons</li>
-              <li><strong>Piliers → Déclaration :</strong> orientation rapide, puis le cœur juridique avec poids visuel</li>
-              <li><strong>Membres → Documents → Contact :</strong> portée internationale, archives et canal réservé</li>
-            </ul>
+          <div class="reject-col reject-yes">
+            <p class="reject-label">Escolhido / Retenu</p>
+            <p class="reject-ours">Georgia + Trebuchet MS</p>
+            <p class="reject-note">Tipos de sistema, estáveis, sem CDN para latim — coerência com impressos institucionais</p>
           </div>
-        </div>
-        <div class="page-map">
-          Hero → Pilares → Declaração → Membros → História → Documentos → Lema → Contacto
         </div>
       </section>
 
-      <!-- 8 Hero -->
+      <!-- ═══ COLOUR ═══ -->
+
+      <!-- 8 Color theory -->
       <section class="slide-bg-paper">
-        <h2>Hero</h2>
-        <p class="slide-thesis">A primeira impressão deve ser de porta institucional, não de publicidade. / La première impression doit être celle d'une porte institutionnelle, pas d'une publicité.</p>
-        <img class="slide-img" src="assets/screenshots/hero-pt.png" alt="Capture de la section hero" />
+        <h2>II · Cor / Couleur — Teoria da paleta</h2>
+        <p class="slide-thesis">Paleta de documento envelhecido sobre ecrã — quente, baixa saturação, profundidade por camadas. / Palette de document vieilli à l'écran — chaude, faible saturation, profondeur par couches.</p>
         <div class="bilingual">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Navy e dourado:</strong> impõem respeito sem gritar — solenidade, não espetáculo</li>
-              <li><strong>Logo claro:</strong> honorífico sobre fundo profundo; a marca não compete com o nome</li>
-              <li><strong>Sem vídeo nem carrossel:</strong> nada distrai do propósito institucional</li>
+              <li><strong>Eixo quente:</strong> pergaminho e dourado dominam — o fundo não é neutro cinza nem branco clínico</li>
+              <li><strong>Profundidade:</strong> navy cria planos de figura (hero, membros) sobre o plano de fundo claro</li>
+              <li><strong>Acento contido:</strong> ouro e borgonha em doses pequenas — ornamentos e pontuação, não superfícies inteiras</li>
+              <li><strong>Tokens CSS:</strong> sete cores + duas de texto — um único <code>:root</code> governa coerência visual em todas as secções</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Navy et or :</strong> imposent le respect sans crier — solennité, pas spectacle</li>
-              <li><strong>Logo clair :</strong> honorifique sur fond profond ; la marque ne rivalise pas avec le nom</li>
-              <li><strong>Pas de vidéo ni carrousel :</strong> rien ne distrait du propos institutionnel</li>
+              <li><strong>Axe chaud :</strong> parchemin et or dominent — le fond n'est ni gris neutre ni blanc clinique</li>
+              <li><strong>Profondeur :</strong> navy crée des plans de figure (hero, membres) sur le fond clair</li>
+              <li><strong>Accent contenu :</strong> or et bordeaux en petites doses — ornements et ponctuation</li>
+              <li><strong>Tokens CSS :</strong> sept couleurs + deux textuelles — un seul <code>:root</code> pour la cohérence</li>
             </ul>
           </div>
         </div>
-        <aside class="notes">PT: « Porta institucional » — imaginar entrar num palácio, não numa loja. FR: Montrer la capture. Demander à l'audience : est-ce qu'on se sent invité ou vendu ? Transition vers déclaration.</aside>
       </section>
 
-      <!-- 9 Declaration -->
+      <!-- 9 Surfaces -->
       <section class="slide-bg-parchment">
-        <h2>Declaração / Déclaration</h2>
-        <p class="slide-thesis">O texto constitucional merece o mesmo peso que teria em papel. / Le texte constitutionnel mérite le même poids que sur papier.</p>
-        <img class="slide-img slide-img-sm" src="assets/screenshots/declaration-pt.png" alt="Capture de la déclaration" />
-        <div class="bilingual">
+        <h2>Superfícies / Surfaces</h2>
+        <div class="color-detail-row">
+          <div class="color-detail" style="--chip:#F3E8D2">
+            <div class="color-chip"></div>
+            <div class="color-info">
+              <strong>parchment</strong> <code>#F3E8D2</code>
+              <p>PT: Fundo exterior + grelha 28px — textura de arquivo; aquece o ecrã inteiro.<br>FR: Fond extérieur + grille — texture d'archive ; réchauffe tout l'écran.</p>
+            </div>
+          </div>
+          <div class="color-detail" style="--chip:#FBF6EA">
+            <div class="color-chip"></div>
+            <div class="color-info">
+              <strong>paper</strong> <code>#FBF6EA</code>
+              <p>PT: Moldura <code>page-frame</code> e cartões — plano interior, mais claro, onde o conteúdo «assenta».<br>FR: Cadre <code>page-frame</code> — plan intérieur plus clair où le contenu repose.</p>
+            </div>
+          </div>
+          <div class="color-detail" style="--chip:#171412">
+            <div class="color-chip"></div>
+            <div class="color-info">
+              <strong>ink / muted</strong> <code>#171412</code> · <code>#665E52</code>
+              <p>PT: Contraste 12:1 sobre pergaminho (ink); muted para metadados sem perder legibilidade.<br>FR: Contraste fort sur parchemin ; muted pour métadonnées lisibles.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10 Depth -->
+      <section class="slide-bg-navy">
+        <h2>Profundidade / Profondeur</h2>
+        <div class="color-detail-row light-text">
+          <div class="color-detail" style="--chip:#08101C">
+            <div class="color-chip"></div>
+            <div class="color-info">
+              <strong>navy-deep</strong> <code>#08101C</code>
+              <p>PT: Hero — quase negro com subtom azul; gradiente radial de ouro no centro; moldura dupla inset.<br>FR: Hero — quasi-noir bleuté ; halo doré radial ; double cadre inset.</p>
+            </div>
+          </div>
+          <div class="color-detail" style="--chip:#111A2A">
+            <div class="color-chip"></div>
+            <div class="color-info">
+              <strong>navy</strong> <code>#111A2A</code>
+              <p>PT: Secção membros e rodapé — plano escuro secundário; bordas superior/inferior em gold-dark (6px).<br>FR: Section membres — plan sombre ; bordures or foncé.</p>
+            </div>
+          </div>
+        </div>
+        <img class="slide-img slide-img-sm" src="assets/screenshots/hero-pt.png" alt="Hero navy-deep" />
+      </section>
+
+      <!-- 11 Accents -->
+      <section class="slide-bg-paper">
+        <h2>Acentos / Accents</h2>
+        <div class="swatch-row swatch-row-lg">
+          <div class="swatch"><div class="swatch-color" style="background:#B08A4A"></div><div class="swatch-label"><strong>gold</strong><br>#B08A4A<br>CTAs, overlines, ornamentos ◆</div></div>
+          <div class="swatch"><div class="swatch-color" style="background:#7F6234"></div><div class="swatch-label"><strong>gold-dark</strong><br>#7F6234<br>bordas duplas, regras</div></div>
+          <div class="swatch"><div class="swatch-color" style="background:#691B24"></div><div class="swatch-label"><strong>burgundy</strong><br>#691B24<br>faixa lema, rótulos</div></div>
+        </div>
+        <div class="bilingual compact">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Texto verbatim:</strong> integridade — o site não parafraseia a lei</li>
-              <li><strong>Bloco com borda dupla:</strong> ritual visual de documento assinado</li>
-              <li><strong>Signatários em serif:</strong> carácter pessoal e solene da assinatura</li>
+              <li><strong>Gold:</strong> único acento luminoso sobre navy — botão primário preenche; secundário só contorno</li>
+              <li><strong>Gold-dark:</strong> versão dessaturada para linhas — evita brilho metálico em ecrã</li>
+              <li><strong>Burgundy:</strong> interrupção cromática em faixa horizontal — contraste de matiz contra pergaminho</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Texte verbatim :</strong> intégrité — le site ne paraphrase pas la loi</li>
-              <li><strong>Bloc à double bordure :</strong> rituel visuel de document signé</li>
-              <li><strong>Signataires en serif :</strong> caractère personnel et solennel de la signature</li>
+              <li><strong>Or :</strong> seul accent lumineux sur navy — bouton plein vs. contour</li>
+              <li><strong>Or foncé :</strong> version désaturée pour les lignes — pas d'éclat métallique</li>
+              <li><strong>Bordeaux :</strong> interruption chromatique en bande — contraste de teinte sur parchemin</li>
             </ul>
           </div>
         </div>
-        <aside class="notes">PT: Este bloco é o « coração » do site do ponto de vista institucional. FR: Lier au PDF trilingue — preuve que le web prolonge le papier, ne le remplace pas. Ne pas débattre du contenu maçonnique — rester sur le traitement visuel.</aside>
       </section>
 
-      <!-- 10 Section rhythm -->
+      <!-- 12 Rejected color -->
+      <section class="slide-bg-parchment">
+        <h2>Paletas rejeitadas / Palettes rejetées</h2>
+        <div class="reject-compare">
+          <div class="reject-col reject-no">
+            <p class="reject-label">Visualmente inadequado</p>
+            <ul>
+              <li>Branco #FFF + azul corporativo #0066CC</li>
+              <li>Vermelho e ouro saturados (efeito «emblema digital»)</li>
+              <li>Cinzas frios sem subtom quente</li>
+            </ul>
+          </div>
+          <div class="reject-col reject-yes">
+            <p class="reject-label">Paleta CISCSR</p>
+            <ul>
+              <li>Calor de papel + profundidade navy</li>
+              <li>Saturação contida — legível em projetor e LCD</li>
+              <li>Coerência entre impresso imaginado e pixel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ VISUAL / SPATIAL ═══ -->
+
+      <!-- 13 Spatial intro -->
       <section class="slide-bg-paper">
-        <h2>Ritmo / Rythme des sections</h2>
-        <p class="slide-thesis">O olho descansa entre momentos de densidade institucional. / L'œil se repose entre les moments de densité institutionnelle.</p>
+        <h2>III · Espaço visual / Espace visuel</h2>
+        <p class="slide-thesis">O site é um único documento vertical — composição, scroll e alternância de planos. / Le site est un seul document vertical — composition, scroll et alternance de plans.</p>
+        <div class="bilingual">
+          <div class="col-pt">
+            <ul>
+              <li><strong>Metáfora:</strong> folheto dentro de moldura — <code>page-frame</code> centrado, max 1560px, sombra suave</li>
+              <li><strong>Grelha de fundo:</strong> linhas 28×28px em pergaminho — referência a papel quadriculado de arquivo</li>
+              <li><strong>Cantos rectos:</strong> <code>--radius: 0</code> — rectângulos puros; excepção: selo circular no branding</li>
+              <li><strong>Sem animação:</strong> transições estáticas — o movimento vem só do scroll do utilizador</li>
+            </ul>
+          </div>
+          <div class="col-fr">
+            <ul>
+              <li><strong>Métaphore :</strong> brochure dans un cadre — <code>page-frame</code> centré, ombre légère</li>
+              <li><strong>Grille de fond :</strong> lignes 28×28px — référence au papier quadrillé d'archive</li>
+              <li><strong>Coins droits :</strong> rectangles purs ; exception : sceau circulaire</li>
+              <li><strong>Sans animation :</strong> le mouvement vient uniquement du scroll</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14 Scrolling -->
+      <section class="slide-bg-parchment">
+        <h2>Scroll e navegação / Scroll et navigation</h2>
+        <p class="slide-thesis">Uma página, um eixo vertical — âncoras substituem menus de profundidade. / Une page, un axe vertical — les ancres remplacent la profondeur.</p>
+        <div class="scroll-diagram">
+          <div class="scroll-bar">
+            <span class="scroll-point" style="top:2%">Hero</span>
+            <span class="scroll-point" style="top:14%">Confederação</span>
+            <span class="scroll-point" style="top:26%">Pilares</span>
+            <span class="scroll-point" style="top:38%">Declaração</span>
+            <span class="scroll-point" style="top:52%">Membros</span>
+            <span class="scroll-point" style="top:66%">História</span>
+            <span class="scroll-point" style="top:78%">Documentos</span>
+            <span class="scroll-point" style="top:90%">Contacto</span>
+          </div>
+          <div class="scroll-notes">
+            <ul>
+              <li><code>scroll-behavior: smooth</code> — deslocação contínua entre âncoras</li>
+              <li><code>position: sticky</code> no header — referência fixa enquanto o documento desliza</li>
+              <li>Nav com 7 âncoras — mapa espacial, não árvore de páginas</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bilingual compact">
+          <div class="col-pt">
+            <p><strong>Teoria:</strong> o utilizador «desdobra» o folheto; cada secção é um capítulo visual com largura comum (<code>--content: 1160px</code>).</p>
+          </div>
+          <div class="col-fr">
+            <p><strong>Théorie :</strong> l'utilisateur « déplie » la brochure ; chaque section est un chapitre visuel de largeur commune.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 15 Section rhythm -->
+      <section class="slide-bg-paper">
+        <h2>Ritmo de secções / Rythme des sections</h2>
+        <p class="slide-thesis">Alternância claro → quente → escuro — cadência visual que segmenta o scroll sem mudar de página. / Alternance clair → chaud → sombre — cadence visuelle.</p>
+        <div class="rhythm-strip">
+          <div class="rhythm-block rhythm-hero">HERO<br><small>navy-deep</small></div>
+          <div class="rhythm-block rhythm-light">LIGHT<br><small>paper + gradiente</small></div>
+          <div class="rhythm-block rhythm-warm">WARM<br><small>parchment</small></div>
+          <div class="rhythm-block rhythm-light">LIGHT</div>
+          <div class="rhythm-block rhythm-dark">DARK<br><small>navy</small></div>
+          <div class="rhythm-block rhythm-warm">WARM</div>
+          <div class="rhythm-block rhythm-burgundy">BURGUNDY<br><small>faixa</small></div>
+        </div>
         <div class="two-img">
-          <img class="slide-img slide-img-sm" src="assets/screenshots/pillars.png" alt="Grille des quatre piliers" />
-          <img class="slide-img slide-img-sm" src="assets/screenshots/members-dark.png" alt="Section membres sombre" />
+          <img class="slide-img slide-img-sm" src="assets/screenshots/pillars.png" alt="Secção warm" />
+          <img class="slide-img slide-img-sm" src="assets/screenshots/members-dark.png" alt="Secção dark" />
         </div>
-        <div class="bilingual">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li><strong>Quatro pilares:</strong> acesso rápido antes da leitura exigente da declaração</li>
-              <li><strong>Secção escura:</strong> mudança de registo — cooperação internacional como espaço distinto</li>
-              <li><strong>Alternância claro/quente/escuro:</strong> evita fadiga em textos longos</li>
-            </ul>
-          </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li><strong>Quatre piliers :</strong> accès rapide avant la lecture exigeante de la déclaration</li>
-              <li><strong>Section sombre :</strong> changement de registre — coopération internationale comme espace distinct</li>
-              <li><strong>Alternance clair/chaud/sombre :</strong> évite la fatigue sur les textes longs</li>
-            </ul>
-          </div>
-        </div>
+        <aside class="notes">Percorrer o site com scroll lento. Apontar transições de fundo — o olho descansa quando muda o valor tonal.</aside>
       </section>
 
-      <!-- 11 Multilingual -->
+      <!-- 16 Visual treatment -->
       <section class="slide-bg-parchment">
-        <h2>Multilingue / Multilinguisme</h2>
-        <p class="slide-thesis">Quatro idiomas não são um extra — são a condição de legitimidade. / Quatre langues ne sont pas un extra — ce sont la condition de la légitimité.</p>
-        <img class="slide-img slide-img-sm" src="assets/screenshots/arabic-rtl.png" alt="Capture RTL arabe" />
-        <div class="bilingual">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li><strong>PT · EN · FR · AR visíveis:</strong> cada jurisdição vê-se representada desde o cabeçalho</li>
-              <li><strong>Site autónomo:</strong> fácil de manter pelos membros, sem dependência de plataformas</li>
-              <li><strong>RTL árabe:</strong> dignidade igual — recusamos a hierarquia ocidental por defeito</li>
-            </ul>
-          </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li><strong>PT · EN · FR · AR visibles :</strong> chaque juridiction se voit représentée dès l'en-tête</li>
-              <li><strong>Site autonome :</strong> facile à maintenir par les membres, sans dépendance de plateformes</li>
-              <li><strong>RTL arabe :</strong> dignité égale — nous refusons la hiérarchie occidentale par défaut</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- 12 Logo -->
-      <section class="slide-bg-paper">
-        <h2>Pipeline du logo</h2>
-        <p class="slide-thesis">A marca deve funcionar em qualquer superfície sem perder credibilidade. / La marque doit fonctionner sur toute surface sans perdre sa crédibilité.</p>
+        <h2>Tratamento visual / Traitement visuel</h2>
+        <p class="slide-thesis">Molduras, bordas duplas e blocos isolados — gramática gráfica de documento assinado. / Cadres, doubles bordures et blocs isolés — grammaire graphique de document signé.</p>
         <div class="two-img">
-          <img class="slide-img slide-img-sm" src="../assets/logo/previews/on-paper.png" alt="Logo sur fond parchemin" />
-          <img class="slide-img slide-img-sm" src="../assets/logo/previews/on-navy.png" alt="Logo sur fond navy" />
+          <img class="slide-img slide-img-sm" src="assets/screenshots/hero-pt.png" alt="Moldura hero" />
+          <img class="slide-img slide-img-sm" src="assets/screenshots/declaration-pt.png" alt="Bloco declaração" />
         </div>
-        <div class="bilingual">
+        <div class="bilingual compact">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Fundo branco original:</strong> quebrava o pergaminho — parecia colagem amadora</li>
-              <li><strong>Variantes claro/escuro:</strong> mesma seriedade em qualquer secção do site</li>
-              <li><strong>Processo reproduzível:</strong> pronto para o SVG final sem refazer tudo</li>
+              <li><strong>Hero:</strong> <code>::before</code> moldura dupla inset 24px; <code>::after</code> linha interior; ornamento ◆ linear</li>
+              <li><strong>Declaração:</strong> bloco com borda 3px double; padding generoso — ilha visual dentro da secção warm</li>
+              <li><strong>Pilares:</strong> grelha IV em algarismos romanos — ritmo modular antes do bloco denso</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Fond blanc d'origine :</strong> cassait le parchemin — semblait un collage amateur</li>
-              <li><strong>Variantes clair/sombre :</strong> même sérieux dans chaque section du site</li>
-              <li><strong>Processus reproductible :</strong> prêt pour le SVG final sans tout refaire</li>
+              <li><strong>Hero :</strong> double cadre inset ; ornement linéaire ◆</li>
+              <li><strong>Déclaration :</strong> bloc bordure double — îlot visuel dans la section warm</li>
+              <li><strong>Piliers :</strong> grille IV en chiffres romains — rythme modulaire</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- 13 Quality -->
-      <section class="slide-bg-parchment">
-        <h2>Qualidade / Qualité</h2>
-        <p class="slide-thesis">Simplicidade técnica é soberania de manutenção. / La simplicité technique est souveraineté de maintenance.</p>
-        <div class="bilingual">
+      <!-- 17 Mobile + RTL visual -->
+      <section class="slide-bg-paper">
+        <h2>Responsivo e RTL / Responsive et RTL</h2>
+        <div class="two-img">
+          <img class="slide-img slide-img-sm" src="assets/screenshots/mobile.png" alt="Mobile" />
+          <img class="slide-img slide-img-sm" src="assets/screenshots/arabic-rtl.png" alt="RTL" />
+        </div>
+        <div class="bilingual compact">
           <div class="col-pt">
-            <h3>Português</h3>
             <ul>
-              <li><strong>Acessível e encontrável:</strong> respeito pelo visitante — delegados em viagem usam telemóvel</li>
-              <li><strong>Site estático:</strong> sem servidores, custos ocultos ou fornecedor único</li>
-              <li><strong>Qualquer membro pode atualizar</strong> textos sem programadores especializados</li>
+              <li><strong>Mobile:</strong> mesma paleta e tipos — <code>clamp()</code> reduz escala; header colapsa; scroll mantém ritmo de secções</li>
+              <li><strong>RTL:</strong> espelho de composição — margens, alinhamento e fluxo invertidos; Noto Sans Arabic preserva altura de linha</li>
             </ul>
           </div>
           <div class="col-fr">
-            <h3>Français</h3>
             <ul>
-              <li><strong>Accessible et trouvable :</strong> respect du visiteur — les délégués en voyage utilisent le mobile</li>
-              <li><strong>Site statique :</strong> pas de serveurs, coûts cachés ni fournisseur unique</li>
-              <li><strong>Tout membre peut mettre à jour</strong> les textes sans développeurs spécialisés</li>
+              <li><strong>Mobile :</strong> même palette — <code>clamp()</code> réduit l'échelle ; le scroll conserve le rythme</li>
+              <li><strong>RTL :</strong> miroir de composition — flux inversé ; hauteur de ligne préservée</li>
             </ul>
           </div>
         </div>
-        <img class="slide-img slide-img-sm" src="assets/screenshots/mobile.png" alt="Vue mobile" style="max-height:180px;margin-top:0.4em;" />
       </section>
 
-      <!-- 14 Live demo -->
+      <!-- 18 Demo -->
       <section class="slide-bg-burgundy title-slide" data-background-color="#691B24">
-        <h2 style="color:var(--paper);border:none;">Demonstração / Démonstration en direct</h2>
+        <h2 style="color:var(--paper);border:none;">Demonstração / Démonstration</h2>
         <p class="demo-link" style="text-align:center;">https://pfigueiredo.github.io/CICSR_REAA/</p>
         <p class="slide-thesis" style="text-align:center;margin-top:1em;">
-          Convidamos a percorrer o site — e a sentir se esta presença vos representa.<br>
-          Nous vous invitons à parcourir le site — et à sentir si cette présence vous représente.
+          Percorram o site — observem tipografia, cor e ritmo de scroll.<br>
+          Parcourez le site — observez typographie, couleur et rythme de scroll.
         </p>
-        <div class="bilingual" style="margin-top:1em;">
-          <div class="col-pt">
-            <h3>Português</h3>
-            <ul>
-              <li>Documento completo: <code>Docs/design-concepts.md</code></li>
-              <li>Passagem ao orador da associação</li>
-            </ul>
-          </div>
-          <div class="col-fr">
-            <h3>Français</h3>
-            <ul>
-              <li>Document complet : <code>Docs/design-concepts.md</code></li>
-              <li>Passage à l'orateur de l'association</li>
-            </ul>
-          </div>
-        </div>
-        <aside class="notes">Passer au site en direct. Montrer le sélecteur de langues et l'arabe RTL. Demander : « Est-ce que vous vous reconnaissez ici ? » Puis passer la parole à l'orateur de la mission. ~2 min max sur la démo.</aside>
+        <p style="text-align:center;font-size:0.5em;color:rgba(251,246,234,.7);margin-top:1.5em;">
+          Documento de referência · <code>Docs/design-concepts.md</code>
+        </p>
+        <aside class="notes">Demo ao vivo: scroll lento do topo ao fim. Apontar transições de secção, Georgia no hero, bloco declaração. Não ler textos — só forma.</aside>
       </section>
 
     </div>

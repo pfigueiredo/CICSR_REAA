@@ -112,6 +112,10 @@
   color: var(--paper);
 }
 
+.slide-bg-navy h2 {
+  border-bottom-color: var(--gold-dark);
+}
+
 .slide-bg-navy p,
 .slide-bg-navy li {
   color: rgba(251, 246, 234, 0.82);
@@ -333,3 +337,341 @@ body.focus-fr .bilingual {
 .reveal .controls {
   color: var(--gold-dark);
 }
+
+/* ── Visual-theory deck components ── */
+
+.pillar-overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 0.6em;
+}
+
+.pillar-card {
+  border: 2px double var(--line);
+  padding: 14px 12px;
+  background: var(--paper);
+  text-align: center;
+}
+
+.pillar-num {
+  display: block;
+  font-family: var(--serif);
+  font-size: 0.9em;
+  color: var(--burgundy);
+  margin-bottom: 4px;
+}
+
+.pillar-card strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 0.62em;
+  color: var(--navy);
+}
+
+.pillar-fr {
+  display: block;
+  font-size: 0.48em;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.pillar-card p {
+  font-size: 0.44em !important;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.bilingual.compact ul {
+  margin-top: 0;
+}
+
+.bilingual.compact li {
+  margin-bottom: 0.25em;
+}
+
+/* Type specimens */
+
+.type-deep-specimen {
+  margin: 0.5em 0;
+  padding: 14px 16px;
+  border: 2px double var(--line);
+  background: var(--paper);
+}
+
+.specimen-xl {
+  font-family: var(--serif);
+  font-size: 0.72em;
+  color: var(--navy);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.specimen-lg {
+  font-family: var(--sans);
+  font-size: 0.58em;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.specimen-meta {
+  font-size: 0.42em !important;
+  color: var(--gold-dark);
+  margin: 8px 0 0;
+  letter-spacing: 0.04em;
+}
+
+.arabic-block {
+  font-family: "Noto Sans Arabic", var(--sans);
+  direction: rtl;
+  text-align: right;
+}
+
+.hierarchy-ladder {
+  display: grid;
+  gap: 6px;
+  margin-top: 0.5em;
+}
+
+.rung {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+}
+
+.rung-role {
+  font-size: 0.42em;
+  font-weight: bold;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.overline-sample {
+  font-size: 0.42em;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  color: var(--gold-dark);
+  font-family: var(--sans);
+}
+
+.h2-sample {
+  font-family: var(--serif);
+  font-size: 0.62em;
+  color: var(--navy);
+}
+
+.lead-sample {
+  font-family: var(--serif);
+  font-size: 0.52em;
+  color: var(--navy);
+}
+
+.body-sample {
+  font-family: var(--sans);
+  font-size: 0.48em;
+  color: var(--muted);
+}
+
+/* Reject compare */
+
+.reject-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 0.5em;
+}
+
+.reject-col {
+  padding: 12px;
+  border: 2px solid var(--line);
+}
+
+.reject-no {
+  background: rgba(105, 27, 36, 0.06);
+  border-color: rgba(105, 27, 36, 0.25);
+}
+
+.reject-yes {
+  background: rgba(176, 138, 74, 0.08);
+  border-color: var(--gold-dark);
+}
+
+.reject-label {
+  font-size: 0.48em !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--burgundy);
+  margin: 0 0 8px;
+}
+
+.reject-inter,
+.reject-ours {
+  font-size: 0.55em !important;
+  font-family: var(--sans);
+  color: var(--navy);
+  margin: 0 0 6px;
+}
+
+.reject-inter {
+  font-family: "Inter", var(--sans);
+}
+
+.reject-note {
+  font-size: 0.44em !important;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.reject-col ul {
+  margin: 0;
+  padding-left: 1em;
+}
+
+.reject-col li {
+  font-size: 0.46em;
+  margin-bottom: 0.3em;
+}
+
+/* Color detail cards */
+
+.color-detail-row {
+  display: grid;
+  gap: 10px;
+  margin-top: 0.5em;
+}
+
+.color-detail {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.color-chip {
+  width: 48px;
+  height: 48px;
+  background: var(--chip);
+  border: 1px solid var(--line);
+}
+
+.color-info strong {
+  font-family: var(--serif);
+  font-size: 0.55em;
+  color: var(--navy);
+}
+
+.color-info code {
+  font-size: 0.85em;
+  color: var(--gold-dark);
+}
+
+.color-info p {
+  font-size: 0.44em !important;
+  margin: 4px 0 0;
+  line-height: 1.4;
+}
+
+.slide-bg-navy .color-info strong,
+.slide-bg-navy .color-info p {
+  color: var(--paper);
+}
+
+.slide-bg-navy .color-info code {
+  color: #D5B779;
+}
+
+.light-text .color-info strong,
+.light-text .color-info p {
+  color: var(--paper);
+}
+
+.swatch-row-lg .swatch {
+  width: 100px;
+}
+
+.swatch-row-lg .swatch-color {
+  height: 48px;
+}
+
+.swatch-row-lg .swatch-label {
+  font-size: 0.4em;
+  line-height: 1.35;
+}
+
+/* Scroll diagram */
+
+.scroll-diagram {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 20px;
+  margin: 0.5em 0;
+  align-items: stretch;
+}
+
+.scroll-bar {
+  position: relative;
+  background: linear-gradient(180deg, var(--navy-deep) 0%, var(--paper) 12%, var(--parchment) 35%, var(--paper) 50%, var(--navy) 62%, var(--parchment) 78%, var(--burgundy) 92%);
+  border: 2px solid var(--line);
+  border-radius: 4px;
+  min-height: 200px;
+}
+
+.scroll-point {
+  position: absolute;
+  left: 88px;
+  font-size: 0.38em;
+  color: var(--navy);
+  white-space: nowrap;
+  transform: translateY(-50%);
+}
+
+.scroll-notes ul {
+  margin: 0;
+}
+
+.scroll-notes li {
+  font-size: 0.48em;
+}
+
+/* Rhythm strip */
+
+.rhythm-strip {
+  display: flex;
+  gap: 4px;
+  margin: 0.5em 0;
+  height: 52px;
+}
+
+.rhythm-block {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  font-size: 0.38em;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 1.2;
+  border: 1px solid var(--line);
+}
+
+.rhythm-block small {
+  font-weight: normal;
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+
+.rhythm-hero { background: var(--navy-deep); color: var(--paper); }
+.rhythm-light { background: var(--paper); color: var(--navy); }
+.rhythm-warm { background: var(--parchment); color: var(--navy); }
+.rhythm-dark { background: var(--navy); color: var(--paper); }
+.rhythm-burgundy { background: var(--burgundy); color: var(--paper); }
