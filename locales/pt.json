@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Confederação Internacional dos Supremos Conselhos — CISCSR",
-    "description": "Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceito.",
+    "description": "Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite.",
     "logoAlt": "Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A."
   },
   "nav": {
     "home": "Página inicial",
     "menu": "Abrir menu",
     "main": "Navegação principal",
-    "confederation": "A Confederação",
+    "confederation": "Confederação",
     "principles": "Princípios",
     "declaration": "Declaração",
     "members": "Membros",
@@ -18,16 +18,16 @@
   },
   "hero": {
     "overline": "Soberania · Regularidade · Cooperação",
-    "title": "Confederação Internacional dos Supremos Conselhos Soberanos e Regulares",
-    "titleSpan": "do Rito Escocês Antigo e Aceito",
-    "text": "Instituição confederal dedicada à cooperação fraterna entre Supremos Conselhos, ao respeito pela soberania jurisdicional e à preservação da tradição regular do R.E.A.A.",
+    "title": "Confederação Internacional dos Supremos Conselhos<br/>Soberanos e Regulares",
+    "titleSpan": "do Rito Escocês Antigo e Aceite",
+    "text": "Instituição confederal dedicada à cooperação fraterna entre Supremos Conselhos, no respeito pela soberania jurisdicional e à preservação da tradição regular do R.E.A.A.",
     "ctaPrimary": "Conhecer a Confederação",
     "ctaSecondary": "Ver Supremos Conselhos"
   },
   "confederation": {
-    "overline": "A Confederação",
-    "heading": "Unir sem absorver. Representar sem substituir.",
-    "lead": "A Confederação Internacional reúne Supremos Conselhos soberanos e regulares do Rito Escocês Antigo e Aceito, criando um espaço permanente de encontro, consulta, representação e cooperação.",
+    "overline": "Confederação",
+    "heading": "Unir sem absorver.<br/>Representar sem substituir.",
+    "lead": "A Confederação Internacional reúne Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite, criando um espaço permanente de encontro, consulta, representação e cooperação.",
     "p1": "A sua finalidade não é limitar a autonomia dos Supremos Conselhos membros, mas fortalecer os laços de amizade, regularidade e reconhecimento mútuo entre jurisdições soberanas.",
     "p2": "O seu carácter é institucional, discreto e diplomático, assente na tradição, na continuidade histórica e no respeito pelas competências próprias de cada corpo constituinte."
   },
@@ -46,7 +46,7 @@
   "declaration": {
     "overline": "Documento oficial",
     "heading": "Declaração de Princípios",
-    "intro": "A Confederação Internacional dos Supremos Conselhos tem por vocação reunir todos os Supremos Conselhos do Rito Escocês Antigo e Aceito que sejam signatários da Carta de Relações de Amizade e reconhecidos conforme as disposições estatutárias. De acordo com as disposições constitucionais, as Constituições e Regulamentos de 1762 e as Grandes Constituições de 1786 — únicas leis fundamentais da Ordem — não impõe qualquer limite à livre busca da Verdade, a qual exige tolerância e o combate à ignorância em todas as suas formas. Respeita plenamente a liberdade de consciência.",
+    "intro": "A Confederação Internacional dos Supremos Conselhos tem por vocação reunir todos os Supremos Conselhos do Rito Escocês Antigo e Aceite que sejam signatários da Carta de Relações de Amizade e reconhecidos conforme as disposições estatutárias. De acordo com as disposições constitucionais, as Constituições e Regulamentos de 1762 e as Grandes Constituições de 1786 — únicas leis fundamentais da Ordem — não impõe qualquer limite à livre busca da Verdade, a qual exige tolerância e o combate à ignorância em todas as suas formas. Respeita plenamente a liberdade de consciência.",
     "proclaimsHeading": "Proclama:",
     "proclaims": [
       "A crença em Deus, o Grande Arquiteto do Universo.",
@@ -55,33 +55,35 @@
     ],
     "recallsHeading": "Recorda:",
     "recalls": [
-      "Sua total adesão aos objetivos e princípios basilares da franco-maçonaria tradicional e regular, cuja vocação é unir em seu seio, sem qualquer exclusão, todos os homens dignos e de fé que demonstrem respeito e amor por seus semelhantes, a fim de desenvolver neles o senso de retidão e responsabilidade pessoal, o culto à verdade, à justiça e à liberdade, e a vontade de pensar e agir com tolerância e sabedoria, para o constante benefício da união, da felicidade, do progresso e do bem-estar da família humana e de cada um de seus membros.",
+      "A sua total adesão aos objetivos e princípios basilares da maçonaria tradicional e regular, cuja vocação é unir no seu seio, sem qualquer exclusão, todos os homens dignos e de fé que demonstrem respeito e amor por seus semelhantes, a fim de desenvolver neles o senso de retidão e responsabilidade pessoal, o culto à verdade, à justiça e à liberdade, e a vontade de pensar e agir com tolerância e sabedoria, para o constante benefício da união, da felicidade, do progresso e do bem-estar da família humana e de cada um de seus membros.",
       "Que um Supremo Conselho, composto conforme as prescrições das Grandes Constituições da Ordem por Soberanos Grandes Inspetores Gerais do 33º e último grau, tem por vocação governar soberanamente e sem partilha sua jurisdição territorial, bem como ser o único habilitado a conferir os graus da hierarquia escocesa.",
-      "Que o Rito Escocês Antigo e Aceito compreende trinta e três graus aos quais seus adeptos podem ser elevados progressivamente segundo suas capacidades e méritos comprovados. Os Supremos Conselhos possuem um direito imprescritível sobre esses trinta e três graus.",
-      "Todavia, conforme os usos estabelecidos desde a criação do Rito em 1801, limitaram sua transmissão iniciática a trinta graus, do 4º ao 33º. Os três primeiros graus do Rito são conferidos por um Corpo Maçônico tradicional, regular, independente e soberano."
+      "Que o Rito Escocês Antigo e Aceite compreende trinta e três graus aos quais seus adeptos podem ser elevados progressivamente segundo suas capacidades e méritos comprovados. Os Supremos Conselhos possuem um direito imprescritível sobre esses trinta e três graus.",
+      "Todavia, conforme os usos estabelecidos desde a criação do Rito em 1801, limitaram sua transmissão iniciática a trinta graus, do 4º ao 33º. Os três primeiros graus do Rito são conferidos por um Corpo Maçónico tradicional, regular, independente e soberano."
     ],
     "attachedHeading": "Está vinculada:",
     "attached": [
-      "Às motivações e aos princípios que presidiram a criação do primeiro Supremo Conselho do Rito Escocês Antigo e Aceito em 1801, em Charleston, EUA.",
-      "Aos princípios fundamentais do Rito Escocês Antigo e Aceito definidos pelas Constituições fundadoras, considerando o conjunto de culturas e civilizações que unem os Supremos Conselhos, bem como à sua preservação, promoção e defesa em sua autenticidade original.",
+      "Às motivações e aos princípios que presidiram à criação do primeiro Supremo Conselho do Rito Escocês Antigo e Aceite em 1801, em Charleston, EUA.",
+      "Aos princípios fundamentais do Rito Escocês Antigo e Aceite definidos pelas Constituições fundadoras, considerando o conjunto de culturas e civilizações que unem os Supremos Conselhos, bem como à sua preservação, promoção e defesa em sua autenticidade original.",
       "À transmissão de uma influência espiritual que conduz o maçom à realização da soberania do espírito."
     ],
     "commitsHeading": "Compromete-se a:",
     "commits": [
       "Reunir os Supremos Conselhos para implementar ações comuns, respeitando simultaneamente sua autonomia e independência.",
       "Estabelecer um vínculo permanente entre os Supremos Conselhos confederados, nomeadamente por meio de reuniões periódicas.",
-      "Representar, mediante mandatos específicos, os Supremos Conselhos confederados perante as Instâncias Maçônicas internacionais.",
+      "Representar, mediante mandatos específicos, os Supremos Conselhos confederados perante as Instâncias Maçónicas internacionais.",
       "Promover a soberania dos Supremos Conselhos e o princípio da primazia do Direito.",
       "Promover a cooperação, respeitando as diferenças culturais, religiosas e nacionais.",
-      "Promover a transmissão do Rito Escocês Antigo e Aceito pelo mundo, e, de modo geral, trocar todas as informações e prestar toda ajuda útil ao seu aperfeiçoamento.",
-      "Trocar informações entre os Supremos Conselhos membros relativas às práticas e evoluções dos Corpos Maçônicos em seus países, prestando-se assistência mútua quando necessário.",
-      "Organizar trabalhos conjuntos sobre todos os temas direta ou indiretamente relacionados com a expressão maçônica do Rito.",
+      "Promover a transmissão do Rito Escocês Antigo e Aceite pelo mundo, e, de modo geral, trocar todas as informações e prestar toda ajuda útil ao seu aperfeiçoamento.",
+      "Trocar informações entre os Supremos Conselhos membros relativas às práticas e evoluções dos Corpos Maçónicos em seus países, prestando-se assistência mútua quando necessário.",
+      "Organizar trabalhos conjuntos sobre todos os temas direta ou indiretamente relacionados com a expressão maçónica do Rito.",
       "Preparar em conjunto a participação nas conferências internacionais com os demais Supremos Conselhos.",
       "Favorecer uma posição comum dos membros da Confederação sobre todos os assuntos de interesse partilhado."
     ],
     "signatories": [
+      "Muito Ilustre Irmão Jacques AZOT 33°",
       "Muito Ilustre Irmão Nelson FRARE 33°",
-      "Muito Ilustre Irmão José Manuel MOREIRA 33°"
+      "Muito Ilustre Irmão José Manuel MOREIRA 33°",
+      "Muito Ilustre Irmão Kamal El-Fehdi 33°"
     ]
   },
   "members": {
@@ -91,7 +93,7 @@
     "row1Title": "Supremo Conselho Exemplo",
     "row1Meta": "Jurisdição · Membro fundador",
     "row2Title": "Supremo Conselho Exemplo",
-    "row2Meta": "Jurisdição · Membro efectivo",
+    "row2Meta": "Jurisdição · Membro efetivo",
     "row3Title": "Supremo Conselho Exemplo",
     "row3Meta": "Jurisdição · Observador"
   },
@@ -140,6 +142,6 @@
   },
   "brand": {
     "short": "Confederação Internacional",
-    "long": "Supremos Conselhos Soberanos e Regulares do R.E.A.A."
+    "long": "Supremos Conselhos Soberanos e Regulares<br/>do R.E.A.A."
   }
 }

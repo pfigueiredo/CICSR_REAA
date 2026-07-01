@@ -8,7 +8,7 @@
     "home": "Home page",
     "menu": "Open menu",
     "main": "Main navigation",
-    "confederation": "The Confederation",
+    "confederation": "Confederation",
     "principles": "Principles",
     "declaration": "Declaration",
     "members": "Members",
@@ -18,16 +18,16 @@
   },
   "hero": {
     "overline": "Sovereignty · Regularity · Cooperation",
-    "title": "International Confederation of Sovereign and Regular Supreme Councils",
+    "title": "International Confederation of Sovereign and Regular<br/>Supreme Councils",
     "titleSpan": "of the Ancient and Accepted Scottish Rite",
     "text": "A confederal institution dedicated to fraternal cooperation among Supreme Councils, respect for jurisdictional sovereignty, and the preservation of the regular tradition of the A.A.S.R.",
     "ctaPrimary": "Discover the Confederation",
     "ctaSecondary": "View Supreme Councils"
   },
   "confederation": {
-    "overline": "The Confederation",
-    "heading": "Unite without absorbing. Represent without replacing.",
-    "lead": "The International Confederation brings together sovereign and regular Supreme Councils of the Ancient and Accepted Scottish Rite, creating a permanent space for meeting, consultation, representation, and cooperation.",
+    "overline": "Confederation",
+    "heading": "Unite without absorbing.<br/>Represent without replacing.",
+    "lead": "The International Confederation brings together Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite, creating a permanent space for meeting, consultation, representation, and cooperation.",
     "p1": "Its purpose is not to limit the autonomy of member Supreme Councils, but to strengthen bonds of friendship, regularity, and mutual recognition among sovereign jurisdictions.",
     "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body."
   },
@@ -142,6 +142,6 @@
   },
   "brand": {
     "short": "International Confederation",
-    "long": "Sovereign and Regular Supreme Councils of the A.A.S.R."
+    "long": "Sovereign and Regular Supreme Councils<br/>of the A.A.S.R."
   }
 }

@@ -8,7 +8,7 @@
     "home": "Page d'accueil",
     "menu": "Ouvrir le menu",
     "main": "Navigation principale",
-    "confederation": "La Confédération",
+    "confederation": "Confédération",
     "principles": "Principes",
     "declaration": "Déclaration",
     "members": "Membres",
@@ -18,16 +18,16 @@
   },
   "hero": {
     "overline": "Souveraineté · Régularité · Coopération",
-    "title": "Confédération Internationale des Suprêmes Conseils Souverains et Réguliers",
+    "title": "Confédération Internationale des Suprêmes Conseils<br/>Souverains et Réguliers",
     "titleSpan": "du Rite Écossais Ancien et Accepté",
     "text": "Institution confédérale dédiée à la coopération fraternelle entre Suprêmes Conseils, au respect de la souveraineté juridictionnelle et à la préservation de la tradition régulière du R.E.A.A.",
     "ctaPrimary": "Découvrir la Confédération",
     "ctaSecondary": "Voir les Suprêmes Conseils"
   },
   "confederation": {
-    "overline": "La Confédération",
-    "heading": "Unir sans absorber. Représenter sans remplacer.",
-    "lead": "La Confédération Internationale réunit les Suprêmes Conseils souverains et réguliers du Rite Écossais Ancien et Accepté, créant un espace permanent de rencontre, de consultation, de représentation et de coopération.",
+    "overline": "Confédération",
+    "heading": "Unir sans absorber.<br/>Représenter sans remplacer.",
+    "lead": "La Confédération Internationale réunit les Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté, créant un espace permanent de rencontre, de consultation, de représentation et de coopération.",
     "p1": "Sa finalité n'est pas de limiter l'autonomie des Suprêmes Conseils membres, mais de renforcer les liens d'amitié, de régularité et de reconnaissance mutuelle entre juridictions souveraines.",
     "p2": "Son caractère est institutionnel, discret et diplomatique, fondé sur la tradition, la continuité historique et le respect des compétences propres de chaque corps constitutif."
   },
@@ -81,8 +81,9 @@
     ],
     "signatories": [
       "Très Illustre Frère Jacques AZOT 33°",
-      "Muito Ilustre Irmão Nelson FRARE 33°",
-      "Muito Ilustre Irmão José Manuel MOREIRA 33°"
+      "Très Illustre Frère Nelson FRARE 33°",
+      "Très Illustre Frère José Manuel MOREIRA 33°",
+      "Très Illustre Frère Kamal El-Fehdi 33°"
     ]
   },
   "members": {
@@ -141,6 +142,6 @@
   },
   "brand": {
     "short": "Confédération Internationale",
-    "long": "Suprêmes Conseils Souverains et Réguliers du R.E.A.A."
+    "long": "Suprêmes Conseils Souverains et Réguliers<br/>du R.E.A.A."
   }
 }
