@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Confédération Internationale des Suprêmes Conseils — CISCSR",
+    "description": "Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté.",
+    "logoAlt": "Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du R.E.A.A."
+  },
+  "nav": {
+    "home": "Page d'accueil",
+    "menu": "Ouvrir le menu",
+    "main": "Navigation principale",
+    "confederation": "La Confédération",
+    "principles": "Principes",
+    "declaration": "Déclaration",
+    "members": "Membres",
+    "history": "Histoire",
+    "documents": "Documents",
+    "contact": "Contacts"
+  },
+  "hero": {
+    "overline": "Souveraineté · Régularité · Coopération",
+    "title": "Confédération Internationale des Suprêmes Conseils Souverains et Réguliers",
+    "titleSpan": "du Rite Écossais Ancien et Accepté",
+    "text": "Institution confédérale dédiée à la coopération fraternelle entre Suprêmes Conseils, au respect de la souveraineté juridictionnelle et à la préservation de la tradition régulière du R.E.A.A.",
+    "ctaPrimary": "Découvrir la Confédération",
+    "ctaSecondary": "Voir les Suprêmes Conseils"
+  },
+  "confederation": {
+    "overline": "La Confédération",
+    "heading": "Unir sans absorber. Représenter sans remplacer.",
+    "lead": "La Confédération Internationale réunit les Suprêmes Conseils souverains et réguliers du Rite Écossais Ancien et Accepté, créant un espace permanent de rencontre, de consultation, de représentation et de coopération.",
+    "p1": "Sa finalité n'est pas de limiter l'autonomie des Suprêmes Conseils membres, mais de renforcer les liens d'amitié, de régularité et de reconnaissance mutuelle entre juridictions souveraines.",
+    "p2": "Son caractère est institutionnel, discret et diplomatique, fondé sur la tradition, la continuité historique et le respect des compétences propres de chaque corps constitutif."
+  },
+  "pillars": {
+    "overline": "Principes fondateurs",
+    "heading": "Quatre piliers d'un ordre confédéral.",
+    "oneTitle": "Régularité",
+    "oneText": "Préservation des principes traditionnels et de la légitimité institutionnelle du Rite.",
+    "twoTitle": "Souveraineté",
+    "twoText": "Respect de l'indépendance et de la juridiction propre de chaque Suprême Conseil.",
+    "threeTitle": "Fraternité",
+    "threeText": "Promotion de relations d'amitié, de concorde et de coopération entre juridictions.",
+    "fourTitle": "Continuité",
+    "fourText": "Défense de la mémoire, de l'histoire et de la transmission régulière du R.E.A.A."
+  },
+  "declaration": {
+    "overline": "Document officiel",
+    "heading": "Déclaration de Principes",
+    "intro": "La Confédération internationale des Suprêmes Conseils a vocation à regrouper tous les Suprêmes Conseils du Rite Écossais Ancien et Accepté signataires de la Charte de relation d'amitié et agréés selon les dispositions statutaires. Conformément aux dispositions constitutionnelles, Constitutions et Règlements de 1762 et Grandes Constitutions de 1786, seules lois fondamentales de l'Ordre, elle n'impose aucune limite à la libre recherche de la Vérité, ce qui impose la tolérance et la lutte contre l'ignorance sous toutes ses formes. Elle respecte l'entière liberté de conscience.",
+    "proclaimsHeading": "Elle proclame :",
+    "proclaims": [
+      "La croyance en Dieu, Grand Architecte de l'Univers.",
+      "La perfectibilité de la nature humaine.",
+      "L'universalisme du Rite ainsi que sa vocation initiatique et son essence traditionnelle."
+    ],
+    "recallsHeading": "Elle rappelle :",
+    "recalls": [
+      "Sa totale adhésion aux buts et principes de base de la franc-maçonnerie traditionnelle et régulière dont la vocation est d'unir en son sein, sans aucune exclusive, tous les hommes dignes et de foi portant respect et amour à leurs semblables, afin de développer leur goût de la rectitude et de la responsabilité personnelle, leur culte de la vérité, de la justice et de la liberté, leur volonté de penser et d'agir avec tolérance et sagesse au bénéfice constant de l'union, du bonheur, du progrès et du bien-être de la famille humaine et de chacun de ses membres.",
+      "Qu'un Suprême Conseil, composé selon les prescriptions des Grandes Constitutions de l'Ordre de Souverains Grands Inspecteurs Généraux 33e et dernier degré, a vocation à gouverner souverainement et sans partage sur sa Juridiction territoriale, de même qu'il est le seul à pouvoir conférer les degrés de la hiérarchie écossaise.",
+      "Que le Rite Ecossais Ancien et Accepté comporte trente-trois degrés auxquels ses adeptes peuvent être élevés progressivement selon leurs capacités et leurs mérites avérés. Les Suprêmes Conseils possèdent un droit imprescriptible sur ces trente-trois degrés.",
+      "Toutefois, conformément aux usages établis depuis la création du REAA en 1801, ils ont réduit leur transmission initiatique à trente degrés, du 4e au 33e. Les trois premiers degrés du Rite sont transmis par un corps maçonnique traditionnel régulier indépendant et souverain."
+    ],
+    "attachedHeading": "Elle est attachée :",
+    "attached": [
+      "Aux motivations et aux principes qui ont présidé à la création du premier Suprême Conseil du Rite Ecossais Ancien et Accepté en 1801 à Charleston aux États-Unis.",
+      "Aux principes fondamentaux du Rite Ecossais Ancien et Accepté définis par les Constitutions fondatrices, en considération de l'ensemble des cultures et des civilisations qui unit les Suprêmes Conseils, à la conservation, à la promotion et à la défense dans leur authenticité originelle.",
+      "À la transmission d'une influence spirituelle qui conduit le maçon à la réalisation de la souveraineté de l'esprit."
+    ],
+    "commitsHeading": "Elle s'engage à :",
+    "commits": [
+      "Réunir les Suprêmes Conseils pour mettre en place des actions communes tout en respectant leur autonomie et leur indépendance.",
+      "Établir un lien permanent entre les Suprêmes Conseils confédérés, notamment en organisant des réunions périodiques.",
+      "Représenter, sur mandats spécifiques, les Suprêmes Conseils confédérés auprès des instances maçonniques internationales.",
+      "Promouvoir la souveraineté des Suprêmes Conseils et le principe de primauté en Droit.",
+      "Promouvoir la coopération, dans le respect des différences culturelles, cultuelles et nationales.",
+      "Promouvoir la transmission du Rite Écossais Ancien et Accepté dans le monde, et d'une manière générale, échanger toute information, apporter toute aide utile à l'améliorer.",
+      "Échanger les informations entre les Suprêmes Conseils membres, en ce qui concerne les pratiques, les évolutions des corps maçonniques dans leurs pays, et se donner assistance réciproque quand nécessaire.",
+      "Organiser des travaux en commun sur tous sujets directement ou indirectement liés à l'expression maçonnique du Rite.",
+      "Préparer en commun la participation aux conférences internationales avec les autres Suprêmes Conseils.",
+      "Favoriser une position commune des membres de la Confédération sur tous sujets."
+    ],
+    "signatories": [
+      "Très Illustre Frère Jacques AZOT 33°",
+      "Muito Ilustre Irmão Nelson FRARE 33°",
+      "Muito Ilustre Irmão José Manuel MOREIRA 33°"
+    ]
+  },
+  "members": {
+    "overline": "Suprêmes Conseils Membres",
+    "heading": "Juridictions souveraines en coopération internationale.",
+    "mapLabel": "Carte des juridictions",
+    "row1Title": "Suprême Conseil Exemple",
+    "row1Meta": "Juridiction · Membre fondateur",
+    "row2Title": "Suprême Conseil Exemple",
+    "row2Meta": "Juridiction · Membre effectif",
+    "row3Title": "Suprême Conseil Exemple",
+    "row3Meta": "Juridiction · Observateur"
+  },
+  "history": {
+    "overline": "Histoire et cadre",
+    "heading": "Une tradition ancienne à vocation internationale.",
+    "t1": "1761–1801",
+    "t1Title": "Formation historique",
+    "t1Text": "Consolidation progressive des degrés philosophiques et de la structure des Suprêmes Conseils.",
+    "t2": "XIXe–XXe s.",
+    "t2Title": "Expansion des juridictions",
+    "t2Text": "Affirmation internationale du R.E.A.A. et établissement de relations entre Suprêmes Conseils.",
+    "t3": "Présent",
+    "t3Title": "Coopération confédérale",
+    "t3Text": "Création d'instruments de consultation, de représentation et de coordination institutionnelle."
+  },
+  "documents": {
+    "overline": "Documents publics",
+    "heading": "Archives institutionnelles.",
+    "d1Small": "Déclaration",
+    "d1Title": "Principes fondateurs",
+    "d1Meta": "PDF · Disponible",
+    "d2Small": "Statuts",
+    "d2Title": "Normes publiques de la Confédération",
+    "d2Meta": "PDF · Bientôt",
+    "d3Small": "Conférences",
+    "d3Title": "Communiqués internationaux",
+    "d3Meta": "Archives · Bientôt"
+  },
+  "motto": "« Coopération, régularité et souveraineté dans la fidélité à la tradition. »",
+  "contact": {
+    "overline": "Contacts",
+    "heading": "Secrétariat International",
+    "intro": "Espace prévu pour le siège, les contacts officiels, le formulaire institutionnel et l'accès réservé.",
+    "name": "Nom",
+    "namePlaceholder": "Nom complet",
+    "email": "Email",
+    "emailPlaceholder": "email@exemple.org",
+    "message": "Message",
+    "messagePlaceholder": "Écrivez votre message",
+    "submit": "Envoyer la demande"
+  },
+  "footer": {
+    "name": "Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du R.E.A.A.",
+    "copy": "© 2026 · CISCSR"
+  },
+  "brand": {
+    "short": "Confédération Internationale",
+    "long": "Suprêmes Conseils Souverains et Réguliers du R.E.A.A."
+  }
+}

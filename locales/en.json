@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "International Confederation of Supreme Councils — CISCSR",
+    "description": "International Confederation of Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite.",
+    "logoAlt": "International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R."
+  },
+  "nav": {
+    "home": "Home page",
+    "menu": "Open menu",
+    "main": "Main navigation",
+    "confederation": "The Confederation",
+    "principles": "Principles",
+    "declaration": "Declaration",
+    "members": "Members",
+    "history": "History",
+    "documents": "Documents",
+    "contact": "Contact"
+  },
+  "hero": {
+    "overline": "Sovereignty · Regularity · Cooperation",
+    "title": "International Confederation of Sovereign and Regular Supreme Councils",
+    "titleSpan": "of the Ancient and Accepted Scottish Rite",
+    "text": "A confederal institution dedicated to fraternal cooperation among Supreme Councils, respect for jurisdictional sovereignty, and the preservation of the regular tradition of the A.A.S.R.",
+    "ctaPrimary": "Discover the Confederation",
+    "ctaSecondary": "View Supreme Councils"
+  },
+  "confederation": {
+    "overline": "The Confederation",
+    "heading": "Unite without absorbing. Represent without replacing.",
+    "lead": "The International Confederation brings together sovereign and regular Supreme Councils of the Ancient and Accepted Scottish Rite, creating a permanent space for meeting, consultation, representation, and cooperation.",
+    "p1": "Its purpose is not to limit the autonomy of member Supreme Councils, but to strengthen bonds of friendship, regularity, and mutual recognition among sovereign jurisdictions.",
+    "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body."
+  },
+  "pillars": {
+    "overline": "Founding principles",
+    "heading": "Four pillars of a confederal order.",
+    "oneTitle": "Regularity",
+    "oneText": "Preservation of traditional principles and the institutional legitimacy of the Rite.",
+    "twoTitle": "Sovereignty",
+    "twoText": "Respect for the independence and proper jurisdiction of each Supreme Council.",
+    "threeTitle": "Fraternity",
+    "threeText": "Promotion of friendship, concord, and cooperation among jurisdictions.",
+    "fourTitle": "Continuity",
+    "fourText": "Defence of memory, history, and the regular transmission of the A.A.S.R."
+  },
+  "declaration": {
+    "overline": "Official document",
+    "heading": "Declaration of Principles",
+    "intro": "The International Confederation of Supreme Councils is intended to bring together all Supreme Councils of the Ancient and Accepted Scottish Rite that are signatories of the Charter of Friendly Relations and recognized in accordance with statutory provisions. In accordance with the constitutional provisions, the Constitutions and Regulations of 1762 and the Grand Constitutions of 1786 — the sole fundamental laws of the Order — it imposes no limit on the free search for Truth, which requires tolerance and the struggle against ignorance in all its forms. It fully respects freedom of conscience.",
+    "proclaimsHeading": "It proclaims:",
+    "proclaims": [
+      "Belief in God, the Grand Architect of the Universe.",
+      "The perfectibility of human nature.",
+      "The universalism of the Rite, as well as its initiatic vocation and traditional essence."
+    ],
+    "recallsHeading": "It recalls:",
+    "recalls": [
+      "Its full adherence to the aims and basic principles of traditional and regular Freemasonry, whose vocation is to unite within itself, without exclusion, all worthy men of faith who show respect and love for their fellow human beings, in order to develop their sense of rectitude and personal responsibility, their devotion to truth, justice, and liberty, and their will to think and act with tolerance and wisdom for the constant benefit of union, happiness, progress, and the well-being of the human family and each of its members.",
+      "That a Supreme Council, composed in accordance with the prescriptions of the Grand Constitutions of the Order by Sovereign Grand Inspectors General of the 33rd and last degree, is intended to govern sovereignly and without sharing over its territorial jurisdiction, and is alone empowered to confer the degrees of the Scottish hierarchy.",
+      "That the Ancient and Accepted Scottish Rite comprises thirty-three degrees to which its adepts may be progressively elevated according to their capacities and proven merits. Supreme Councils possess an imprescriptible right over these thirty-three degrees.",
+      "However, in accordance with usages established since the creation of the Rite in 1801, they have limited their initiatic transmission to thirty degrees, from the 4th to the 33rd. The first three degrees of the Rite are conferred by a traditional, regular, independent, and sovereign Masonic body."
+    ],
+    "attachedHeading": "It is attached:",
+    "attached": [
+      "To the motivations and principles that presided over the creation of the first Supreme Council of the Ancient and Accepted Scottish Rite in 1801 in Charleston, USA.",
+      "To the fundamental principles of the Ancient and Accepted Scottish Rite defined by the founding Constitutions, considering the cultures and civilizations that unite Supreme Councils, and to their preservation, promotion, and defence in their original authenticity.",
+      "To the transmission of a spiritual influence that leads the Mason to the realization of the sovereignty of the spirit."
+    ],
+    "commitsHeading": "It commits to:",
+    "commits": [
+      "Bringing Supreme Councils together to implement common actions while respecting their autonomy and independence.",
+      "Establishing a permanent link among confederated Supreme Councils, notably through periodic meetings.",
+      "Representing confederated Supreme Councils, under specific mandates, before international Masonic bodies.",
+      "Promoting the sovereignty of Supreme Councils and the principle of the primacy of Law.",
+      "Promoting cooperation, with respect for cultural, religious, and national differences.",
+      "Promoting the transmission of the Ancient and Accepted Scottish Rite throughout the world, and generally exchanging all information and providing all useful assistance for its improvement.",
+      "Exchanging information among member Supreme Councils concerning practices and developments of Masonic bodies in their countries, and providing mutual assistance when necessary.",
+      "Organizing joint works on all subjects directly or indirectly related to the Masonic expression of the Rite.",
+      "Preparing jointly for participation in international conferences with other Supreme Councils.",
+      "Fostering a common position of Confederation members on all matters of shared interest."
+    ],
+    "signatories": [
+      "Très Illustre Frère Jacques AZOT 33°",
+      "Very Illustrious Brother Nelson FRARE 33°",
+      "Very Illustrious Brother José Manuel MOREIRA 33°",
+      "Very Illustrious Brother Kamal El-Fehdi 33°"
+    ]
+  },
+  "members": {
+    "overline": "Member Supreme Councils",
+    "heading": "Sovereign jurisdictions in international cooperation.",
+    "mapLabel": "Map of jurisdictions",
+    "row1Title": "Example Supreme Council",
+    "row1Meta": "Jurisdiction · Founding member",
+    "row2Title": "Example Supreme Council",
+    "row2Meta": "Jurisdiction · Active member",
+    "row3Title": "Example Supreme Council",
+    "row3Meta": "Jurisdiction · Observer"
+  },
+  "history": {
+    "overline": "History and context",
+    "heading": "An ancient tradition with an international vocation.",
+    "t1": "1761–1801",
+    "t1Title": "Historical formation",
+    "t1Text": "Progressive consolidation of philosophical degrees and the structure of Supreme Councils.",
+    "t2": "19th–20th c.",
+    "t2Title": "Expansion of jurisdictions",
+    "t2Text": "International affirmation of the A.A.S.R. and establishment of relations among Supreme Councils.",
+    "t3": "Present",
+    "t3Title": "Confederal cooperation",
+    "t3Text": "Creation of instruments for consultation, representation, and institutional coordination."
+  },
+  "documents": {
+    "overline": "Public documents",
+    "heading": "Institutional archive.",
+    "d1Small": "Declaration",
+    "d1Title": "Founding principles",
+    "d1Meta": "PDF · Available",
+    "d2Small": "Statutes",
+    "d2Title": "Public norms of the Confederation",
+    "d2Meta": "PDF · Coming soon",
+    "d3Small": "Conferences",
+    "d3Title": "International communications",
+    "d3Meta": "Archive · Coming soon"
+  },
+  "motto": "“Cooperation, regularity, and sovereignty in fidelity to tradition.”",
+  "contact": {
+    "overline": "Contact",
+    "heading": "International Secretariat",
+    "intro": "Area prepared for headquarters, official contacts, institutional form, and restricted access.",
+    "name": "Name",
+    "namePlaceholder": "Full name",
+    "email": "Email",
+    "emailPlaceholder": "email@example.org",
+    "message": "Message",
+    "messagePlaceholder": "Write your message",
+    "submit": "Send request"
+  },
+  "footer": {
+    "name": "International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R.",
+    "copy": "© 2026 · CISCSR"
+  },
+  "brand": {
+    "short": "International Confederation",
+    "long": "Sovereign and Regular Supreme Councils of the A.A.S.R."
+  }
+}
