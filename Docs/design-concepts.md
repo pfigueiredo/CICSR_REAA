@@ -373,7 +373,7 @@ No CMS, server, or JavaScript framework dependency — maintainable by any team 
 ### Português
 
 **Site:** https://pfigueiredo.github.io/CICSR_REAA/  
-**Apresentação:** https://pfigueiredo.github.io/CICSR_REAA/presentation/
+**Apresentação (deck PT + FR):** https://pfigueiredo.github.io/CICSR_REAA/presentation/
 
 ```
 CICSR_REAA/
@@ -390,7 +390,7 @@ CICSR_REAA/
 ### English
 
 **Site:** https://pfigueiredo.github.io/CICSR_REAA/  
-**Presentation:** https://pfigueiredo.github.io/CICSR_REAA/presentation/
+**Presentation (PT + FR deck):** https://pfigueiredo.github.io/CICSR_REAA/presentation/
 
 (Same file map as above.)
 

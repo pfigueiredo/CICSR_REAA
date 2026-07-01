@@ -85,7 +85,7 @@
 .slide-bg-navy h1,
 .slide-bg-navy h2,
 .slide-bg-navy .col-pt,
-.slide-bg-navy .col-en {
+.slide-bg-navy .col-fr {
   color: var(--paper);
 }
 
@@ -103,7 +103,7 @@
 .slide-bg-burgundy p,
 .slide-bg-burgundy li,
 .slide-bg-burgundy .col-pt,
-.slide-bg-burgundy .col-en {
+.slide-bg-burgundy .col-fr {
   color: var(--paper);
 }
 
@@ -118,12 +118,12 @@
 }
 
 .col-pt,
-.col-en {
+.col-fr {
   font-size: 1em;
 }
 
 .col-pt h3,
-.col-en h3 {
+.col-fr h3 {
   font-size: 0.75em;
   color: var(--burgundy);
   margin: 0 0 0.4em;
@@ -132,9 +132,9 @@
 }
 
 .slide-bg-navy .col-pt h3,
-.slide-bg-navy .col-en h3,
+.slide-bg-navy .col-fr h3,
 .slide-bg-burgundy .col-pt h3,
-.slide-bg-burgundy .col-en h3 {
+.slide-bg-burgundy .col-fr h3 {
   color: var(--gold);
 }
 
@@ -288,16 +288,16 @@
 
 /* Focus mode: hide one language column */
 
-body.focus-pt .col-en {
+body.focus-pt .col-fr {
   display: none;
 }
 
-body.focus-en .col-pt {
+body.focus-fr .col-pt {
   display: none;
 }
 
 body.focus-pt .bilingual,
-body.focus-en .bilingual {
+body.focus-fr .bilingual {
   grid-template-columns: 1fr;
 }
 
