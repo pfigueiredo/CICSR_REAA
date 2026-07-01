@@ -43,16 +43,39 @@
 }
 
 .reveal h2 {
-  font-size: 1.35em;
-  margin-bottom: 0.6em;
+  font-size: 1.28em;
+  margin-bottom: 0.35em;
   border-bottom: 2px double var(--gold-dark);
   padding-bottom: 0.25em;
 }
 
+.slide-thesis {
+  font-family: var(--serif);
+  font-size: 0.58em;
+  line-height: 1.35;
+  color: var(--burgundy);
+  margin: 0 0 0.5em;
+  font-style: italic;
+}
+
+.slide-bg-navy .slide-thesis,
+.slide-bg-burgundy .slide-thesis {
+  color: #D5B779;
+}
+
+.title-tagline {
+  font-family: var(--serif);
+  font-size: 0.5em;
+  line-height: 1.4;
+  color: rgba(251, 246, 234, 0.78);
+  margin-top: 1em;
+  font-style: italic;
+}
+
 .reveal p,
 .reveal li {
-  font-size: 0.62em;
-  line-height: 1.45;
+  font-size: 0.56em;
+  line-height: 1.48;
   color: var(--muted);
 }
 
@@ -249,7 +272,7 @@
 /* Page map */
 
 .page-map {
-  font-size: 0.5em;
+  font-size: 0.42em;
   font-family: monospace;
   background: var(--paper);
   border: 1px solid var(--line);
