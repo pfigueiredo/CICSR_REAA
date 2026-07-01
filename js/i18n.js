@@ -41,6 +41,27 @@
     });
   }
 
+  function applyMembers(container, items) {
+    if (!Array.isArray(items)) {
+      return;
+    }
+    container.innerHTML = "";
+    items.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "member-row";
+
+      const name = document.createElement("strong");
+      name.textContent = item.name || "";
+
+      const meta = document.createElement("span");
+      meta.textContent = item.meta || "";
+
+      row.appendChild(name);
+      row.appendChild(meta);
+      container.appendChild(row);
+    });
+  }
+
   function applySignatories(container, items) {
     if (!Array.isArray(items)) {
       return;
@@ -99,6 +120,11 @@
     document.querySelectorAll("[data-i18n-signatories]").forEach((el) => {
       const key = el.getAttribute("data-i18n-signatories");
       applySignatories(el, getNested(strings, key));
+    });
+
+    document.querySelectorAll("[data-i18n-members]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-members");
+      applyMembers(el, getNested(strings, key));
     });
 
     document.querySelectorAll(".lang-switcher button").forEach((btn) => {

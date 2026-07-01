@@ -90,12 +90,12 @@
     "overline": "Member Supreme Councils",
     "heading": "Sovereign jurisdictions in international cooperation.",
     "mapLabel": "Map of jurisdictions",
-    "row1Title": "Example Supreme Council",
-    "row1Meta": "Jurisdiction · Founding member",
-    "row2Title": "Example Supreme Council",
-    "row2Meta": "Jurisdiction · Active member",
-    "row3Title": "Example Supreme Council",
-    "row3Meta": "Jurisdiction · Observer"
+    "items": [
+      { "name": "Portugal", "meta": "Founding member" },
+      { "name": "Brazil", "meta": "Founding member" },
+      { "name": "Morocco", "meta": "Founding member" },
+      { "name": "France", "meta": "Founding member" }
+    ]
   },
   "history": {
     "overline": "History and context",

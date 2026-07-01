@@ -181,28 +181,17 @@
         </div>
 
         <div class="member-panel">
-          <div class="map-placeholder">
-            <span class="map-dot dot-one"></span>
-            <span class="map-dot dot-two"></span>
-            <span class="map-dot dot-three"></span>
-            <span class="map-dot dot-four"></span>
-            <p data-i18n="members.mapLabel">Mapa das jurisdições</p>
+          <div class="member-map" data-i18n-attr="aria-label:members.mapLabel">
+            <img
+              class="member-map-svg"
+              src="assets/map/world.svg"
+              width="1000"
+              height="500"
+              alt=""
+            />
           </div>
 
-          <div class="member-table">
-            <div class="member-row">
-              <strong data-i18n="members.row1Title">Supremo Conselho Exemplo</strong>
-              <span data-i18n="members.row1Meta">Jurisdição · Membro fundador</span>
-            </div>
-            <div class="member-row">
-              <strong data-i18n="members.row2Title">Supremo Conselho Exemplo</strong>
-              <span data-i18n="members.row2Meta">Jurisdição · Membro efetivo</span>
-            </div>
-            <div class="member-row">
-              <strong data-i18n="members.row3Title">Supremo Conselho Exemplo</strong>
-              <span data-i18n="members.row3Meta">Jurisdição · Observador</span>
-            </div>
-          </div>
+          <div class="member-table" data-i18n-members="members.items"></div>
         </div>
       </section>
 

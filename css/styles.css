@@ -461,53 +461,31 @@ h1 span {
   align-items: stretch;
 }
 
-.map-placeholder {
+.member-map {
   position: relative;
   min-height: 330px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
   border: 3px double rgba(213,183,121,.48);
   background:
-    linear-gradient(90deg, rgba(213,183,121,.09) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(213,183,121,.09) 1px, transparent 1px),
+    radial-gradient(ellipse 72% 58% at 50% 52%, rgba(213,183,121,.08), transparent 72%),
+    linear-gradient(90deg, rgba(213,183,121,.06) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(213,183,121,.06) 1px, transparent 1px),
     rgba(255,255,255,.03);
-  background-size: 44px 44px;
+  background-size: auto, 44px 44px, 44px 44px;
   overflow: hidden;
 }
 
-.map-placeholder::before {
-  content: "";
-  position: absolute;
-  width: 58%;
-  height: 44%;
-  border: 1px solid rgba(213,183,121,.52);
-  border-radius: 52% 48% 47% 53%;
-  transform: rotate(-10deg);
+.member-map-svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 294px;
+  object-fit: contain;
 }
-
-.map-placeholder p {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  color: rgba(251,246,234,.72);
-  font-family: var(--serif);
-  font-size: 34px;
-}
-
-.map-dot {
-  position: absolute;
-  z-index: 3;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #D5B779;
-  box-shadow: 0 0 0 6px rgba(213,183,121,.12);
-}
-
-.dot-one { left: 28%; top: 40%; }
-.dot-two { left: 51%; top: 31%; }
-.dot-three { left: 65%; top: 55%; }
-.dot-four { left: 42%; top: 62%; }
 
 .member-table {
   border-top: 3px double rgba(213,183,121,.48);
@@ -767,10 +745,6 @@ textarea {
   .chronology article {
     grid-template-columns: 1fr;
     gap: 8px;
-  }
-
-  .map-placeholder p {
-    font-size: 28px;
   }
 
   .hero-logo-wrap {

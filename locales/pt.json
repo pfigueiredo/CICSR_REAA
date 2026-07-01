@@ -90,12 +90,12 @@
     "overline": "Supremos Conselhos Membros",
     "heading": "Jurisdições soberanas em cooperação internacional.",
     "mapLabel": "Mapa das jurisdições",
-    "row1Title": "Supremo Conselho Exemplo",
-    "row1Meta": "Jurisdição · Membro fundador",
-    "row2Title": "Supremo Conselho Exemplo",
-    "row2Meta": "Jurisdição · Membro efetivo",
-    "row3Title": "Supremo Conselho Exemplo",
-    "row3Meta": "Jurisdição · Observador"
+    "items": [
+      { "name": "Portugal", "meta": "Membro fundador" },
+      { "name": "Brasil", "meta": "Membro fundador" },
+      { "name": "Marrocos", "meta": "Membro fundador" },
+      { "name": "França", "meta": "Membro fundador" }
+    ]
   },
   "history": {
     "overline": "História e enquadramento",

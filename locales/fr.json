@@ -90,12 +90,12 @@
     "overline": "Suprêmes Conseils Membres",
     "heading": "Juridictions souveraines en coopération internationale.",
     "mapLabel": "Carte des juridictions",
-    "row1Title": "Suprême Conseil Exemple",
-    "row1Meta": "Juridiction · Membre fondateur",
-    "row2Title": "Suprême Conseil Exemple",
-    "row2Meta": "Juridiction · Membre effectif",
-    "row3Title": "Suprême Conseil Exemple",
-    "row3Meta": "Juridiction · Observateur"
+    "items": [
+      { "name": "Portugal", "meta": "Membre fondateur" },
+      { "name": "Brésil", "meta": "Membre fondateur" },
+      { "name": "Maroc", "meta": "Membre fondateur" },
+      { "name": "France", "meta": "Membre fondateur" }
+    ]
   },
   "history": {
     "overline": "Histoire et cadre",
