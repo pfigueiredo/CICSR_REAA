@@ -253,14 +253,14 @@
 
 .reveal .slides section img.slide-img {
   max-width: 100%;
-  max-height: 240px;
+  max-height: 240px !important;
   object-fit: contain;
   border: 3px double var(--line);
   margin-top: 0.25em;
 }
 
 .reveal .slides section img.slide-img-sm {
-  max-height: 190px;
+  max-height: 190px !important;
 }
 
 .two-img {
