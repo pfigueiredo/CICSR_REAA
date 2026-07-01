@@ -27,9 +27,10 @@
   "confederation": {
     "overline": "Confederação",
     "heading": "Unir sem absorver.<br/>Representar sem substituir.",
-    "lead": "A Confederação Internacional reúne Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite, criando um espaço permanente de encontro, consulta, representação e cooperação.",
-    "p1": "A sua finalidade não é limitar a autonomia dos Supremos Conselhos membros, mas fortalecer os laços de amizade, regularidade e reconhecimento mútuo entre jurisdições soberanas.",
-    "p2": "O seu carácter é institucional, discreto e diplomático, assente na tradição, na continuidade histórica e no respeito pelas competências próprias de cada corpo constituinte."
+    "lead": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite foi criada por tratado assinado em 12 de dezembro de 2025 em Lyon entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos.",
+    "p1": "A Confederação não exerce qualquer autoridade hierárquica sobre os Supremos Conselhos membros, mas atua como órgão de concertação, de garantia ritual e de concórdia entre jurisdições soberanas.",
+    "p2": "O seu carácter é institucional, discreto e diplomático, assente na tradição, na continuidade histórica e no respeito pelas competências próprias de cada corpo constituinte.",
+    "p3": "Tem como vocação preservar a pureza do rito, assegurar a regularidade e o reconhecimento mútuo dos Supremos Conselhos confederados, e manter a unidade iniciática do rito, no respeito absoluto pela soberania de cada Supremo Conselho."
   },
   "pillars": {
     "overline": "Princípios fundadores",
@@ -91,10 +92,10 @@
     "heading": "Jurisdições soberanas em cooperação internacional.",
     "mapLabel": "Mapa das jurisdições",
     "items": [
-      { "name": "Portugal", "meta": "Membro fundador" },
-      { "name": "Brasil", "meta": "Membro fundador" },
-      { "name": "Marrocos", "meta": "Membro fundador" },
-      { "name": "França", "meta": "Membro fundador" }
+      { "name": "Supremo Conselho do Brasil", "meta": "Membro fundador" },
+      { "name": "Supremo Conselho para a França", "meta": "Membro fundador" },
+      { "name": "Supremo Conselho Português", "meta": "Membro fundador" },
+      { "name": "Supremo Conselho de Marrocos", "meta": "Membro fundador" }
     ]
   },
   "history": {
@@ -106,19 +107,19 @@
     "t2": "Séc. XIX–XX",
     "t2Title": "Expansão das jurisdições",
     "t2Text": "Afirmação internacional do R.E.A.A. e estabelecimento de relações entre Supremos Conselhos.",
-    "t3": "Presente",
-    "t3Title": "Cooperação confederal",
-    "t3Text": "Criação de instrumentos de consulta, representação e coordenação institucional."
+    "t3": "2025–2026",
+    "t3Title": "Fundação da Confederação",
+    "t3Text": "Tratado assinado em Lyon a 12 de dezembro de 2025; Regulamento Interno adotado em Lisboa a 3 de julho de 2026; presidência rotativa entre os membros fundadores (Portugal, Marrocos, Brasil, França)."
   },
   "documents": {
     "overline": "Documentos públicos",
     "heading": "Arquivo institucional.",
     "d1Small": "Declaração",
     "d1Title": "Princípios fundadores",
-    "d1Meta": "PDF · Disponível",
-    "d2Small": "Estatutos",
-    "d2Title": "Normas públicas da Confederação",
-    "d2Meta": "PDF · Em breve",
+    "d1Meta": "Texto · Disponível",
+    "d2Small": "Regulamento",
+    "d2Title": "Regulamento Interno",
+    "d2Meta": "PDF · Disponível",
     "d3Small": "Conferências",
     "d3Title": "Comunicados internacionais",
     "d3Meta": "Arquivo · Em breve"

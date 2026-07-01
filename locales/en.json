@@ -27,9 +27,10 @@
   "confederation": {
     "overline": "Confederation",
     "heading": "Unite without absorbing.<br/>Represent without replacing.",
-    "lead": "The International Confederation brings together Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite, creating a permanent space for meeting, consultation, representation, and cooperation.",
-    "p1": "Its purpose is not to limit the autonomy of member Supreme Councils, but to strengthen bonds of friendship, regularity, and mutual recognition among sovereign jurisdictions.",
-    "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body."
+    "lead": "The International Confederation of Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite was created by treaty signed on 12 December 2025 in Lyon between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco.",
+    "p1": "The Confederation exercises no hierarchical authority over member Supreme Councils, but acts as a body for consultation, ritual safeguard, and concord among sovereign jurisdictions.",
+    "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body.",
+    "p3": "Its vocation is to preserve the purity of the Rite, ensure the regularity and mutual recognition of confederated Supreme Councils, and maintain the initiatic unity of the Rite, with absolute respect for the sovereignty of each Supreme Council."
   },
   "pillars": {
     "overline": "Founding principles",
@@ -91,10 +92,10 @@
     "heading": "Sovereign jurisdictions in international cooperation.",
     "mapLabel": "Map of jurisdictions",
     "items": [
-      { "name": "Portugal", "meta": "Founding member" },
-      { "name": "Brazil", "meta": "Founding member" },
-      { "name": "Morocco", "meta": "Founding member" },
-      { "name": "France", "meta": "Founding member" }
+      { "name": "Supreme Council of Brazil", "meta": "Founding member" },
+      { "name": "Supreme Council for France", "meta": "Founding member" },
+      { "name": "Portuguese Supreme Council", "meta": "Founding member" },
+      { "name": "Supreme Council of Morocco", "meta": "Founding member" }
     ]
   },
   "history": {
@@ -106,19 +107,19 @@
     "t2": "19th–20th c.",
     "t2Title": "Expansion of jurisdictions",
     "t2Text": "International affirmation of the A.A.S.R. and establishment of relations among Supreme Councils.",
-    "t3": "Present",
-    "t3Title": "Confederal cooperation",
-    "t3Text": "Creation of instruments for consultation, representation, and institutional coordination."
+    "t3": "2025–2026",
+    "t3Title": "Foundation of the Confederation",
+    "t3Text": "Treaty signed in Lyon on 12 December 2025; Internal Regulations adopted in Lisbon on 3 July 2026; rotating presidency among founding members (Portugal, Morocco, Brazil, France)."
   },
   "documents": {
     "overline": "Public documents",
     "heading": "Institutional archive.",
     "d1Small": "Declaration",
     "d1Title": "Founding principles",
-    "d1Meta": "PDF · Available",
-    "d2Small": "Statutes",
-    "d2Title": "Public norms of the Confederation",
-    "d2Meta": "PDF · Coming soon",
+    "d1Meta": "Text · Available",
+    "d2Small": "Regulations",
+    "d2Title": "Internal Regulations",
+    "d2Meta": "PDF · Available",
     "d3Small": "Conferences",
     "d3Title": "International communications",
     "d3Meta": "Archive · Coming soon"

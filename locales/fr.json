@@ -27,9 +27,10 @@
   "confederation": {
     "overline": "Confédération",
     "heading": "Unir sans absorber.<br/>Représenter sans remplacer.",
-    "lead": "La Confédération Internationale réunit les Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté, créant un espace permanent de rencontre, de consultation, de représentation et de coopération.",
-    "p1": "Sa finalité n'est pas de limiter l'autonomie des Suprêmes Conseils membres, mais de renforcer les liens d'amitié, de régularité et de reconnaissance mutuelle entre juridictions souveraines.",
-    "p2": "Son caractère est institutionnel, discret et diplomatique, fondé sur la tradition, la continuité historique et le respect des compétences propres de chaque corps constitutif."
+    "lead": "La Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté a été créée par traité signé le 12 décembre 2025 à Lyon entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc.",
+    "p1": "La Confédération n'exerce aucune autorité hiérarchique sur les Suprêmes Conseils membres, mais agit comme organe de concertation, de garantie rituelle et de concorde entre juridictions souveraines.",
+    "p2": "Son caractère est institutionnel, discret et diplomatique, fondé sur la tradition, la continuité historique et le respect des compétences propres de chaque corps constitutif.",
+    "p3": "Elle a pour vocation de préserver la pureté du Rite, d'assurer la régularité et la reconnaissance mutuelle des Suprêmes Conseils confédérés, et de maintenir l'unité initiatique du Rite, dans le respect absolu de la souveraineté de chaque Suprême Conseil."
   },
   "pillars": {
     "overline": "Principes fondateurs",
@@ -91,10 +92,10 @@
     "heading": "Juridictions souveraines en coopération internationale.",
     "mapLabel": "Carte des juridictions",
     "items": [
-      { "name": "Portugal", "meta": "Membre fondateur" },
-      { "name": "Brésil", "meta": "Membre fondateur" },
-      { "name": "Maroc", "meta": "Membre fondateur" },
-      { "name": "France", "meta": "Membre fondateur" }
+      { "name": "Suprême Conseil du Brésil", "meta": "Membre fondateur" },
+      { "name": "Suprême Conseil pour la France", "meta": "Membre fondateur" },
+      { "name": "Suprême Conseil Portugais", "meta": "Membre fondateur" },
+      { "name": "Suprême Conseil du Maroc", "meta": "Membre fondateur" }
     ]
   },
   "history": {
@@ -106,19 +107,19 @@
     "t2": "XIXe–XXe s.",
     "t2Title": "Expansion des juridictions",
     "t2Text": "Affirmation internationale du R.E.A.A. et établissement de relations entre Suprêmes Conseils.",
-    "t3": "Présent",
-    "t3Title": "Coopération confédérale",
-    "t3Text": "Création d'instruments de consultation, de représentation et de coordination institutionnelle."
+    "t3": "2025–2026",
+    "t3Title": "Fondation de la Confédération",
+    "t3Text": "Traité signé à Lyon le 12 décembre 2025 ; Règlement Intérieur adopté à Lisbonne le 3 juillet 2026 ; présidence tournante entre les membres fondateurs (Portugal, Maroc, Brésil, France)."
   },
   "documents": {
     "overline": "Documents publics",
     "heading": "Archives institutionnelles.",
     "d1Small": "Déclaration",
     "d1Title": "Principes fondateurs",
-    "d1Meta": "PDF · Disponible",
-    "d2Small": "Statuts",
-    "d2Title": "Normes publiques de la Confédération",
-    "d2Meta": "PDF · Bientôt",
+    "d1Meta": "Texte · Disponible",
+    "d2Small": "Règlement",
+    "d2Title": "Règlement Intérieur",
+    "d2Meta": "PDF · Disponible",
     "d3Small": "Conférences",
     "d3Title": "Communiqués internationaux",
     "d3Meta": "Archives · Bientôt"
