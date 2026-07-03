@@ -592,7 +592,7 @@ body.focus-fr .bilingual {
 
 .light-text .color-info strong,
 .light-text .color-info p {
-  color: var(--paper);
+  color: #08101b;
 }
 
 .swatch-row-lg .swatch {
@@ -641,6 +641,7 @@ body.focus-fr .bilingual {
 
 .scroll-notes li {
   font-size: 0.48em;
+  margin-left: 100px;
 }
 
 /* Rhythm strip */
