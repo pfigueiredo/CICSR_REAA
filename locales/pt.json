@@ -14,7 +14,10 @@
     "members": "Membros",
     "history": "História",
     "documents": "Documentos",
-    "contact": "Contactos"
+    "contact": "Contactos",
+    "events": "Eventos",
+    "communications": "Comunicações",
+    "regulamento": "Regulamento Interno"
   },
   "hero": {
     "overline": "Soberania · Regularidade · Cooperação",
@@ -84,7 +87,7 @@
       "Muito Ilustre Irmão Jacques AZOT 33°",
       "Muito Ilustre Irmão Nelson FRARE 33°",
       "Muito Ilustre Irmão José Manuel MOREIRA 33°",
-      "Muito Ilustre Irmão Kamal El-Fehdi 33°"
+      "Muito Ilustre Irmão Kamal El Fadhi 33°"
     ]
   },
   "members": {
@@ -92,11 +95,26 @@
     "heading": "Jurisdições soberanas em cooperação internacional.",
     "mapLabel": "Mapa das jurisdições",
     "items": [
-      { "name": "Supremo Conselho do Brasil", "meta": "Membro fundador" },
-      { "name": "Supremo Conselho para a França", "meta": "Membro fundador" },
-      { "name": "Supremo Conselho Português", "meta": "Membro fundador" },
-      { "name": "Supremo Conselho de Marrocos", "meta": "Membro fundador" }
-    ]
+      {
+        "name": "Supremo Conselho do Brasil",
+        "meta": "Membro fundador"
+      },
+      {
+        "name": "Supremo Conselho para a França",
+        "meta": "Membro fundador"
+      },
+      {
+        "name": "Supremo Conselho Português",
+        "meta": "Membro fundador"
+      },
+      {
+        "name": "Supremo Conselho de Marrocos",
+        "meta": "Membro fundador"
+      }
+    ],
+    "foundersHeading": "Fundadores",
+    "membersHeading": "Membros",
+    "membersEmpty": "Além dos Supremos Conselhos fundadores, futuros membros admitidos conforme o Regulamento Interno serão apresentados nesta secção."
   },
   "history": {
     "overline": "História e enquadramento",
@@ -120,9 +138,33 @@
     "d2Small": "Regulamento",
     "d2Title": "Regulamento Interno",
     "d2Meta": "PDF · Disponível",
-    "d3Small": "Conferências",
-    "d3Title": "Comunicados internacionais",
-    "d3Meta": "Arquivo · Em breve"
+    "d3Small": "1762",
+    "d3Title": "Constituições e Regulamentos de 1762",
+    "d3Meta": "Consulta histórica · Ligação",
+    "d4Small": "1786",
+    "d4Title": "Grandes Constituições de 1786",
+    "d4Meta": "Consulta histórica · Ligação",
+    "regOverline": "Documentos",
+    "regTitle": "Regulamento Interno",
+    "regLead": "Regulamento Interno da Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A.",
+    "regMeta": "Adotado em Lisboa, 3 de julho de 2026.",
+    "regDownload": "Descarregar PDF",
+    "c1762Overline": "Documentos fundadores",
+    "c1762Title": "Constituições e Regulamentos de 1762",
+    "c1762Lead": "Textos fundamentais da Ordem referidos no Regulamento Interno (Art. 2.º) e na Declaração de Princípios.",
+    "c1762Note": "A edição pública a disponibilizar (ou a ligação oficial) será publicada após validação da Confederação. Existem várias edições históricas.",
+    "c1786Overline": "Documentos fundadores",
+    "c1786Title": "Grandes Constituições de 1786",
+    "c1786Lead": "Textos fundamentais da Ordem referidos no Regulamento Interno (Art. 2.º) e na Declaração de Princípios.",
+    "c1786Note": "A edição pública a disponibilizar (ou a ligação oficial) será publicada após validação da Confederação. Existem várias edições históricas.",
+    "c1762Disclaimer": "Aviso: as ligações abaixo apontam para edições históricas publicadas no século XIX (domínio público / bibliotecas). Não constituem uma edição oficial da CISCSR; existem várias versões. A Confederação reconhece estes textos como leis fundamentais da Ordem, nos termos do seu Regulamento Interno.",
+    "c1762Consult": "Consultar edição histórica",
+    "c1762Link1Label": "Internet Archive — Constituições de 1762 (edição breve)",
+    "c1762Link2Label": "Internet Archive — Compilação Pike/Macoy 1859 (1762 e 1786)",
+    "c1786Disclaimer": "Aviso: as ligações abaixo apontam para edições históricas (Gallica / Internet Archive). Não constituem uma edição oficial da CISCSR; a autenticidade histórica do texto de 1786 é discutida pelos historiadores, sem prejuízo do seu reconhecimento institucional pela Confederação.",
+    "c1786Consult": "Consultar edição histórica",
+    "c1786Link1Label": "Gallica (BnF) — Grandes Constituições de 1786",
+    "c1786Link2Label": "Internet Archive — Compilação Pike/Macoy 1859 (1762 e 1786)"
   },
   "motto": "“Cooperação, regularidade e soberania em fidelidade à tradição.”",
   "contact": {
@@ -144,5 +186,63 @@
   "brand": {
     "short": "Confederação Internacional",
     "long": "Supremos Conselhos Soberanos e Regulares<br/>do R.E.A.A."
+  },
+  "status": {
+    "preparing": "Em preparação",
+    "available": "Disponível",
+    "emptyMembers": "Nenhum membro adicional publicado"
+  },
+  "portal": {
+    "areasOverline": "Percurso",
+    "areasHeading": "Continuar no arquivo institucional.",
+    "areasIntro": "As mesmas secções da tradição documental — apresentação, princípios, membros, história e contactos.",
+    "teaserMore": "Ler a apresentação completa",
+    "pillarsMore": "Ver Declaração de Princípios",
+    "membersMore": "Ver jurisdições",
+    "contactMore": "Secretariado Internacional"
+  },
+  "communications": {
+    "overline": "Comunicações",
+    "title": "Comunicações oficiais",
+    "lead": "Espaço destinado às comunicações da Confederação, incluindo o Discurso do Presidente.",
+    "willInclude": "Virá a incluir:",
+    "b1": "Discurso do Presidente",
+    "b2": "Comunicados institucionais",
+    "b3": "Boletim digital (futuro)"
+  },
+  "events": {
+    "overline": "Agenda",
+    "title": "Eventos e reuniões",
+    "lead": "Calendário das Assembleias Confederais, encontros institucionais e reuniões relevantes da Confederação.",
+    "pastTitle": "Anteriores",
+    "pastText": "Os eventos públicos anteriores serão publicados aqui após validação.",
+    "upcomingTitle": "Agendadas",
+    "upcomingText": "As datas futuras confirmadas serão anunciadas nesta secção."
+  },
+  "historyPage": {
+    "indexOverline": "História",
+    "indexTitle": "Três percursos",
+    "indexLead": "A Confederação, os Supremos Conselhos e o R.E.A.A.",
+    "confOverline": "História",
+    "confTitle": "A Confederação",
+    "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 3 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
+    "scOverline": "História",
+    "scTitle": "Supremos Conselhos",
+    "scLead": "Enquadramento histórico geral da instituição dos Supremos Conselhos no R.E.A.A.",
+    "scNote": "Apenas conteúdos validados pela Confederação serão publicados.",
+    "reaaOverline": "História",
+    "reaaTitle": "Rito Escocês Antigo e Aceite",
+    "reaaLead": "Percurso histórico do R.E.A.A. e das leis fundamentais de 1762 e 1786, no respeito pela tradição regular.",
+    "reaaNote": "Texto de enquadramento em preparação; ver também Documentos e a Declaração de Princípios.",
+    "linkConf": "A Confederação",
+    "linkSc": "Supremos Conselhos",
+    "linkReaa": "R.E.A.A."
+  },
+  "page": {
+    "backDocs": "Documentos",
+    "backHistory": "História",
+    "backPrinciples": "Princípios",
+    "backHome": "Página inicial",
+    "backMembers": "Membros"
   }
 }

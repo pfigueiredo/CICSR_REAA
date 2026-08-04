@@ -14,7 +14,10 @@
     "members": "Members",
     "history": "History",
     "documents": "Documents",
-    "contact": "Contact"
+    "contact": "Contact",
+    "events": "Events",
+    "communications": "Communications",
+    "regulamento": "Internal Regulations"
   },
   "hero": {
     "overline": "Sovereignty · Regularity · Cooperation",
@@ -84,7 +87,7 @@
       "Très Illustre Frère Jacques AZOT 33°",
       "Very Illustrious Brother Nelson FRARE 33°",
       "Very Illustrious Brother José Manuel MOREIRA 33°",
-      "Very Illustrious Brother Kamal El-Fehdi 33°"
+      "Very Illustrious Brother Kamal El Fadhi 33°"
     ]
   },
   "members": {
@@ -92,11 +95,26 @@
     "heading": "Sovereign jurisdictions in international cooperation.",
     "mapLabel": "Map of jurisdictions",
     "items": [
-      { "name": "Supreme Council of Brazil", "meta": "Founding member" },
-      { "name": "Supreme Council for France", "meta": "Founding member" },
-      { "name": "Portuguese Supreme Council", "meta": "Founding member" },
-      { "name": "Supreme Council of Morocco", "meta": "Founding member" }
-    ]
+      {
+        "name": "Supreme Council of Brazil",
+        "meta": "Founding member"
+      },
+      {
+        "name": "Supreme Council for France",
+        "meta": "Founding member"
+      },
+      {
+        "name": "Portuguese Supreme Council",
+        "meta": "Founding member"
+      },
+      {
+        "name": "Supreme Council of Morocco",
+        "meta": "Founding member"
+      }
+    ],
+    "foundersHeading": "Founders",
+    "membersHeading": "Members",
+    "membersEmpty": "In addition to the founding Supreme Councils, future members admitted under the Internal Regulations will be presented in this section."
   },
   "history": {
     "overline": "History and context",
@@ -120,9 +138,33 @@
     "d2Small": "Regulations",
     "d2Title": "Internal Regulations",
     "d2Meta": "PDF · Available",
-    "d3Small": "Conferences",
-    "d3Title": "International communications",
-    "d3Meta": "Archive · Coming soon"
+    "d3Small": "1762",
+    "d3Title": "Constitutions and Regulations of 1762",
+    "d3Meta": "Historical consultation · Link",
+    "d4Small": "1786",
+    "d4Title": "Grand Constitutions of 1786",
+    "d4Meta": "Historical consultation · Link",
+    "regOverline": "Documents",
+    "regTitle": "Internal Regulations",
+    "regLead": "Internal Regulations of the International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R.",
+    "regMeta": "Adopted in Lisbon, 3 July 2026.",
+    "regDownload": "Download PDF",
+    "c1762Overline": "Founding documents",
+    "c1762Title": "Constitutions and Regulations of 1762",
+    "c1762Lead": "Fundamental texts of the Order referred to in the Internal Regulations (Art. 2) and the Declaration of Principles.",
+    "c1762Note": "The public edition to be provided (or the official link) will be published after validation by the Confederation. Several historical editions exist.",
+    "c1786Overline": "Founding documents",
+    "c1786Title": "Grand Constitutions of 1786",
+    "c1786Lead": "Fundamental texts of the Order referred to in the Internal Regulations (Art. 2) and the Declaration of Principles.",
+    "c1786Note": "The public edition to be provided (or the official link) will be published after validation by the Confederation. Several historical editions exist.",
+    "c1762Disclaimer": "Notice: the links below point to nineteenth-century historical editions (public domain / libraries). They are not an official CISCSR edition; several versions exist. The Confederation recognises these texts as fundamental laws of the Order under its Internal Regulations.",
+    "c1762Consult": "Consult a historical edition",
+    "c1762Link1Label": "Internet Archive — Constitutions of 1762 (short edition)",
+    "c1762Link2Label": "Internet Archive — Pike/Macoy 1859 compilation (1762 and 1786)",
+    "c1786Disclaimer": "Notice: the links below point to historical editions (Gallica / Internet Archive). They are not an official CISCSR edition; historians debate the authenticity of the 1786 text, without prejudice to its institutional recognition by the Confederation.",
+    "c1786Consult": "Consult a historical edition",
+    "c1786Link1Label": "Gallica (BnF) — Grand Constitutions of 1786",
+    "c1786Link2Label": "Internet Archive — Pike/Macoy 1859 compilation (1762 and 1786)"
   },
   "motto": "“Cooperation, regularity, and sovereignty in fidelity to tradition.”",
   "contact": {
@@ -144,5 +186,63 @@
   "brand": {
     "short": "International Confederation",
     "long": "Sovereign and Regular Supreme Councils<br/>of the A.A.S.R."
+  },
+  "status": {
+    "preparing": "In preparation",
+    "available": "Available",
+    "emptyMembers": "No additional members published"
+  },
+  "portal": {
+    "areasOverline": "Path",
+    "areasHeading": "Continue in the institutional archive.",
+    "areasIntro": "The same documentary sections — presentation, principles, members, history, and contact.",
+    "teaserMore": "Read the full presentation",
+    "pillarsMore": "View Declaration of Principles",
+    "membersMore": "View jurisdictions",
+    "contactMore": "International Secretariat"
+  },
+  "communications": {
+    "overline": "Communications",
+    "title": "Official communications",
+    "lead": "Space for the Confederation’s communications, including the President’s address.",
+    "willInclude": "Will include:",
+    "b1": "President’s address",
+    "b2": "Institutional communiqués",
+    "b3": "Digital bulletin (future)"
+  },
+  "events": {
+    "overline": "Agenda",
+    "title": "Events and meetings",
+    "lead": "Calendar of Confederate Assemblies, institutional gatherings, and relevant Confederation meetings.",
+    "pastTitle": "Past",
+    "pastText": "Past public events will be published here after validation.",
+    "upcomingTitle": "Upcoming",
+    "upcomingText": "Confirmed future dates will be announced in this section."
+  },
+  "historyPage": {
+    "indexOverline": "History",
+    "indexTitle": "Three paths",
+    "indexLead": "The Confederation, the Supreme Councils, and the A.A.S.R.",
+    "confOverline": "History",
+    "confTitle": "The Confederation",
+    "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 3 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
+    "scOverline": "History",
+    "scTitle": "Supreme Councils",
+    "scLead": "General historical framing of Supreme Councils within the A.A.S.R.",
+    "scNote": "Only content validated by the Confederation will be published.",
+    "reaaOverline": "History",
+    "reaaTitle": "Ancient and Accepted Scottish Rite",
+    "reaaLead": "Historical path of the A.A.S.R. and the fundamental laws of 1762 and 1786, in fidelity to regular tradition.",
+    "reaaNote": "Framing text in preparation; see also Documents and the Declaration of Principles.",
+    "linkConf": "The Confederation",
+    "linkSc": "Supreme Councils",
+    "linkReaa": "A.A.S.R."
+  },
+  "page": {
+    "backDocs": "Documents",
+    "backHistory": "History",
+    "backPrinciples": "Principles",
+    "backHome": "Home",
+    "backMembers": "Members"
   }
 }

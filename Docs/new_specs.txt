@@ -1,0 +1,40 @@
+Nota prévia: o Soberano Grande Comendador de Marrocos é Kamal El Fadhi (e não Fedhi)
+
+Planeamento detalhado (passos + especificação por secção):
+Docs/site-evolution/README.md
+
+Fase actual: páginas públicas em HTML estático (placeholders OK).
+Futuro (não nesta fase): Chat, áreas privadas, Loja — ver Docs/site-evolution/steps/09-reserved-areas.md
+
+PROPOSTA DE EVOLUÇÃO
+
+Confederação:
+ Apresentação
+ Princípios e Valores
+ Comunicações (Discurso do Presidente)
+ Eventos e reuniões:
+o Anteriores
+o Agendadas
+ Contactos
+Membros da Confederação:
+ Fundadores
+ Membros
+
+Documentos fundadores:
+ Constituição da Confederação
+ Constituição de 1762
+ Constituição de 1786
+
+História:
+ Confederação
+ Supremos Conselhos
+ R.E.A.A.
+
+Chat: (3 níveis)
+ Membros fundadores (apenas de acesso aos 4 fundadores)
+ Membros (de acesso a todos os membros)
+ Candidatos (depois de lhes termos concedido o acesso)
+
+Biblioteca: ????
+
+Loja: ????

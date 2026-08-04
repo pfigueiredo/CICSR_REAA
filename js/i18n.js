@@ -140,8 +140,17 @@
     window.history.replaceState({}, "", url);
   }
 
+  function getSiteRoot() {
+    const el = document.querySelector('script[src*="i18n.js"]');
+    if (!el) {
+      return "";
+    }
+    const src = el.getAttribute("src") || "";
+    return src.replace(/js\/i18n\.js(?:\?.*)?$/, "");
+  }
+
   async function loadLocale(locale) {
-    const response = await fetch(`locales/${locale}.json`);
+    const response = await fetch(`${getSiteRoot()}locales/${locale}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load locale: ${locale}`);
     }
