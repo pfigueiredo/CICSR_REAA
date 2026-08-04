@@ -334,8 +334,11 @@ h1 span {
   padding: 82px 24px;
 }
 
-.section > * {
+/* Shared content rail — keep in sync with .header-inner (var(--content)) */
+.section > *,
+.section-inner {
   max-width: var(--content);
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -398,7 +401,10 @@ h1 span {
 }
 
 .lead {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--navy);
   font-family: var(--serif);
   font-size: clamp(23px, 3vw, 33px);
@@ -612,6 +618,8 @@ h1 span {
 .contact-form {
   max-width: 760px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 28px;
   background: white;
   border: 3px double var(--line);
@@ -951,7 +959,7 @@ textarea {
 
 
 .status-block {
-  margin: 28px 0;
+  margin: 28px auto;
   padding: 24px 26px;
   background: var(--paper);
   border: 3px double var(--line);
@@ -1016,6 +1024,8 @@ textarea {
 
 .page-actions {
   margin-top: 28px;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--muted);
 }
 
@@ -1070,10 +1080,49 @@ textarea {
   line-height: 1.15;
   font-weight: normal;
   color: var(--navy);
+  max-width: 920px;
 }
 
 .section-dark .section-title h1 {
   color: var(--paper);
+}
+
+/*
+  Content rail (final): must beat component shorthands like `.lead { margin: 0 }`
+  so inner pages align with .header-inner (max-width + horizontal auto).
+*/
+.section > .lead,
+.section > .status-block,
+.section > .page-actions,
+.section > .section-intro,
+.section > .contact-form,
+.section > .section-title,
+.section > .two-columns,
+.section > .principles,
+.section > .documents,
+.section > .members-grid,
+.section > .chronology,
+.section > .event-blocks,
+.section > .text-block {
+  max-width: var(--content);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.section > .lead {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section > .status-block {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.section > .page-actions {
+  margin-top: 28px;
 }
 
 @media (max-width: 980px) {
