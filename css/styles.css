@@ -1094,8 +1094,6 @@ textarea {
 .section > .lead,
 .section > .status-block,
 .section > .page-actions,
-.section > .section-intro,
-.section > .contact-form,
 .section > .section-title,
 .section > .two-columns,
 .section > .principles,
@@ -1107,6 +1105,23 @@ textarea {
   max-width: var(--content);
   width: 100%;
   margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Narrower blocks: keep own max-width */
+.section > .contact-form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Intro copy sits on the left edge of the content rail (not centered) */
+.section > .section-intro {
+  width: 100%;
+  max-width: 650px;
+  margin-left: max(0px, calc((100% - var(--content)) / 2));
   margin-right: auto;
   box-sizing: border-box;
 }
