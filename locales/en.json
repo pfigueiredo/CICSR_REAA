@@ -17,7 +17,9 @@
     "contact": "Contact",
     "events": "Events",
     "communications": "Communications",
-    "regulamento": "Internal Regulations"
+    "regulamento": "Internal Regulations",
+    "language": "Language",
+    "secondary": "Secondary navigation"
   },
   "hero": {
     "overline": "Sovereignty · Regularity · Cooperation",
@@ -221,7 +223,7 @@
   },
   "historyPage": {
     "indexOverline": "History",
-    "indexTitle": "Three paths",
+    "indexTitle": "An ancient tradition with an international vocation.",
     "indexLead": "The Confederation, the Supreme Councils, and the A.A.S.R.",
     "confOverline": "History",
     "confTitle": "The Confederation",
@@ -236,7 +238,10 @@
     "reaaNote": "Framing text in preparation; see also Documents and the Declaration of Principles.",
     "linkConf": "The Confederation",
     "linkSc": "Supreme Councils",
-    "linkReaa": "A.A.S.R."
+    "linkReaa": "A.A.S.R.",
+    "jumpLabel": "On this page",
+    "docsMore": "See founding documents",
+    "redirectNotice": "This page is now part of History. Continuing…"
   },
   "page": {
     "backDocs": "Documents",

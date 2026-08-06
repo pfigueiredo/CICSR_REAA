@@ -942,6 +942,136 @@ textarea {
   margin: 36px 0 0;
 }
 
+.page-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  max-width: var(--content);
+  width: 100%;
+  margin: 28px auto 0;
+  padding: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.page-jump a {
+  color: var(--burgundy);
+  border-bottom: 1px solid var(--gold);
+  font-weight: bold;
+}
+
+.page-jump a:hover {
+  color: var(--navy);
+}
+
+#confederacao,
+#supremos-conselhos,
+#reaa,
+#declaracao {
+  scroll-margin-top: 96px;
+}
+
+/* História — continuous page spacing */
+.page-history .page-banner {
+  padding: 64px 24px 56px;
+}
+
+.page-history .section {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.page-history .history-intro {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.page-history .history-intro .lead {
+  max-width: 42rem;
+  font-size: clamp(22px, 2.6vw, 30px);
+}
+
+.page-history .page-jump {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  gap: 10px 36px;
+  letter-spacing: 0.01em;
+}
+
+.page-history .section-title {
+  margin-bottom: 20px;
+}
+
+.page-history .section-title h2 {
+  max-width: 36rem;
+  font-size: clamp(28px, 3.4vw, 40px);
+  line-height: 1.18;
+}
+
+.page-history .lead-compact {
+  max-width: 40rem;
+  font-size: clamp(20px, 2.4vw, 26px);
+  line-height: 1.35;
+}
+
+.page-history .history-prose {
+  margin-bottom: 0;
+}
+
+.page-history .history-prose p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.page-history .chronology {
+  margin-top: 40px;
+}
+
+.page-history .chronology article {
+  padding: 22px 0;
+  gap: 24px 36px;
+}
+
+.page-history .chronology h3 {
+  font-size: 22px;
+  font-family: var(--serif);
+  font-weight: normal;
+}
+
+.page-history .lead-compact + .status-block,
+.page-history .lead + .status-block {
+  margin-top: 24px;
+}
+
+.page-history .status-block {
+  padding: 20px 22px;
+}
+
+.page-history .history-more {
+  max-width: var(--content);
+  width: 100%;
+  margin: 28px auto 0;
+}
+
+@media (max-width: 980px) {
+  .page-history .section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  .page-history .history-intro {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  .page-history .chronology {
+    margin-top: 28px;
+  }
+}
+
 .button-on-light {
   background: var(--gold);
   color: var(--navy-deep);
@@ -1101,7 +1231,10 @@ textarea {
 .section > .members-grid,
 .section > .chronology,
 .section > .event-blocks,
-.section > .text-block {
+.section > .text-block,
+.section > .page-jump,
+.section > .history-more,
+.section > .history-prose {
   max-width: var(--content);
   width: 100%;
   margin-left: auto;
@@ -1140,6 +1273,73 @@ textarea {
   margin-top: 28px;
 }
 
+/* História: readable measure, left-aligned on the content rail */
+.page-history .section > .history-prose,
+.page-history .section > .lead-compact,
+.page-history .history-intro > .lead,
+.page-history .section > .status-block {
+  max-width: 40rem;
+  margin-left: max(0px, calc((100% - var(--content)) / 2));
+  margin-right: auto;
+}
+
+.page-history .section > .lead-compact + .status-block {
+  margin-top: 24px;
+}
+
+.page-history .history-intro > .page-jump {
+  margin-left: max(0px, calc((100% - var(--content)) / 2));
+  margin-right: auto;
+}
+
+/* Thin institutional pages — placeholders & document leaves */
+.page-thin .page-banner {
+  padding: 64px 24px 56px;
+}
+
+.page-thin .section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.page-thin .lead,
+.page-thin .lead-compact {
+  max-width: 40rem;
+  font-size: clamp(20px, 2.4vw, 28px);
+  line-height: 1.35;
+}
+
+.page-thin .status-block {
+  padding: 20px 22px;
+}
+
+.page-thin .doc-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.section.section-compact {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.page-thin .section > .lead,
+.page-thin .section > .lead-compact,
+.page-thin .section > .status-block,
+.page-thin .section > .page-actions,
+.page-thin .section > .doc-meta,
+.section.section-compact > .status-block {
+  max-width: 40rem;
+  margin-left: max(0px, calc((100% - var(--content)) / 2));
+  margin-right: auto;
+}
+
+.page-thin .section > .lead + .status-block,
+.page-thin .section > .lead-compact + .status-block {
+  margin-top: 24px;
+}
+
 @media (max-width: 980px) {
   .event-blocks {
     grid-template-columns: 1fr;
@@ -1147,6 +1347,12 @@ textarea {
 
   .page-banner {
     padding: 56px 18px 48px;
+  }
+
+  .page-thin .section,
+  .section.section-compact {
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 }
 

@@ -30,10 +30,10 @@ This folder holds the **planning docs** for evolving the website from a single-p
 | Step 01 — Inventory | done |
 | Step 02 — IA and routing | done |
 | Step 03 — Content research | done |
-| Step 04 — Stakeholder pack | ready to send |
+| Step 04 — Stakeholder pack | ready to send (PT/EN/FR/AR) |
 | Step 05 — Placeholder pages | done |
 | Step 06 — Multipage migration (HTML) | done |
-| Step 07 — i18n and nav | todo |
+| Step 07 — i18n and nav | done |
 | Step 08 — Fill content | todo |
 | Step 09 — Future work (Chat / private / Loja) | deferred |
 | Step 10 — Launch checklist | todo |
@@ -61,7 +61,7 @@ Status values: `todo` · `drafting` · `ready` · `done` · `deferred`
 | 01 | [steps/01-inventory.md](steps/01-inventory.md) | Map current site + docs vs new IA |
 | 02 | [steps/02-ia-and-routing.md](steps/02-ia-and-routing.md) | Final URL tree and navigation (public only) |
 | 03 | [steps/03-content-research.md](steps/03-content-research.md) | Research brief (1762/1786, REAA history) |
-| 04 | [steps/04-stakeholder-pack.md](steps/04-stakeholder-pack.md) | Questionnaire for public content |
+| 04 | [steps/04-stakeholder-pack.md](steps/04-stakeholder-pack.md) | Questionnaire for public content ([PT/EN/FR/AR](stakeholder-questionnaire/)) |
 | 05 | [steps/05-placeholder-pages.md](steps/05-placeholder-pages.md) | Placeholder pattern (HTML pages) |
 | 06 | [steps/06-multipage-migration.md](steps/06-multipage-migration.md) | Split into static pages |
 | 07 | [steps/07-i18n-and-nav.md](steps/07-i18n-and-nav.md) | Locales, spelling fix, hreflang |

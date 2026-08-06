@@ -31,7 +31,7 @@ primary
 ## Sources to request
 
 - Bios / official names / SGC names for public cards
-- Confirm Morocco: **Kamal El Fadhi** (locales: `El-Fehdi` in pt/en/fr; AR: `كمال الفهدي`)
+- Confirm Morocco: **Kamal El Fadhi** / AR **كمال الفاضي** (Step 07 aligned; stakeholder confirm if needed)
 - Any members beyond founders; candidate presentation rules
 - Per-country public URLs if allowed
 - Preferred public order of founders (treaty order vs presidency order vs locale list)

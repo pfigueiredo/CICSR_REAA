@@ -149,8 +149,47 @@
     return src.replace(/js\/i18n\.js(?:\?.*)?$/, "");
   }
 
+  function currentLocale() {
+    return localStorage.getItem("ciscsr-lang") || resolveLocale();
+  }
+
+  function preserveLangOnNavigate(event) {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor || event.defaultPrevented || event.button !== 0) {
+      return;
+    }
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+    const raw = anchor.getAttribute("href");
+    if (!raw || /^(https?:|mailto:|tel:)/i.test(raw)) {
+      return;
+    }
+    if (raw.startsWith("#")) {
+      return;
+    }
+    let url;
+    try {
+      url = new URL(raw, window.location.href);
+    } catch (err) {
+      return;
+    }
+    if (url.origin !== window.location.origin) {
+      return;
+    }
+    const locale = currentLocale();
+    if (!SUPPORTED.includes(locale)) {
+      return;
+    }
+    url.searchParams.set("lang", locale);
+    event.preventDefault();
+    window.location.assign(url.href);
+  }
+
   async function loadLocale(locale) {
-    const response = await fetch(`${getSiteRoot()}locales/${locale}.json`);
+    const response = await fetch(`${getSiteRoot()}locales/${locale}.json`, {
+      cache: "no-cache",
+    });
     if (!response.ok) {
       throw new Error(`Failed to load locale: ${locale}`);
     }
@@ -191,6 +230,8 @@
       container.appendChild(btn);
     });
   }
+
+  document.addEventListener("click", preserveLangOnNavigate);
 
   document.addEventListener("DOMContentLoaded", async () => {
     buildLangSwitcher();

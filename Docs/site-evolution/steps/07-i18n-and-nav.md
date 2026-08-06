@@ -6,8 +6,8 @@ Make multipage navigation and locales consistent across PT/EN/FR/AR, including R
 
 ## Prerequisites
 
-- Step 06 structure in progress or done
-- Signatory spelling confirmed (Kamal El Fadhi)
+- [x] Step 06 structure done
+- [x] Signatory spelling confirmed (Kamal El Fadhi)
 
 ## Inputs
 
@@ -18,28 +18,41 @@ Make multipage navigation and locales consistent across PT/EN/FR/AR, including R
 
 ## Tasks
 
-- [ ] Add locale keys for new nav items and placeholder pages
-- [ ] Fix `Kamal El-Fehdi` → `Kamal El Fadhi` (or exact approved form) in all locales
-- [ ] Ensure language switcher keeps path + `?lang=` (or equivalent) on every page
-- [ ] Update `hreflang` / alternate links per page if needed
-- [ ] Verify Arabic RTL on nested routes (`css/rtl.css`)
-- [ ] Mobile menu: primary vs secondary items
+- [x] Add locale keys for new nav items and placeholder pages
+- [x] Fix `Kamal El-Fehdi` → `Kamal El Fadhi` (Latin locales)
+- [x] Align Arabic signatory to `كمال الفاضي` (from `الفهدي`)
+- [x] Ensure language switcher keeps path + `?lang=` on every page (URL + link navigation)
+- [x] Add `hreflang` / canonical / `x-default` per page (build script)
+- [x] Verify Arabic RTL on nested routes (`/historia/reaa/?lang=ar`)
+- [x] Mobile menu: primary (7) in header; secondary in footer; `aria-expanded` + close on Esc/outside/link
 
-## Decisions needed
+## Decisions
 
-- Exact public spelling: `El Fadhi` vs `El-Fadhi` vs Arabic form on AR locale
+| Topic | Choice |
+|-------|--------|
+| Latin spelling | **Kamal El Fadhi** (space, no hyphen) |
+| Arabic form | **كمال الفاضي** (aligned to Fadhi; confirm with stakeholders if a preferred Arabic spelling differs) |
+| Lang persistence | `?lang=` in URL + `localStorage`; internal same-origin links keep `lang` |
+| Secondary nav | Footer only (Comunicações · Declaração · Regulamento) — not in primary / mobile drawer |
 
 ## Deliverables
 
-- Locale diffs reviewed
+- Locale keys aligned (PT/EN/FR/AR)
+- `hreflang` + canonical on generated pages
 - Nav complete in four languages
+- RTL usable on nested routes
 
 ## Acceptance criteria
 
-- No missing i18n keys on new pages
-- Spelling corrected site-wide
-- AR layout usable on `/historia/reaa/` depth
+- [x] No missing i18n keys on new pages
+- [x] Spelling corrected site-wide (Latin + aligned AR)
+- [x] AR layout usable on `/historia/reaa/` depth
 
 ## Status
 
-`todo`
+`done` (2026-08-04)
+
+## Next
+
+→ Step 04 stakeholder replies (content) and/or Step 08 fill content  
+→ Step 10 launch checklist when content freeze approaches

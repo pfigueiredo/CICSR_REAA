@@ -25,8 +25,7 @@ primary (Declaração is **not** a separate primary nav item; also linked from f
 
 ## Sources to request
 
-- Confirm signatory spelling: **Kamal El Fadhi**  
-  - pt/en/fr locales: `El-Fehdi`  
+- Confirm signatory spelling: **Kamal El Fadhi** / AR **كمال الفاضي** (done in Step 07)
   - ar locale: `كمال الفهدي`
 
 ## Sources to research

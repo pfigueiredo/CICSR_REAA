@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SITE_ORIGIN = "https://pfigueiredo.github.io/CICSR_REAA"
 
 LOCALE_PATCHES = {
     "pt": {
@@ -13,6 +14,8 @@ LOCALE_PATCHES = {
             "events": "Eventos",
             "communications": "Comunicações",
             "regulamento": "Regulamento Interno",
+            "language": "Idioma",
+            "secondary": "Navegação secundária",
         },
         "status": {
             "preparing": "Em preparação",
@@ -57,8 +60,9 @@ LOCALE_PATCHES = {
         },
         "historyPage": {
             "indexOverline": "História",
-            "indexTitle": "Três percursos",
+            "indexTitle": "Uma tradição antiga com vocação internacional.",
             "indexLead": "A Confederação, os Supremos Conselhos e o R.E.A.A.",
+            "jumpLabel": "Nesta página",
             "confOverline": "História",
             "confTitle": "A Confederação",
             "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 3 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
@@ -70,9 +74,11 @@ LOCALE_PATCHES = {
             "reaaTitle": "Rito Escocês Antigo e Aceite",
             "reaaLead": "Percurso histórico do R.E.A.A. e das leis fundamentais de 1762 e 1786, no respeito pela tradição regular.",
             "reaaNote": "Texto de enquadramento em preparação; ver também Documentos e a Declaração de Princípios.",
+            "docsMore": "Ver documentos fundadores",
             "linkConf": "A Confederação",
             "linkSc": "Supremos Conselhos",
             "linkReaa": "R.E.A.A.",
+            "redirectNotice": "Esta página foi integrada em História. A continuar…",
         },
         "documents": {
             "d1Small": "Declaração",
@@ -120,6 +126,8 @@ LOCALE_PATCHES = {
             "events": "Events",
             "communications": "Communications",
             "regulamento": "Internal Regulations",
+            "language": "Language",
+            "secondary": "Secondary navigation",
         },
         "status": {
             "preparing": "In preparation",
@@ -164,8 +172,9 @@ LOCALE_PATCHES = {
         },
         "historyPage": {
             "indexOverline": "History",
-            "indexTitle": "Three paths",
+            "indexTitle": "An ancient tradition with an international vocation.",
             "indexLead": "The Confederation, the Supreme Councils, and the A.A.S.R.",
+            "jumpLabel": "On this page",
             "confOverline": "History",
             "confTitle": "The Confederation",
             "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 3 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
@@ -177,9 +186,11 @@ LOCALE_PATCHES = {
             "reaaTitle": "Ancient and Accepted Scottish Rite",
             "reaaLead": "Historical path of the A.A.S.R. and the fundamental laws of 1762 and 1786, in fidelity to regular tradition.",
             "reaaNote": "Framing text in preparation; see also Documents and the Declaration of Principles.",
+            "docsMore": "See founding documents",
             "linkConf": "The Confederation",
             "linkSc": "Supreme Councils",
             "linkReaa": "A.A.S.R.",
+            "redirectNotice": "This page is now part of History. Continuing…",
         },
         "documents": {
             "d1Small": "Declaration",
@@ -227,6 +238,8 @@ LOCALE_PATCHES = {
             "events": "Événements",
             "communications": "Communications",
             "regulamento": "Règlement intérieur",
+            "language": "Langue",
+            "secondary": "Navigation secondaire",
         },
         "status": {
             "preparing": "En préparation",
@@ -271,8 +284,9 @@ LOCALE_PATCHES = {
         },
         "historyPage": {
             "indexOverline": "Histoire",
-            "indexTitle": "Trois parcours",
+            "indexTitle": "Une tradition ancienne à vocation internationale.",
             "indexLead": "La Confédération, les Suprêmes Conseils et le R.E.A.A.",
+            "jumpLabel": "Sur cette page",
             "confOverline": "Histoire",
             "confTitle": "La Confédération",
             "confBody": "La Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A. a été créée par traité signé à Lyon le 12 décembre 2025 entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc. Le Règlement intérieur a été adopté à Lisbonne le 3 juillet 2026. La présidence est rotative par périodes de trois ans entre les membres fondateurs, dans l’ordre : Portugal, Maroc, Brésil, France.",
@@ -284,9 +298,11 @@ LOCALE_PATCHES = {
             "reaaTitle": "Rite Écossais Ancien et Accepté",
             "reaaLead": "Parcours historique du R.E.A.A. et des lois fondamentales de 1762 et 1786, dans le respect de la tradition régulière.",
             "reaaNote": "Texte d’encadrement en préparation ; voir aussi Documents et la Déclaration de Principes.",
+            "docsMore": "Voir les documents fondateurs",
             "linkConf": "La Confédération",
             "linkSc": "Suprêmes Conseils",
             "linkReaa": "R.E.A.A.",
+            "redirectNotice": "Cette page est désormais intégrée à Histoire. Suite…",
         },
         "documents": {
             "d1Small": "Déclaration",
@@ -334,6 +350,8 @@ LOCALE_PATCHES = {
             "events": "الفعاليات",
             "communications": "البيانات",
             "regulamento": "النظام الداخلي",
+            "language": "اللغة",
+            "secondary": "التنقل الثانوي",
         },
         "status": {
             "preparing": "قيد الإعداد",
@@ -378,8 +396,9 @@ LOCALE_PATCHES = {
         },
         "historyPage": {
             "indexOverline": "التاريخ",
-            "indexTitle": "ثلاثة مسارات",
+            "indexTitle": "تقليد عريق ذو رسالة دولية.",
             "indexLead": "الاتحاد، والمجالس العليا، والطقس الإسكتلندي القديم والمقبول.",
+            "jumpLabel": "في هذه الصفحة",
             "confOverline": "التاريخ",
             "confTitle": "الاتحاد",
             "confBody": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول بموجب معاهدة وُقّعت في ليون في 12 كانون الأول/ديسمبر 2025 بين المجلس الأعلى للبرازيل والمجلس الأعلى لفرنسا والمجلس الأعلى البرتغالي والمجلس الأعلى للمغرب. واعتُمد النظام الداخلي في لشبونة في 3 تموز/يوليو 2026. والرئاسة دورية لفترات ثلاث سنوات بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
@@ -391,9 +410,11 @@ LOCALE_PATCHES = {
             "reaaTitle": "الطقس الإسكتلندي القديم والمقبول",
             "reaaLead": "المسار التاريخي للطقس والقوانين الأساسية لعامي 1762 و1786، في احترام التقليد المنتظم.",
             "reaaNote": "نص تمهيدي قيد الإعداد؛ انظر أيضاً الوثائق وإعلان المبادئ.",
+            "docsMore": "عرض الوثائق المؤسسة",
             "linkConf": "الاتحاد",
             "linkSc": "المجالس العليا",
             "linkReaa": "الطقس",
+            "redirectNotice": "دُمجت هذه الصفحة في التاريخ. جاري المتابعة…",
         },
         "documents": {
             "d1Small": "الإعلان",
@@ -453,17 +474,30 @@ def patch_locales() -> None:
         path = ROOT / "locales" / f"{code}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         deep_merge(data, patch)
-        # Spelling fix (Latin locales only)
-        if code != "ar":
-            sigs = data.get("declaration", {}).get("signatories", [])
-            for i, s in enumerate(sigs):
-                if "El-Fehdi" in s:
-                    sigs[i] = s.replace("El-Fehdi", "El Fadhi")
+        # Spelling: Latin El Fadhi; Arabic الفاضي (aligned form; confirm with stakeholders if needed)
+        sigs = data.get("declaration", {}).get("signatories", [])
+        for i, s in enumerate(sigs):
+            if code == "ar":
+                if "الفهدي" in s:
+                    sigs[i] = s.replace("الفهدي", "الفاضي")
+            elif "El-Fehdi" in s:
+                sigs[i] = s.replace("El-Fehdi", "El Fadhi")
+            elif "El Fehdi" in s:
+                sigs[i] = s.replace("El Fehdi", "El Fadhi")
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def head(depth: int, title_fallback: str) -> str:
+def head(depth: int, title_fallback: str, route: str = "/") -> str:
     p = "../" * depth
+    path = route if route.startswith("/") else f"/{route}"
+    if path != "/" and not path.endswith("/"):
+        path = f"{path}/"
+    page_url = f"{SITE_ORIGIN}/" if path == "/" else f"{SITE_ORIGIN}{path}"
+    alternates = "\n".join(
+        f'  <link rel="alternate" hreflang="{lang}" href="{page_url}?lang={lang}" />'
+        for lang in ("pt", "en", "fr", "ar")
+    )
+    alternates += f'\n  <link rel="alternate" hreflang="x-default" href="{page_url}?lang=pt" />'
     return f"""<!doctype html>
 <html lang="pt">
 <head>
@@ -471,13 +505,15 @@ def head(depth: int, title_fallback: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title_fallback}</title>
   <meta name="description" content="Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite." />
+  <link rel="canonical" href="{page_url}" />
+{alternates}
   <link rel="icon" type="image/png" sizes="32x32" href="{p}assets/logo/favicon-32.png" />
   <link rel="apple-touch-icon" href="{p}assets/logo/favicon-180.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{p}css/styles.css" />
-  <link rel="stylesheet" href="{p}css/rtl.css" />
+  <link rel="stylesheet" href="{p}css/styles.css?v=20260806k" />
+  <link rel="stylesheet" href="{p}css/rtl.css?v=20260806k" />
 </head>
 <body>
   <div class="page-frame">
@@ -510,10 +546,10 @@ def header_nav(depth: int, active: str) -> str:
           </span>
         </a>
         <div class="header-tools">
-          <div class="lang-switcher" role="group" aria-label="Language"></div>
-          <button class="menu-button" type="button" data-i18n="nav.menu">Menu</button>
+          <div class="lang-switcher" role="group" data-i18n-attr="aria-label:nav.language"></div>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" data-i18n="nav.menu">Menu</button>
         </div>
-        <nav class="main-nav" data-i18n-attr="aria-label:nav.main">
+        <nav class="main-nav" id="main-nav" data-i18n-attr="aria-label:nav.main">
 {chr(10).join(links)}
         </nav>
       </div>
@@ -525,6 +561,32 @@ def motto_band() -> str:
     return """      <section class="motto">
         <p data-i18n="motto">“Cooperação, regularidade e soberania em fidelidade à tradição.”</p>
       </section>
+"""
+
+
+def history_redirect(anchor: str, title: str, canonical_path: str) -> str:
+    """Lightweight redirect from old historia subpages to /historia/#anchor."""
+    target = f"../#{anchor}"
+    canonical = f"{SITE_ORIGIN}/historia/#{anchor}"
+    return f"""<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta http-equiv="refresh" content="0; url={target}" />
+  <link rel="canonical" href="{canonical}" />
+  <script>
+    (function () {{
+      var q = window.location.search || "";
+      window.location.replace("../" + q + "#{anchor}");
+    }})();
+  </script>
+</head>
+<body>
+  <p><a href="{target}">{title}</a></p>
+</body>
+</html>
 """
 
 
@@ -543,7 +605,7 @@ def footer(depth: int, with_motto: bool = True) -> str:
     p = "../" * depth
     motto = motto_band() if with_motto else ""
     return f"""{motto}    <footer class="site-footer">
-      <nav class="footer-nav" aria-label="Secondary">
+      <nav class="footer-nav" data-i18n-attr="aria-label:nav.secondary">
         <a href="{p}comunicacoes/" data-i18n="nav.communications">Comunicações</a>
         <a href="{p}principios/#declaracao" data-i18n="nav.declaration">Declaração</a>
         <a href="{p}documentos/regulamento-interno/" data-i18n="nav.regulamento">Regulamento Interno</a>
@@ -554,8 +616,8 @@ def footer(depth: int, with_motto: bool = True) -> str:
       <p data-i18n="footer.copy">© 2026 · CISCSR</p>
     </footer>
   </div>
-  <script src="{p}js/i18n.js"></script>
-  <script src="{p}js/main.js"></script>
+  <script src="{p}js/i18n.js?v=20260806h"></script>
+  <script src="{p}js/main.js?v=20260806h"></script>
 </body>
 </html>
 """
@@ -588,7 +650,7 @@ def build() -> None:
     # Brochure-style home (multipage links, original rhythm)
     write(
         "index.html",
-        head(0, "CISCSR")
+        head(0, "CISCSR", "/")
         + header_nav(0, "")
         + """    <main>
       <section class="hero">
@@ -743,7 +805,7 @@ def build() -> None:
     # Confederacao
     write(
         "confederacao/index.html",
-        head(1, "Confederação — CISCSR")
+        head(1, "Confederação — CISCSR", "/confederacao/")
         + header_nav(1, "confederation")
         + """    <main>
 """
@@ -766,7 +828,7 @@ def build() -> None:
     # Principios
     write(
         "principios/index.html",
-        head(1, "Princípios — CISCSR")
+        head(1, "Princípios — CISCSR", "/principios/")
         + header_nav(1, "principles")
         + """    <main>
 """
@@ -799,7 +861,7 @@ def build() -> None:
     # Membros
     write(
         "membros/index.html",
-        head(1, "Membros — CISCSR")
+        head(1, "Membros — CISCSR", "/membros/")
         + header_nav(1, "members")
         + """    <main>
 """
@@ -815,7 +877,7 @@ def build() -> None:
           </div>
         </div>
       </section>
-      <section class="section section-light">
+      <section class="section section-light section-compact">
         <div class="section-title">
           <h2 data-i18n="members.membersHeading">Membros</h2>
         </div>
@@ -829,89 +891,105 @@ def build() -> None:
         + footer(1),
     )
 
-    # Historia index
+    # Historia — continuous brochure page (threads as in-page sections)
     write(
         "historia/index.html",
-        head(1, "História — CISCSR")
+        head(1, "História — CISCSR", "/historia/")
         + header_nav(1, "history")
-        + """    <main>
+        + """    <main class="page-history">
 """
-        + page_banner("historyPage.indexOverline", "História", "historyPage.indexTitle", "Três percursos")
-        + """      <section class="section section-light">
+        + page_banner(
+            "historyPage.indexOverline",
+            "História",
+            "historyPage.indexTitle",
+            "Uma tradição antiga com vocação internacional.",
+        )
+        + """      <section class="section section-light history-intro">
         <p class="lead" data-i18n="historyPage.indexLead"></p>
-        <div class="documents">
-          <a href="confederacao/">
-            <small data-i18n="historyPage.indexOverline">História</small>
-            <strong data-i18n="historyPage.linkConf">A Confederação</strong>
-            <span data-i18n="status.available">Disponível</span>
-          </a>
-          <a href="supremos-conselhos/">
-            <small data-i18n="historyPage.indexOverline">História</small>
-            <strong data-i18n="historyPage.linkSc">Supremos Conselhos</strong>
-            <span data-i18n="status.preparing">Em preparação</span>
-          </a>
-          <a href="reaa/">
-            <small data-i18n="historyPage.indexOverline">História</small>
-            <strong data-i18n="historyPage.linkReaa">R.E.A.A.</strong>
-            <span data-i18n="status.preparing">Em preparação</span>
-          </a>
+        <nav class="page-jump" data-i18n-attr="aria-label:historyPage.jumpLabel">
+          <a href="#confederacao" data-i18n="historyPage.linkConf">A Confederação</a>
+          <a href="#supremos-conselhos" data-i18n="historyPage.linkSc">Supremos Conselhos</a>
+          <a href="#reaa" data-i18n="historyPage.linkReaa">R.E.A.A.</a>
+        </nav>
+      </section>
+
+      <section id="confederacao" class="section section-warm">
+        <div class="section-title">
+          <h2 data-i18n="historyPage.confTitle">A Confederação</h2>
         </div>
+        <div class="text-block history-prose">
+          <p data-i18n="historyPage.confBody"></p>
+        </div>
+        <div class="chronology">
+          <article>
+            <time data-i18n="history.t1">1761–1801</time>
+            <div>
+              <h3 data-i18n="history.t1Title">Formação histórica</h3>
+              <p data-i18n="history.t1Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t2">Séc. XIX–XX</time>
+            <div>
+              <h3 data-i18n="history.t2Title">Expansão das jurisdições</h3>
+              <p data-i18n="history.t2Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t3">2025–2026</time>
+            <div>
+              <h3 data-i18n="history.t3Title">Fundação da Confederação</h3>
+              <p data-i18n="history.t3Text"></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="supremos-conselhos" class="section section-light">
+        <div class="section-title">
+          <h2 data-i18n="historyPage.scTitle">Supremos Conselhos</h2>
+        </div>
+        <p class="lead lead-compact" data-i18n="historyPage.scLead"></p>
+"""
+        + status_block('          <p data-i18n="historyPage.scNote"></p>\n')
+        + """      </section>
+
+      <section id="reaa" class="section section-warm">
+        <div class="section-title">
+          <h2 data-i18n="historyPage.reaaTitle">Rito Escocês Antigo e Aceite</h2>
+        </div>
+        <p class="lead lead-compact" data-i18n="historyPage.reaaLead"></p>
+"""
+        + status_block('          <p data-i18n="historyPage.reaaNote"></p>\n')
+        + """        <p class="history-more"><a class="text-link" href="../documentos/" data-i18n="historyPage.docsMore">Ver documentos fundadores</a></p>
       </section>
     </main>
 """
         + footer(1),
     )
 
+    # Legacy historia subpages → anchors on /historia/
     write(
         "historia/confederacao/index.html",
-        head(2, "História · Confederação — CISCSR")
-        + header_nav(2, "history")
-        + """    <main>
-"""
-        + page_banner("historyPage.confOverline", "História", "historyPage.confTitle", "A Confederação")
-        + """      <section class="section section-light">
-        <p class="lead" data-i18n="historyPage.confBody"></p>
-"""
-        + page_actions([("../../historia/", "page.backHistory", "História"), ("../../", "page.backHome", "Página inicial")])
-        + """      </section>
-    </main>
-"""
-        + footer(2),
+        history_redirect("confederacao", "História · Confederação — CISCSR", "/historia/confederacao/"),
     )
-
-    for slug, title_key, lead_key, note_key, title_fb in [
-        ("supremos-conselhos", "historyPage.scTitle", "historyPage.scLead", "historyPage.scNote", "Supremos Conselhos"),
-        ("reaa", "historyPage.reaaTitle", "historyPage.reaaLead", "historyPage.reaaNote", "R.E.A.A."),
-    ]:
-        over = "historyPage.scOverline" if slug != "reaa" else "historyPage.reaaOverline"
-        write(
-            f"historia/{slug}/index.html",
-            head(2, f"História · {title_fb} — CISCSR")
-            + header_nav(2, "history")
-            + f"""    <main>
-"""
-            + page_banner(over, "História", title_key, title_fb)
-            + f"""      <section class="section section-light">
-        <p class="lead" data-i18n="{lead_key}"></p>
-"""
-            + status_block(f'          <p data-i18n="{note_key}"></p>\n')
-            + page_actions(
-                [
-                    ("../../historia/", "page.backHistory", "História"),
-                    ("../../documentos/", "page.backDocs", "Documentos"),
-                    ("../../", "page.backHome", "Página inicial"),
-                ]
-            )
-            + """      </section>
-    </main>
-"""
-            + footer(2),
-        )
+    write(
+        "historia/supremos-conselhos/index.html",
+        history_redirect(
+            "supremos-conselhos",
+            "História · Supremos Conselhos — CISCSR",
+            "/historia/supremos-conselhos/",
+        ),
+    )
+    write(
+        "historia/reaa/index.html",
+        history_redirect("reaa", "História · R.E.A.A. — CISCSR", "/historia/reaa/"),
+    )
 
     # Documentos
     write(
         "documentos/index.html",
-        head(1, "Documentos — CISCSR")
+        head(1, "Documentos — CISCSR", "/documentos/")
         + header_nav(1, "documents")
         + """    <main>
 """
@@ -947,14 +1025,14 @@ def build() -> None:
 
     write(
         "documentos/regulamento-interno/index.html",
-        head(2, "Regulamento Interno — CISCSR")
+        head(2, "Regulamento Interno — CISCSR", "/documentos/regulamento-interno/")
         + header_nav(2, "documents")
-        + """    <main>
+        + """    <main class="page-thin">
 """
         + page_banner("documents.regOverline", "Documentos", "documents.regTitle", "Regulamento Interno")
         + """      <section class="section section-warm">
-        <p class="lead" data-i18n="documents.regLead"></p>
-        <p data-i18n="documents.regMeta"></p>
+        <p class="lead lead-compact" data-i18n="documents.regLead"></p>
+        <p class="doc-meta" data-i18n="documents.regMeta"></p>
         <p class="page-actions">
           <a class="button button-primary button-on-light" href="../../Docs/Regulamento-Interno-CISCSR.pdf" target="_blank" rel="noopener" data-i18n="documents.regDownload">Descarregar PDF</a>
         </p>
@@ -969,13 +1047,13 @@ def build() -> None:
     # 1762 / 1786 — historical consultation links (not CISCSR-official editions)
     write(
         "documentos/1762/index.html",
-        head(2, "Constituições 1762 — CISCSR")
+        head(2, "Constituições 1762 — CISCSR", "/documentos/1762/")
         + header_nav(2, "documents")
-        + """    <main>
+        + """    <main class="page-thin">
 """
         + page_banner("documents.c1762Overline", "Documentos fundadores", "documents.c1762Title", "Constituições e Regulamentos de 1762")
         + """      <section class="section section-warm">
-        <p class="lead" data-i18n="documents.c1762Lead"></p>
+        <p class="lead lead-compact" data-i18n="documents.c1762Lead"></p>
         <aside class="status-block disclaimer-block">
           <p class="status-label" data-i18n="documents.c1762Consult">Consultar edição histórica</p>
           <p data-i18n="documents.c1762Disclaimer"></p>
@@ -1004,13 +1082,13 @@ def build() -> None:
 
     write(
         "documentos/1786/index.html",
-        head(2, "Constituições 1786 — CISCSR")
+        head(2, "Constituições 1786 — CISCSR", "/documentos/1786/")
         + header_nav(2, "documents")
-        + """    <main>
+        + """    <main class="page-thin">
 """
         + page_banner("documents.c1786Overline", "Documentos fundadores", "documents.c1786Title", "Grandes Constituições de 1786")
         + """      <section class="section section-warm">
-        <p class="lead" data-i18n="documents.c1786Lead"></p>
+        <p class="lead lead-compact" data-i18n="documents.c1786Lead"></p>
         <aside class="status-block disclaimer-block">
           <p class="status-label" data-i18n="documents.c1786Consult">Consultar edição histórica</p>
           <p data-i18n="documents.c1786Disclaimer"></p>
@@ -1039,13 +1117,13 @@ def build() -> None:
 
     write(
         "eventos/index.html",
-        head(1, "Eventos — CISCSR")
+        head(1, "Eventos — CISCSR", "/eventos/")
         + header_nav(1, "events")
-        + """    <main>
+        + """    <main class="page-thin">
 """
         + page_banner("events.overline", "Agenda", "events.title", "Eventos e reuniões")
         + """      <section class="section section-light">
-        <p class="lead" data-i18n="events.lead"></p>
+        <p class="lead lead-compact" data-i18n="events.lead"></p>
 """
         + status_block(
             """          <div class="event-blocks">
@@ -1075,13 +1153,13 @@ def build() -> None:
 
     write(
         "comunicacoes/index.html",
-        head(1, "Comunicações — CISCSR")
+        head(1, "Comunicações — CISCSR", "/comunicacoes/")
         + header_nav(1, "communications")
-        + """    <main>
+        + """    <main class="page-thin">
 """
         + page_banner("communications.overline", "Comunicações", "communications.title", "Comunicações oficiais")
         + """      <section class="section section-light">
-        <p class="lead" data-i18n="communications.lead"></p>
+        <p class="lead lead-compact" data-i18n="communications.lead"></p>
 """
         + status_block(
             """          <p data-i18n="communications.willInclude">Virá a incluir:</p>
@@ -1101,7 +1179,7 @@ def build() -> None:
 
     write(
         "contactos/index.html",
-        head(1, "Contactos — CISCSR")
+        head(1, "Contactos — CISCSR", "/contactos/")
         + header_nav(1, "contact")
         + """    <main>
 """

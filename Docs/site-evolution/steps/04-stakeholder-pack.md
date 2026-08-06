@@ -11,67 +11,66 @@ Collect content for **public HTML pages**: speeches, events, contacts, document 
 
 ## Status
 
-`ready to send` (2026-08-04) — awaiting replies (reply log empty)
+`ready to send` (2026-08-04) — multilingual questionnaire prepared; awaiting replies
 
 ---
 
 ## Tasks
 
-- [x] Finalize questionnaire (below)
+- [x] Finalize questionnaire (PT / EN / FR / AR)
 - [ ] Send to Comité / secretariado / Portuguese Supreme Council contact as appropriate
 - [ ] Track replies in reply log
 - [ ] Paste answers into matching section specs
-- [ ] Confirm Kamal **El Fadhi** spelling for all public pages
+- [ ] Confirm Kamal **El Fadhi** / Arabic form with respondents (Q7)
 
 ---
 
-## Sendable pack (copy/paste)
+## Sendable pack (all languages)
 
-**Subject:** CISCSR website — conteúdo público (páginas HTML)
+Full letters (copy/paste ready):
 
-**Intro (PT):**
+| Lang | File |
+|------|------|
+| Portuguese | [`../stakeholder-questionnaire/pt.md`](../stakeholder-questionnaire/pt.md) |
+| English | [`../stakeholder-questionnaire/en.md`](../stakeholder-questionnaire/en.md) |
+| French | [`../stakeholder-questionnaire/fr.md`](../stakeholder-questionnaire/fr.md) |
+| Arabic | [`../stakeholder-questionnaire/ar.md`](../stakeholder-questionnaire/ar.md) |
+| Index | [`../stakeholder-questionnaire/README.md`](../stakeholder-questionnaire/README.md) |
 
-> Estamos a preparar a evolução do site da Confederação para um sítio multipágina (HTML estático).  
-> Chat, áreas privadas e loja ficam para uma fase futura.  
-> Pedimos validação dos pontos abaixo para substituir páginas “Em preparação” por conteúdo oficial.  
-> Em anexo / referência: inventário e nota de pesquisa sobre as Constituições de 1762 e 1786 (`Docs/site-evolution/`).
+**Suggested subject (PT):** CISCSR website — conteúdo público (páginas HTML)
 
-### Questions
+### Question map (same numbering in all languages)
 
-1. **Documento institucional:** Confirmam que o texto público da Confederação a disponibilizar é o **Regulamento Interno** (Lisboa, 3 jul 2026)? Existe **Carta / Estatutos** públicos além do Regulamento?
-2. **Presidência:** Qual o Supremo Conselho / pessoa na Presidência actual? Datas do mandato? (Regulamento: rotação PT → MA → BR → FR, 3 anos.)
-3. **Comunicações:** Podemos publicar um **Discurso do Presidente**? Enviar texto + línguas + crédito fotográfico. Política para discursos anteriores?
-4. **Eventos:** Lista de eventos **públicos** passados e futuros (data, local, tipo). Podemos listar já: Lyon 12/12/2025 (tratado) e Lisboa 03/07/2026 (Regulamento / Assembleia)?
-5. **Contactos:** Email, morada postal, telefone (se houver). Embaixadores / representantes por SC membro?
-6. **Membros:** Há membros além dos quatro fundadores a apresentar? Ordem pública dos fundadores (lista actual do site vs ordem de presidência)? Mostrar nomes dos SGC nas fichas?
-7. **Ortografia:** Confirmar **Kamal El Fadhi** (Marrocos) para PT/EN/FR/AR.
-8. **1762 / 1786** (ver Step 03): Preferência?  
-   - (A) Resumo institucional apenas  
-   - (B) Resumo + ligação a edição histórica aprovada (ex.: Gallica / Internet Archive)  
-   - (C) PDF alojado no site (indicar ficheiro exacto)  
-9. Se (B) ou (C): indicar URL ou ficheiro aprovado; línguas (FR/EN/PT…)? Autorizam uma nota de que existem várias versões históricas?
-10. **História R.E.A.A.:** Autorizam menção breve a Charleston 1801 (já na Declaração) e expansão mínima da cronologia, sem debates de autenticidade de 1786?
-11. **Boletim** (`specs.txt`): Quando existir, publicar sob Comunicações?
-
-### Optional (não bloqueia o HTML)
-
-12. Notas futuras sobre Chat / Biblioteca / Loja — fora desta fase.
+| # | Topic |
+|---|--------|
+| 1 | Institutional document (Regulamento vs Carta/Estatutos) |
+| 2 | Current presidency + mandate dates |
+| 3 | President’s address (text, languages, photo, archive policy) |
+| 4 | Public events list (+ Lyon / Lisbon milestones) |
+| 5 | Contacts (email, address, phone, ambassadors) |
+| 6 | Members beyond founders; public order; SGC names |
+| 7 | Spelling: Kamal El Fadhi / كمال الفاضي |
+| 8 | 1762 / 1786 treatment (A summary / B link / C hosted PDF) |
+| 9 | Approved URL/file + disclaimer authorisation |
+| 10 | REAA history / Charleston 1801 / chronology |
+| 11 | Future bulletin under Communications? |
+| 12 | Optional notes on Chat / Library / Shop (out of scope) |
 
 ---
 
 ## Reply log
 
-| # | Date | From | Summary | Applied to section |
-|---|------|------|---------|-------------------|
-| | | | | |
+| # | Date | From | Lang | Summary | Applied to section |
+|---|------|------|------|---------|-------------------|
+| | | | | | |
 
 ## Decisions needed
 
-- Items 1–11 answered or explicit “use placeholder”
+- Items 1–11 answered or explicit “keep placeholder” / «manter placeholder»
 
 ## Deliverables
 
-- [x] Sendable questionnaire  
+- [x] Sendable questionnaire (4 languages)  
 - [ ] Completed reply log  
 - [ ] Updated section specs after replies  
 - [ ] List of placeholders fillable in Step 08  
@@ -79,8 +78,8 @@ Collect content for **public HTML pages**: speeches, events, contacts, document 
 ## Acceptance criteria
 
 - HTML-phase sections have answers **or** explicit placeholder plan  
-- Chat / Loja / private areas not required to proceed to Steps 05–06  
+- Chat / Loja / private areas not required to proceed  
 
 ## Note for project pace
 
-Steps **05** (placeholder pattern) and **06** (HTML multipage) can proceed with placeholders **without** waiting for all replies. Step 04 replies unlock Step 08 content fill.
+Steps **05–07** already done with placeholders. Step 04 replies unlock **Step 08** content fill.

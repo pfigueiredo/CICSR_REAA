@@ -2,15 +2,19 @@
 
 ## Purpose
 
-Give historical framing in three threads: Confederação, Supremos Conselhos, R.E.A.A.
+Give historical framing in three threads: Confederação, Supremos Conselhos, R.E.A.A. — on **one continuous brochure page**.
 
 ## Route(s)
 
-- `/historia/` — index — **frozen (Step 02)**
-- `/historia/confederacao/`
-- `/historia/supremos-conselhos/`
-- `/historia/reaa/`
-- Today: single `#historia` chronology (3 items)
+- `/historia/` — continuous page — **updated (UX 2026-08-06)**
+- Threads as in-page anchors:
+  - `/historia/#confederacao`
+  - `/historia/#supremos-conselhos`
+  - `/historia/#reaa`
+- Legacy folders keep **redirects** to those anchors:
+  - `/historia/confederacao/`
+  - `/historia/supremos-conselhos/`
+  - `/historia/reaa/`
 
 ## Nav visibility
 
@@ -22,16 +26,20 @@ primary
 
 | Thread | Status |
 |--------|--------|
-| Confederação | partial (2025–2026 facts on site) |
-| Supremos Conselhos | placeholder |
-| R.E.A.A. | placeholder |
+| Confederação | partial (2025–2026 facts + shared chronology) |
+| Supremos Conselhos | placeholder (in-page status block) |
+| R.E.A.A. | placeholder (in-page status block + link to Documentos) |
+
+## UX rule
+
+Narrative → **one scroll**. Do not split thin “Três percursos” card hubs again unless a thread grows into a long standalone essay.
 
 ## Sources we already have
 
 - `locales/*/history.*` chronology
 - Treaty / Regulamento dates
 - Rotation of presidency among founders (PT→MA→BR→FR)
-- Step 02: index + 3 subpages chosen
+- `historyPage.*` copy for the three threads
 
 ## Sources to request
 
@@ -49,26 +57,20 @@ primary
 - R.E.A.A. / SC threads: short public-safe outlines in Step 03 — need Comité OK before expanding beyond placeholders
 - Detail: [`../steps/03-content-research.md`](../steps/03-content-research.md)
 
-## Placeholder copy (PT — Step 05 canonical)
+## Placeholder copy (PT)
 
-**Index:** Três percursos — Confederação, Supremos Conselhos, R.E.A.A.
-
-**Confederação (seed):** Tratado Lyon 12/12/2025; Regulamento Lisboa 03/07/2026; presidência rotativa PT → MA → BR → FR.
-
-**Supremos Conselhos / R.E.A.A.:** Em preparação — apenas conteúdos validados; ver Step 05 canonical strings.
-
-Full strings: [`../steps/05-placeholder-pages.md`](../steps/05-placeholder-pages.md)
-
+**Page H1:** Uma tradição antiga com vocação internacional.  
+**Lead:** A Confederação, os Supremos Conselhos e o R.E.A.A.  
+**Confederação:** Tratado Lyon 12/12/2025; Regulamento Lisboa 03/07/2026; presidência rotativa PT → MA → BR → FR.  
+**Supremos Conselhos / R.E.A.A.:** Em preparação — apenas conteúdos validados.
 
 ## Subpages / subsections
 
-- Confederação  
-- Supremos Conselhos  
-- R.E.A.A.  
+In-page only (anchors), not separate content pages.
 
 ## i18n notes
 
-Expand keys beyond `history.t1–t3` when threads grow
+Keys under `historyPage.*` + shared `history.t1–t3` chronology on the Confederação section.
 
 ## Open questions
 
@@ -76,4 +78,4 @@ Expand keys beyond `history.t1–t3` when threads grow
 
 ## Ready for implementation?
 
-yes for structure + Confederação seed; other threads placeholder
+yes — structure live as continuous page

@@ -37,7 +37,7 @@ Freeze the **public** URL tree and navigation for the HTML phase. Chat / Bibliot
 |----------|--------|-----------|
 | Homepage | **Portal** — hero + short links to areas | Fits multipage IA; avoids duplicating long scroll |
 | Declaração in nav | **No** separate top item — under `/principios/#declaracao` | Keeps primary nav to 7 |
-| História | **Index + 3 subpages** | Matches new_specs threads; per-thread placeholders |
+| História | **One continuous page** with 3 in-page threads (`#confederacao`, `#supremos-conselhos`, `#reaa`) | Narrative brochure; avoids thin hub → empty subpages |
 | Eventos | **One page**, two blocks (Anteriores / Agendadas) | Enough for v1; no extra folders |
 | Documentos 1762/1786 | **Subpages** with placeholders | Stable URLs when editions arrive |
 | Regulamento | Card on index → thin page **or** direct PDF; prefer **thin page** + download | Institutional framing |
@@ -82,10 +82,10 @@ Paths are **site-root relative** (GitHub Pages project site: base `/CICSR_REAA/`
 | `/confederacao/` | confederacao | primary | Migrate existing copy |
 | `/principios/` | principios | primary | Pillars + Declaração (`#declaracao`) |
 | `/membros/` | membros | primary | Fundadores + empty Membros |
-| `/historia/` | historia | primary | Index linking 3 threads |
-| `/historia/confederacao/` | historia | via história | Seed from existing + Regulamento |
-| `/historia/supremos-conselhos/` | historia | via história | Placeholder |
-| `/historia/reaa/` | historia | via história | Placeholder |
+| `/historia/` | historia | primary | Continuous brochure: 3 threads as sections + anchors |
+| `/historia/confederacao/` | historia | redirect | → `/historia/#confederacao` |
+| `/historia/supremos-conselhos/` | historia | redirect | → `/historia/#supremos-conselhos` |
+| `/historia/reaa/` | historia | redirect | → `/historia/#reaa` |
 | `/documentos/` | documentos | primary | Cards index |
 | `/documentos/regulamento-interno/` | documentos | via documentos | Meta + PDF download |
 | `/documentos/1762/` | documentos | via documentos | Placeholder |
@@ -106,10 +106,10 @@ CICSR_REAA/
   confederacao/index.html
   principios/index.html
   membros/index.html
-  historia/index.html
-  historia/confederacao/index.html
-  historia/supremos-conselhos/index.html
-  historia/reaa/index.html
+  historia/index.html          # continuous page (3 sections + anchors)
+  historia/confederacao/       # redirect → /historia/#confederacao
+  historia/supremos-conselhos/ # redirect → /historia/#supremos-conselhos
+  historia/reaa/               # redirect → /historia/#reaa
   documentos/index.html
   documentos/regulamento-interno/index.html
   documentos/1762/index.html

@@ -57,8 +57,7 @@ Loja — if commerce
 
 ## Immediate factual note
 
-Soberano Grande Comendador de Marrocos: **Kamal El Fadhi** (not Fedhi / El-Fehdi).  
-Current locales still use `Kamal El-Fehdi` in declaration signatories — fix in Step 07 / section specs.
+Soberano Grande Comendador de Marrocos: **Kamal El Fadhi** (Latin); Arabic public form **كمال الفاضي** (confirm if stakeholders prefer another spelling).
 
 ## What we already have on the site
 
@@ -88,10 +87,10 @@ Current locales still use `Kamal El-Fehdi` in declaration signatories — fix in
 /confederacao/
 /principios/            ← includes #declaracao
 /membros/
-/historia/
-/historia/confederacao/
-/historia/supremos-conselhos/
-/historia/reaa/
+/historia/                 ← continuous page (#confederacao · #supremos-conselhos · #reaa)
+/historia/confederacao/    ← redirect → #confederacao
+/historia/supremos-conselhos/ ← redirect
+/historia/reaa/            ← redirect
 /documentos/
 /documentos/regulamento-interno/
 /documentos/1762/
@@ -119,5 +118,5 @@ No `/chat/`, `/biblioteca/`, or `/loja/` in this phase.
 - [x] Step 05 placeholder pattern + PT copy frozen
 - [x] Step 06 multipage HTML migration
 - [ ] Overview reviewed by project owner
-- [ ] Step 07 i18n polish + GitHub Pages smoke-test
+- [x] Step 07 i18n polish + GitHub Pages smoke-test (local)
 - [ ] Step 08 fill content from stakeholder replies

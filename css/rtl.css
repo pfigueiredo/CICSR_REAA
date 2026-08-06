@@ -67,8 +67,43 @@ html[dir="rtl"] [lang="ar"] .brand-copy small {
   font-size: 15px;
 }
 
-@media (max-width: 640px) {
-  html[dir="rtl"] .chronology article {
-    grid-template-columns: 1fr;
-  }
+html[dir="rtl"] .page-jump {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .page-history .history-more {
+  text-align: right;
+}
+
+html[dir="rtl"] .page-history .section > .history-prose,
+html[dir="rtl"] .page-history .section > .lead-compact,
+html[dir="rtl"] .page-history .history-intro > .lead,
+html[dir="rtl"] .page-history .section > .status-block,
+html[dir="rtl"] .page-history .history-intro > .page-jump,
+html[dir="rtl"] .page-thin .section > .lead,
+html[dir="rtl"] .page-thin .section > .lead-compact,
+html[dir="rtl"] .page-thin .section > .status-block,
+html[dir="rtl"] .page-thin .section > .page-actions,
+html[dir="rtl"] .page-thin .section > .doc-meta,
+html[dir="rtl"] .section.section-compact > .status-block {
+  margin-left: auto;
+  margin-right: max(0px, calc((100% - var(--content)) / 2));
+}
+
+html[dir="rtl"] .page-actions,
+html[dir="rtl"] .status-block,
+html[dir="rtl"] .external-links {
+  text-align: right;
+}
+
+html[dir="rtl"] .page-banner {
+  text-align: center;
+}
+
+html[dir="rtl"] .contact-form {
+  text-align: right;
+}
+
+html[dir="rtl"] .footer-nav {
+  flex-direction: row-reverse;
 }

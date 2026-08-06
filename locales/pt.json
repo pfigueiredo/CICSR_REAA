@@ -17,7 +17,9 @@
     "contact": "Contactos",
     "events": "Eventos",
     "communications": "Comunicações",
-    "regulamento": "Regulamento Interno"
+    "regulamento": "Regulamento Interno",
+    "language": "Idioma",
+    "secondary": "Navegação secundária"
   },
   "hero": {
     "overline": "Soberania · Regularidade · Cooperação",
@@ -221,7 +223,7 @@
   },
   "historyPage": {
     "indexOverline": "História",
-    "indexTitle": "Três percursos",
+    "indexTitle": "Uma tradição antiga com vocação internacional.",
     "indexLead": "A Confederação, os Supremos Conselhos e o R.E.A.A.",
     "confOverline": "História",
     "confTitle": "A Confederação",
@@ -236,7 +238,10 @@
     "reaaNote": "Texto de enquadramento em preparação; ver também Documentos e a Declaração de Princípios.",
     "linkConf": "A Confederação",
     "linkSc": "Supremos Conselhos",
-    "linkReaa": "R.E.A.A."
+    "linkReaa": "R.E.A.A.",
+    "jumpLabel": "Nesta página",
+    "docsMore": "Ver documentos fundadores",
+    "redirectNotice": "Esta página foi integrada em História. A continuar…"
   },
   "page": {
     "backDocs": "Documentos",
