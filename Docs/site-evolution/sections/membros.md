@@ -15,7 +15,7 @@ primary
 
 ## Content status
 
-`ready` for founders + Sérvia (SGC name for Sérvia pending)
+`ready` for founders + Sérvia (SGC: Aleksandar Nikolic, 33°)
 
 ## Decisions (Step 04 — 2026-08-06)
 
@@ -43,11 +43,11 @@ primary
 
 | Supreme Council | Since | SGC |
 |-----------------|-------|-----|
-| Sérvia | 4 Jul 2026 | *not provided — omit until available* |
+| Sérvia | 4 Jul 2026 | Aleksandar Nikolic, 33° |
 
 ## Sources to request
 
-- SGC name for Sérvia
+- (none for Sérvia SGC — published)
 - Q7 explicit spelling confirm
 - Per-country public URLs if allowed
 
@@ -66,7 +66,6 @@ Empty-state for additional members **removed** once Sérvia is listed.
 
 ## Open questions
 
-- SGC Sérvia name
 - Map highlight for Serbia (deferred)
 
 ## Ready for implementation?
