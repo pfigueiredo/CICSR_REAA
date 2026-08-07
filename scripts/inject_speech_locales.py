@@ -237,7 +237,7 @@ META = {
                 "pdfFr": "Français",
                 "pdfEs": "Español",
                 "backComms": "البيانات",
-                "arNote": "الترجمة العربية قيد الإعداد. يُعرض أدناه النص البرتغالي؛ يمكن تنزيل الترجمات المتوفرة بصيغة PDF.",
+                "arNote": "الترجمة العربية قيد الإعداد. يُعرض أدناه النص الفرنسي؛ يمكن تنزيل الترجمات المتوفرة بصيغة PDF.",
             }
         },
     },
@@ -258,7 +258,7 @@ def main() -> None:
         path = ROOT / "locales" / f"{code}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         patch = META[code]
-        speech_src = SPEECH["pt" if code == "ar" else code]
+        speech_src = SPEECH["fr" if code == "ar" else code]
         patch["speech"]["lisboa2026"]["salutation"] = speech_src["salutation"]
         patch["speech"]["lisboa2026"]["bodyHtml"] = speech_src["body"]
         patch["speech"]["lisboa2026"]["placeDate"] = speech_src["placeDate"]

@@ -105,7 +105,7 @@ html[dir="rtl"] .speech-ar-note {
   border-right: 3px solid var(--gold);
 }
 
-/* Body of the speech stays Portuguese (LTR) until an Arabic translation exists */
+/* Body of the speech stays French (LTR) until an Arabic translation exists */
 html[dir="rtl"] .speech-body {
   direction: ltr;
   text-align: left;
