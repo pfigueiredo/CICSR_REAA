@@ -706,7 +706,7 @@ def build() -> None:
         </div>
         <div class="member-panel">
           <div class="member-map" data-i18n-attr="aria-label:members.mapLabel">
-            <img class="member-map-svg" src="assets/map/world.svg?v=3" width="1000" height="500" alt="" />
+            <img class="member-map-svg" src="assets/map/world.svg?v=4" width="1000" height="500" alt="" />
           </div>
           <div class="member-table" data-i18n-members="members.items"></div>
         </div>
@@ -883,7 +883,7 @@ def build() -> None:
         + """      <section class="section section-dark">
         <div class="member-panel">
           <div class="member-map" data-i18n-attr="aria-label:members.mapLabel">
-            <img class="member-map-svg" src="../assets/map/world.svg?v=3" width="1000" height="500" alt="" />
+            <img class="member-map-svg" src="../assets/map/world.svg?v=4" width="1000" height="500" alt="" />
           </div>
           <div>
             <h2 class="members-subhead" data-i18n="members.foundersHeading">Fundadores</h2>
@@ -895,10 +895,7 @@ def build() -> None:
         <div class="section-title">
           <h2 data-i18n="members.membersHeading">Membros</h2>
         </div>
-        <aside class="status-block status-block-empty">
-          <p data-i18n="members.membersEmpty"></p>
-          <p class="status-label" data-i18n="status.emptyMembers">Nenhum membro adicional publicado</p>
-        </aside>
+        <div class="member-table member-table-light" data-i18n-members="members.items,members.additional"></div>
       </section>
     </main>
 """

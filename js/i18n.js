@@ -177,7 +177,11 @@
 
     document.querySelectorAll("[data-i18n-members]").forEach((el) => {
       const key = el.getAttribute("data-i18n-members");
-      applyMembers(el, getNested(strings, key));
+      const items = key
+        .split(",")
+        .map((part) => getNested(strings, part.trim()))
+        .flatMap((value) => (Array.isArray(value) ? value : []));
+      applyMembers(el, items);
     });
 
     document.querySelectorAll("[data-i18n-events]").forEach((el) => {
