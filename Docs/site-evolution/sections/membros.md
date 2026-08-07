@@ -19,7 +19,7 @@ primary
 
 ## Decisions (Step 04 — 2026-08-06)
 
-- Public founder order by **antiquity of creation:** França → Brasil → Marrocos → Portugal
+- Public founder order: França → **Marrocos** → Brasil → Portugal (Marrocos before Brasil per Regulamento revision / Art. 9 alignment)
 - Show **SGC names** on public cards: **yes** (from Declaração signatories)
 - Additional member: **Supremo Conselho Sérvia** since **4 July 2026**
 - Q7 Kamal **El Fadhi** / كمال الفاضي: keep; explicit confirm still pending
@@ -28,15 +28,15 @@ primary
 
 - Four founders + signatory SGC names in Declaração
 - Map asset `assets/map/world.svg` (no forced Serbia highlight this pass)
-- Regulamento Art. 4–5 (admission) and Art. 9 (presidency order PT→MA→BR→FR — **not** the public founder list order)
+- Regulamento Art. 4–5 (admission) and Art. 9 (presidency order PT→MA→BR→FR; public founder list keeps França first, with Marrocos before Brasil)
 
 ## Founders (public cards)
 
 | Order | Supreme Council | SGC (public) |
 |-------|-----------------|--------------|
 | 1 | França | Jacques AZOT 33° |
-| 2 | Brasil | Nelson FRARE 33° |
-| 3 | Marrocos | Kamal El Fadhi 33° |
+| 2 | Marrocos | Kamal El Fadhi 33° |
+| 3 | Brasil | Nelson FRARE 33° |
 | 4 | Portugal | José Manuel MOREIRA 33° |
 
 ## Members (non-founders)

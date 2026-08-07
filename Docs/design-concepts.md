@@ -24,7 +24,7 @@ This document explains the design decisions behind the CISCSR website: why it lo
 
 ### Português
 
-A Confederação reúne jurisdições em Portugal, Brasil, Marrocos e França. O website precisa de ser:
+A Confederação reúne jurisdições em Portugal, Marrocos, Brasil e França. O website precisa de ser:
 
 - **Uma porta de entrada digital única** — reconhecível, estável, credível
 - **Institucional e discreto** — não comercial, não estilo startup, não redes sociais
@@ -35,7 +35,7 @@ O desafio não é "chamar a atenção", mas **estabelecer confiança** através 
 
 ### English
 
-The Confederation brings together jurisdictions in Portugal, Brazil, Morocco, and France. The website must be:
+The Confederation brings together jurisdictions in Portugal, Morocco, Brazil, and France. The website must be:
 
 - **A single digital front door** — recognisable, stable, credible
 - **Institutional and discreet** — not commercial, not startup-styled, not social-media driven

@@ -32,7 +32,7 @@
   "confederation": {
     "overline": "Confederação",
     "heading": "Unir sem absorver.<br/>Representar sem substituir.",
-    "lead": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite foi criada por tratado assinado em 12 de dezembro de 2025 em Lyon entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos.",
+    "lead": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite foi criada por tratado assinado em 12 de dezembro de 2025 em Lyon entre o Supremo Conselho Português, o Supremo Conselho de Marrocos, o Supremo Conselho do Brasil e o Supremo Conselho para a França.",
     "p1": "A Confederação não exerce qualquer autoridade hierárquica sobre os Supremos Conselhos membros, mas atua como órgão de concertação, de garantia ritual e de concórdia entre jurisdições soberanas.",
     "p2": "O seu carácter é institucional, discreto e diplomático, assente na tradição, na continuidade histórica e no respeito pelas competências próprias de cada corpo constituinte.",
     "p3": "Tem como vocação preservar a pureza do rito, assegurar a regularidade e o reconhecimento mútuo dos Supremos Conselhos confederados, e manter a unidade iniciática do rito, no respeito absoluto pela soberania de cada Supremo Conselho.",
@@ -91,8 +91,8 @@
     ],
     "signatories": [
       "Muito Ilustre Irmão Jacques Azot, 33°",
-      "Muito Ilustre Irmão Nelson Frare, 33°",
       "Muito Ilustre Irmão Kamal El Fadhi, 33°",
+      "Muito Ilustre Irmão Nelson Frare, 33°",
       "Muito Ilustre Irmão José Manuel Moreira, 33°"
     ]
   },
@@ -107,14 +107,14 @@
         "sgc": "Jacques Azot, 33°"
       },
       {
-        "name": "Supremo Conselho do Brasil",
-        "meta": "Membro fundador",
-        "sgc": "Nelson Frare, 33°"
-      },
-      {
         "name": "Supremo Conselho de Marrocos",
         "meta": "Membro fundador",
         "sgc": "Kamal El Fadhi, 33°"
+      },
+      {
+        "name": "Supremo Conselho do Brasil",
+        "meta": "Membro fundador",
+        "sgc": "Nelson Frare, 33°"
       },
       {
         "name": "Supremo Conselho Português",
@@ -281,7 +281,7 @@
     "indexLead": "A Confederação, os Supremos Conselhos e o R.E.A.A.",
     "confOverline": "História",
     "confTitle": "A Confederação",
-    "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 4 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
+    "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho Português, o Supremo Conselho de Marrocos, o Supremo Conselho do Brasil e o Supremo Conselho para a França. O Regulamento Interno foi adotado em Lisboa a 4 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
     "scOverline": "História",
     "scTitle": "Supremos Conselhos",
     "scLead": "Enquadramento histórico geral da instituição dos Supremos Conselhos no R.E.A.A.",

@@ -32,7 +32,7 @@
   "confederation": {
     "overline": "Confédération",
     "heading": "Unir sans absorber.<br/>Représenter sans remplacer.",
-    "lead": "La Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté a été créée par traité signé le 12 décembre 2025 à Lyon entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc.",
+    "lead": "La Confédération Internationale des Suprêmes Conseils Souverains et Réguliers du Rite Écossais Ancien et Accepté a été créée par traité signé le 12 décembre 2025 à Lyon entre le Suprême Conseil Portugais, le Suprême Conseil du Maroc, le Suprême Conseil du Brésil et le Suprême Conseil pour la France.",
     "p1": "La Confédération n'exerce aucune autorité hiérarchique sur les Suprêmes Conseils membres, mais agit comme organe de concertation, de garantie rituelle et de concorde entre juridictions souveraines.",
     "p2": "Son caractère est institutionnel, discret et diplomatique, fondé sur la tradition, la continuité historique et le respect des compétences propres de chaque corps constitutif.",
     "p3": "Elle a pour vocation de préserver la pureté du Rite, d'assurer la régularité et la reconnaissance mutuelle des Suprêmes Conseils confédérés, et de maintenir l'unité initiatique du Rite, dans le respect absolu de la souveraineté de chaque Suprême Conseil.",
@@ -91,8 +91,8 @@
     ],
     "signatories": [
       "Très Illustre Frère Jacques Azot, 33°",
-      "Très Illustre Frère Nelson Frare, 33°",
       "Très Illustre Frère Kamal El Fadhi, 33°",
+      "Très Illustre Frère Nelson Frare, 33°",
       "Très Illustre Frère José Manuel Moreira, 33°"
     ]
   },
@@ -107,14 +107,14 @@
         "sgc": "Jacques Azot, 33°"
       },
       {
-        "name": "Suprême Conseil du Brésil",
-        "meta": "Membre fondateur",
-        "sgc": "Nelson Frare, 33°"
-      },
-      {
         "name": "Suprême Conseil du Maroc",
         "meta": "Membre fondateur",
         "sgc": "Kamal El Fadhi, 33°"
+      },
+      {
+        "name": "Suprême Conseil du Brésil",
+        "meta": "Membre fondateur",
+        "sgc": "Nelson Frare, 33°"
       },
       {
         "name": "Suprême Conseil Portugais",
@@ -281,7 +281,7 @@
     "indexLead": "La Confédération, les Suprêmes Conseils et le R.E.A.A.",
     "confOverline": "Histoire",
     "confTitle": "La Confédération",
-    "confBody": "La Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A. a été créée par traité signé à Lyon le 12 décembre 2025 entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc. Le Règlement intérieur a été adopté à Lisbonne le 4 juillet 2026. La présidence est rotative par périodes de trois ans entre les membres fondateurs, dans l’ordre : Portugal, Maroc, Brésil, France.",
+    "confBody": "La Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A. a été créée par traité signé à Lyon le 12 décembre 2025 entre le Suprême Conseil Portugais, le Suprême Conseil du Maroc, le Suprême Conseil du Brésil et le Suprême Conseil pour la France. Le Règlement intérieur a été adopté à Lisbonne le 4 juillet 2026. La présidence est rotative par périodes de trois ans entre les membres fondateurs, dans l’ordre : Portugal, Maroc, Brésil, France.",
     "scOverline": "Histoire",
     "scTitle": "Suprêmes Conseils",
     "scLead": "Cadre historique général de l’institution des Suprêmes Conseils dans le R.E.A.A.",

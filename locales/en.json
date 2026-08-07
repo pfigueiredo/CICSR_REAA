@@ -32,7 +32,7 @@
   "confederation": {
     "overline": "Confederation",
     "heading": "Unite without absorbing.<br/>Represent without replacing.",
-    "lead": "The International Confederation of Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite was created by treaty signed on 12 December 2025 in Lyon between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco.",
+    "lead": "The International Confederation of Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite was created by treaty signed on 12 December 2025 in Lyon between the Portuguese Supreme Council, the Supreme Council of Morocco, the Supreme Council of Brazil, and the Supreme Council for France.",
     "p1": "The Confederation exercises no hierarchical authority over member Supreme Councils, but acts as a body for consultation, ritual safeguard, and concord among sovereign jurisdictions.",
     "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body.",
     "p3": "Its vocation is to preserve the purity of the Rite, ensure the regularity and mutual recognition of confederated Supreme Councils, and maintain the initiatic unity of the Rite, with absolute respect for the sovereignty of each Supreme Council.",
@@ -91,8 +91,8 @@
     ],
     "signatories": [
       "Very Illustrious Brother Jacques Azot, 33°",
-      "Very Illustrious Brother Nelson Frare, 33°",
       "Very Illustrious Brother Kamal El Fadhi, 33°",
+      "Very Illustrious Brother Nelson Frare, 33°",
       "Very Illustrious Brother José Manuel Moreira, 33°"
     ]
   },
@@ -107,14 +107,14 @@
         "sgc": "Jacques Azot, 33°"
       },
       {
-        "name": "Supreme Council of Brazil",
-        "meta": "Founding member",
-        "sgc": "Nelson Frare, 33°"
-      },
-      {
         "name": "Supreme Council of Morocco",
         "meta": "Founding member",
         "sgc": "Kamal El Fadhi, 33°"
+      },
+      {
+        "name": "Supreme Council of Brazil",
+        "meta": "Founding member",
+        "sgc": "Nelson Frare, 33°"
       },
       {
         "name": "Portuguese Supreme Council",
@@ -281,7 +281,7 @@
     "indexLead": "The Confederation, the Supreme Councils, and the A.A.S.R.",
     "confOverline": "History",
     "confTitle": "The Confederation",
-    "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 4 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
+    "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Portuguese Supreme Council, the Supreme Council of Morocco, the Supreme Council of Brazil, and the Supreme Council for France. The Internal Regulations were adopted in Lisbon on 4 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
     "scOverline": "History",
     "scTitle": "Supreme Councils",
     "scLead": "General historical framing of Supreme Councils within the A.A.S.R.",
