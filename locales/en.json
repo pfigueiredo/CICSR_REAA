@@ -35,7 +35,11 @@
     "lead": "The International Confederation of Sovereign and Regular Supreme Councils of the Ancient and Accepted Scottish Rite was created by treaty signed on 12 December 2025 in Lyon between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco.",
     "p1": "The Confederation exercises no hierarchical authority over member Supreme Councils, but acts as a body for consultation, ritual safeguard, and concord among sovereign jurisdictions.",
     "p2": "Its character is institutional, discreet, and diplomatic, grounded in tradition, historical continuity, and respect for the proper competencies of each constituent body.",
-    "p3": "Its vocation is to preserve the purity of the Rite, ensure the regularity and mutual recognition of confederated Supreme Councils, and maintain the initiatic unity of the Rite, with absolute respect for the sovereignty of each Supreme Council."
+    "p3": "Its vocation is to preserve the purity of the Rite, ensure the regularity and mutual recognition of confederated Supreme Councils, and maintain the initiatic unity of the Rite, with absolute respect for the sovereignty of each Supreme Council.",
+    "presidencyTitle": "Presidency",
+    "presidencyName": "José Manuel Moreira",
+    "presidencyRole": "President · Portuguese Supreme Council",
+    "presidencyMandate": "Term: 4 July 2026 to 3 July 2029"
   },
   "pillars": {
     "overline": "Founding principles",
@@ -86,10 +90,10 @@
       "Fostering a common position of Confederation members on all matters of shared interest."
     ],
     "signatories": [
-      "Très Illustre Frère Jacques AZOT 33°",
-      "Very Illustrious Brother Nelson FRARE 33°",
-      "Very Illustrious Brother José Manuel MOREIRA 33°",
-      "Very Illustrious Brother Kamal El Fadhi 33°"
+      "Very Illustrious Brother Jacques Azot, 33°",
+      "Very Illustrious Brother Nelson Frare, 33°",
+      "Very Illustrious Brother Kamal El Fadhi, 33°",
+      "Very Illustrious Brother José Manuel Moreira, 33°"
     ]
   },
   "members": {
@@ -98,38 +102,55 @@
     "mapLabel": "Map of jurisdictions",
     "items": [
       {
-        "name": "Supreme Council of Brazil",
-        "meta": "Founding member"
-      },
-      {
         "name": "Supreme Council for France",
-        "meta": "Founding member"
+        "meta": "Founding member",
+        "sgc": "Jacques Azot, 33°"
       },
       {
-        "name": "Portuguese Supreme Council",
-        "meta": "Founding member"
+        "name": "Supreme Council of Brazil",
+        "meta": "Founding member",
+        "sgc": "Nelson Frare, 33°"
       },
       {
         "name": "Supreme Council of Morocco",
-        "meta": "Founding member"
+        "meta": "Founding member",
+        "sgc": "Kamal El Fadhi, 33°"
+      },
+      {
+        "name": "Portuguese Supreme Council",
+        "meta": "Founding member",
+        "sgc": "José Manuel Moreira, 33°"
+      }
+    ],
+    "additional": [
+      {
+        "name": "Supreme Council of Serbia",
+        "meta": "Member since 4 July 2026"
       }
     ],
     "foundersHeading": "Founders",
     "membersHeading": "Members",
-    "membersEmpty": "In addition to the founding Supreme Councils, future members admitted under the Internal Regulations will be presented in this section."
+    "membersEmpty": "In addition to the founding Supreme Councils, future members admitted under the Internal Regulations will be presented in this section.",
+    "sgcLabel": "Sovereign Grand Commander"
   },
   "history": {
     "overline": "History and context",
     "heading": "An ancient tradition with an international vocation.",
     "t1": "1761–1801",
-    "t1Title": "Historical formation",
+    "t1Title": "Historical antecedents",
     "t1Text": "Progressive consolidation of philosophical degrees and the structure of Supreme Councils.",
     "t2": "19th–20th c.",
     "t2Title": "Expansion of jurisdictions",
     "t2Text": "International affirmation of the A.A.S.R. and establishment of relations among Supreme Councils.",
     "t3": "2025–2026",
     "t3Title": "Foundation of the Confederation",
-    "t3Text": "Treaty signed in Lyon on 12 December 2025; Internal Regulations adopted in Lisbon on 3 July 2026; rotating presidency among founding members (Portugal, Morocco, Brazil, France)."
+    "t3Text": "Treaty signed in Lyon on 12 December 2025; Internal Regulations adopted in Lisbon on 4 July 2026. A rotating presidency is established among the founding members, in the order: Portugal, Morocco, Brazil, France.",
+    "t4": "2026–2029",
+    "t4Title": "First presidency",
+    "t4Text": "Presidency of the Confederation held by the Portuguese Supreme Council, in the person of Sovereign Grand Commander José Manuel Moreira, 33°, for the term from 4 July 2026 to 3 July 2029.",
+    "t5": "From 2029",
+    "t5Title": "Future presidencies",
+    "t5Text": "In accordance with the rotation among founding members, the presidency will next be held by the Supreme Council of Morocco, the Supreme Council of Brazil, and the Supreme Council for France."
   },
   "documents": {
     "overline": "Public documents",
@@ -149,7 +170,7 @@
     "regOverline": "Documents",
     "regTitle": "Internal Regulations",
     "regLead": "Internal Regulations of the International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R.",
-    "regMeta": "Adopted in Lisbon, 3 July 2026.",
+    "regMeta": "Adopted in Lisbon, 4 July 2026.",
     "regDownload": "Download PDF",
     "c1762Overline": "Founding documents",
     "c1762Title": "Constitutions and Regulations of 1762",
@@ -206,11 +227,13 @@
   "communications": {
     "overline": "Communications",
     "title": "Official communications",
-    "lead": "Space for the Confederation’s communications, including the President’s address.",
-    "willInclude": "Will include:",
-    "b1": "President’s address",
-    "b2": "Institutional communiqués",
-    "b3": "Digital bulletin (future)"
+    "lead": "Speeches and institutional communications of the Confederation.",
+    "speechesHeading": "Speeches",
+    "futureNote": "Statements and the digital bulletin will be published in this area when available.",
+    "readSpeech": "Read the address",
+    "cardDate": "Lisbon · 4 July 2026",
+    "cardTitle": "Presidential inaugural address",
+    "cardMeta": "José Manuel Moreira · 1st term"
   },
   "events": {
     "overline": "Agenda",
@@ -219,7 +242,36 @@
     "pastTitle": "Past",
     "pastText": "Past public events will be published here after validation.",
     "upcomingTitle": "Upcoming",
-    "upcomingText": "Confirmed future dates will be announced in this section."
+    "upcomingText": "Confirmed future dates will be announced in this section.",
+    "past": [
+      {
+        "date": "12 December 2025",
+        "place": "Lyon",
+        "text": "Signing of the Confederation’s founding treaty"
+      },
+      {
+        "date": "4 July 2026",
+        "place": "Lisbon",
+        "text": "Adoption of the Internal Regulations / Assembly"
+      },
+      {
+        "date": "4 July 2026",
+        "place": "Portugal",
+        "text": "Start of the Presidency term (Portuguese Supreme Council)"
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "7 August 2026",
+        "place": "Brazil",
+        "text": "Institutional meeting"
+      },
+      {
+        "date": "12 December 2026",
+        "place": "France",
+        "text": "Institutional meeting"
+      }
+    ]
   },
   "historyPage": {
     "indexOverline": "History",
@@ -227,7 +279,7 @@
     "indexLead": "The Confederation, the Supreme Councils, and the A.A.S.R.",
     "confOverline": "History",
     "confTitle": "The Confederation",
-    "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 3 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
+    "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 4 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
     "scOverline": "History",
     "scTitle": "Supreme Councils",
     "scLead": "General historical framing of Supreme Councils within the A.A.S.R.",
@@ -249,5 +301,26 @@
     "backPrinciples": "Principles",
     "backHome": "Home",
     "backMembers": "Members"
+  },
+  "speech": {
+    "lisboa2026": {
+      "overline": "President’s address",
+      "title": "Inaugural address",
+      "name": "José Manuel Moreira",
+      "role": "President of the Confederation · Sovereign Grand Commander of the Portuguese Supreme Council",
+      "date": "Lisbon, 4 July 2026",
+      "photoAlt": "Portrait of José Manuel Moreira, President of the Confederation",
+      "pdfHeading": "Download PDF",
+      "pdfPt": "Português",
+      "pdfEn": "English",
+      "pdfFr": "Français",
+      "pdfEs": "Español",
+      "backComms": "Communications",
+      "arNote": "",
+      "salutation": "Most Powerful Sovereign Grand Commanders,<br/>My Illustrious Brethren,",
+      "bodyHtml": "<p>To uphold and ensure the upholding of the Regulations of the International Confederation of Sovereign and Regular Supreme Councils, today ratified, is the commitment I shall honour and to which I shall contribute so that all honour it.</p>\n<p>It is stated therein that the SCP shall hold the first mandate and it is in that capacity that I assume today the presidency of this Confederation. I understand the context in which I received your election. It is therefore with heightened humility and responsibility, a sense of service and the firm conviction that I shall fulfil this mission only by developing consensus and deepening the collective and reciprocal trust initiated and maintained over these past two years, in in-person and virtual meetings, in France, Brazil, Morocco and Portugal.</p>\n<p>The strength of Freemasonry rests upon selective recruitment and the personal development of the Mason, thereby contributing to the betterment of Humanity.</p>\n<p>The strength of a Supreme Council rests, on the one hand, on the continuous evolution of its members, through the understanding of what Consciousness is — that is, the capacity to perceive oneself and the Context, involving processes that enable attention, self-awareness and the absorption of information by the mind — and, on the other hand, on the strengthening of the spirituality of all, opening portals to states that transcend ordinary reality.</p>\n<p>The strength of a Confederation of Supreme Councils rests, notwithstanding the differences in evolutionary stages, size and culture of its members, on the collective capacity to integrate the specific approaches and actions of each one, finding the areas of reflection and the mode of intervention for the building of consensus.</p>\n<p>The A.A.S.R., through its Rituals and the Regulations of 1762 and 1786, unites us and provides us with common purposes.</p>\n<p>It is in this context that I propose founding values, the guiding thread of our action:</p>\n<ul>\n<li><strong>Tolerance and respect</strong>, to transform differences of viewpoint into fruitful dialogue.</li>\n<li><strong>Fraternity and solidarity</strong>, so that no one is left behind, within and beyond our Supreme Councils.</li>\n<li><strong>Integrity and discretion</strong>, because trust is the cement of any lasting work.</li>\n<li><strong>The pursuit of Truth and moral improvement</strong>, the silent labour that gives meaning to everything else.</li>\n</ul>\n<p>Being an international Confederation, these values take on new demands and new opportunities. We need leadership that listens, coordinates and serves. To lead, in this context, is to build bridges between cultures, languages and contexts; it is to promote consensus without erasing or minimizing identities; it is to guarantee high standards without imposing uniformity.</p>\n<p>Taking into account that it is essential that the Confederation brings together Supreme Councils that are, on the one hand, Sovereign — that is, independent, neither involving themselves in nor intervening in each of its members — and, on the other hand, Regular — that is, affirming and maintaining, necessarily, the principles associated with them — I propose the following strategic objectives:</p>\n<ul>\n<li><strong>Cohesion through harmonization</strong>, respecting the sovereignty of each, of principles and good practices among the Supreme Councils, and creating transparent mechanisms of decision-making and accountability.</li>\n<li><strong>Education and improvement</strong>, through the creation and development of joint programs, making use of existing ones for the training of Masters at the various degrees, sharing ritual and profane content compatible with our traditions, and stimulating historical, philosophical and symbolic research, with international publications and colloquia involving some or all of the member Supreme Councils.</li>\n<li><strong>Solidarity and social impact</strong>, through the coordination of transnational philanthropic initiatives in diverse areas such as education, health, the environment, the sea, and public ethics, promoting civility, the fight against intolerance, and the valorization of the common space.</li>\n<li><strong>Fraternal diplomacy and responsible expansion</strong>, by strengthening mutual recognition among our regular Supreme Councils, but also, without ever calling into question our Confederation’s Regulations, being open to dialogue with other Masonic organizations working with the A.A.S.R. and, furthermore, accompanying expansion into new regions with ritual, formative and ethical support.</li>\n<li><strong>Balanced and more effective communication and discretion</strong>, through the modernization of institutional communication channels, explaining with serenity who we are and what we do, without yielding to exhibitionism and with the confidentiality that safeguards the inner freedom of Masonic work.</li>\n<li><strong>Sustainability and the future</strong>, through tools supported by responsible digitalization, understanding the contribution and constraints of AI, and actively concerned with generational continuity, bringing younger Brethren into our initiatives, side by side with the experience of the more senior, and also integrating the environmental dimension as an expression of our duty towards future generations.</li>\n</ul>\n<p>In my forty-eight years of uninterrupted Masonic activity, this is yet another project I have co-initiated. I know that, at the outset, there are always many proposals, many ideas, very good intentions and many illusions. I am fully aware of the risk of proposing beyond the capacity to deliver and of being misunderstood, but, without dream and ambition, little will be achieved or transformed. My intention is to open the basis for collective discussion and evaluation for the consensus-building and approval of the initiatives to be implemented, and to continue to collaborate, in three years’ time, with the next head of the Confederation, the Sovereign Grand Commander of the Supreme Council of Morocco.</p>\n<p>I am well aware of the importance, for any organization, of a healthy handover, all the more so when it is the first transfer of responsibility.</p>\n<p>Little will be accomplished without the contribution of each Supreme Council, in initiatives involving all members or bringing together some of them. I ask of you presence, candor and work. I commit to listening before deciding, to uniting before advancing, to serving before deciding.</p>\n<p>May the Light that guides us inspire the International Confederation of Sovereign and Regular Supreme Councils. Let us move forward together, steadfast in our values, clear in our objectives and fraternal in our gestures, for the good of the A.A.S.R., to the G.A.O.T.U.</p>\n<p>In the age we live in, <em>having</em> has come to overshadow <em>being</em> and, more recently, it seems that even having no longer seems necessary — it is enough merely to <em>appear</em>.</p>\n<p>My hope is that, beyond <em>having</em> a Confederation, we may <em>be</em> a Confederation and, above all, that we do not merely <em>appear</em> to be a Confederation. I give and shall give my contribution so that, together with you, we may <em>be</em> a Confederation.</p>",
+      "placeDate": "Lisbon, 4 July 2026 E∴V∴",
+      "signatory": "José Manuel Moreira"
+    }
   }
 }

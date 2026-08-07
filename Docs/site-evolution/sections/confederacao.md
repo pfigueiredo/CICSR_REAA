@@ -15,29 +15,28 @@ primary
 
 ## Content status
 
-`ready` (copy exists; may enrich later)
+`ready` (copy exists; presidency block added Step 08)
+
+## Decisions (Step 04)
+
+- Current President: **José Manuel Moreira** (Supremo Conselho Português), mandate **4 Jul 2026 – 3 Jul 2029**
+- Public institutional document: Regulamento Interno only
 
 ## Sources we already have
 
 - `locales/*/confederation.*`
 - Hero and lead text (treaty Lyon 12 Dec 2025; four founding SCs)
-- Regulamento preâmbulo + Art. 1–3 (nature, non-hierarchical character, sovereignty) — aligns with web copy
-- `Docs/design-concepts.md` tone guidance
+- Regulamento preâmbulo + Art. 1–3
 - Inventory Step 01
 
 ## Sources to request
 
 - Optional longer institutional presentation from Comité
 - Official short name / acronym usage rules (CISCSR)
-- Confirm current President SC (first rotation = Portugal per Art. 9)
-
-## Sources to research
-
-- None required for v1
 
 ## Placeholder copy (PT draft)
 
-N/A — migrate existing content.
+N/A — migrate existing content + presidency aside.
 
 ## Subpages / subsections
 
@@ -45,7 +44,7 @@ N/A — migrate existing content.
 
 ## i18n notes
 
-Keys already exist under `confederation.*`
+Keys under `confederation.*` including `presidencyTitle`, `presidencyName`, `presidencyRole`, `presidencyMandate`
 
 ## Open questions
 
@@ -53,4 +52,4 @@ Keys already exist under `confederation.*`
 
 ## Ready for implementation?
 
-yes (migration only)
+yes

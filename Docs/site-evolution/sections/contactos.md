@@ -15,7 +15,17 @@ primary
 
 ## Content status
 
-`partial` — form UI exists; no real endpoints/contacts
+`partial` — form UI exists; **no** real endpoints/contacts published
+
+## Decisions (Step 04 — 2026-08-06)
+
+- Institutional email / postal / phone: **to be created** — do **not** publish draft domains
+- Ambassadors / public representatives: after meeting **07/08/2026**
+
+### Internal draft only (do not publish)
+
+Suggested domains (stakeholder brainstorm): www.confederSSCCSSRR / www.confederSSCC / www.SSCCSSRRconfeder / www.SSCCconfedr  
+Suggested email pattern: `geral@…` and `prenome.nome@…` — **not live**
 
 ## Sources we already have
 
@@ -24,13 +34,9 @@ primary
 
 ## Sources to request
 
-- Official email / postal / phone
+- Official email / postal / phone once created
 - Form handling (Formspree, email worker, or “mailto” policy)
-- Ambassador list per SC (`Docs/specs.txt` I)
-
-## Sources to research
-
-- None
+- Ambassador list per SC after Friday meeting
 
 ## Placeholder copy (PT draft)
 
@@ -44,7 +50,7 @@ Keep form; add when available:
 
 ## i18n notes
 
-Keys exist; extend for address blocks
+Keys exist; extend for address blocks when real data arrives
 
 ## Open questions
 
@@ -53,4 +59,4 @@ Keys exist; extend for address blocks
 
 ## Ready for implementation?
 
-yes for migration; contacts content pending
+yes for migration; **contacts content still pending** — keep placeholder on site

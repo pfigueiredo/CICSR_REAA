@@ -6,50 +6,54 @@ Publish institutional communications, starting with the President’s address; l
 
 ## Route(s)
 
-- `/comunicacoes/` — **frozen (Step 02)**
+- `/comunicacoes/` — hub (discursos + future notes)
+- `/comunicacoes/discurso-lisboa-2026/` — Discurso de posse (Lisboa, 4 Jul 2026)
 
 ## Nav visibility
 
-**footer / secondary only** (not primary until content exists)
+**footer / secondary only** (not primary; primary nav already has 7 items)
 
 ## Content status
 
-`missing` → **placeholder** (Step 05 copy frozen)
+`ready` for first speech (HTML PT/EN/FR + PDF PT/EN/FR/ES). AR page: note + Portuguese body until translation exists.
 
-## Sources we already have
+## Decisions (Step 04 — 2026-08-06 / speech publish 2026-08-07)
 
+- Publish President’s address under Comunicações (not a separate `/discursos/` tree)
+- Site locales: PT / EN / FR / AR; **ES = PDF download only** (no 5th site locale)
+- PDFs: originals in `Docs/discursos/`; public copies in `assets/speeches/`
+- Photo: `assets/people/jose-manuel-moreira.jpg` (from `Docs/HCT25822.jpg`)
+- Q11 boletim under Comunicações? — **after meeting**
+
+## Presidency (byline)
+
+- **José Manuel Moreira**, Supremo Conselho Português · SGC
+- Speech date: **4 July 2026** (Lisboa) — 1st presidential mandate of the Confederation
+- Mandate window (stakeholder): **4 July 2026 – 3 July 2029**
+
+## Sources
+
+- `Docs/discursos/` — PT, EN, FR, ES PDFs
+- `Docs/HCT25822.jpg` — portrait
 - Strategic mention of “Mensagem do Presidente” in `Docs/specs.txt`
 - Presidency rotation: **Portugal → Marrocos → Brasil → França** (Regulamento Art. 9; 3-year mandates)
 
-## Sources to request
-
-- Current President identity and mandate dates
-- Full discurso text + languages + photo/credit
-- Policy: archive previous presidents’ messages?
-
-## Sources to research
-
-- None until text exists
-
-## Placeholder copy (PT — Step 05 canonical)
-
-> **Comunicações** · Comunicações oficiais  
-> Espaço destinado às comunicações da Confederação, incluindo o Discurso do Presidente.  
-> **Estado:** Em preparação  
-> Virá a incluir: Discurso do Presidente · Comunicados institucionais · (futuro) Boletim digital  
-
 ## Subpages / subsections
 
-- v1: single page  
+- Hub card → speech page
+- PDF downloads: PT / EN / FR / ES
+- Future: comunicados, boletim (note on hub only)
 
 ## i18n notes
 
-New keys in Step 07; footer link label
+Keys: `communications.*`, `speech.lisboa2026.*`  
+AR: `speech.lisboa2026.arNote` + Portuguese `bodyHtml` / salutation until Arabic translation.
 
 ## Open questions
 
-- Boletim under Comunicações? (Step 04 Q11)
+- Boletim under Comunicações? (Q11 — post-meeting)
+- Photo credit for discurso (if required)
 
 ## Ready for implementation?
 
-yes — placeholder HTML
+yes — published (first speech)

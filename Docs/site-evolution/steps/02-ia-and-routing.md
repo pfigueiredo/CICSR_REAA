@@ -41,7 +41,7 @@ Freeze the **public** URL tree and navigation for the HTML phase. Chat / Bibliot
 | Eventos | **One page**, two blocks (Anteriores / Agendadas) | Enough for v1; no extra folders |
 | Documentos 1762/1786 | **Subpages** with placeholders | Stable URLs when editions arrive |
 | Regulamento | Card on index → thin page **or** direct PDF; prefer **thin page** + download | Institutional framing |
-| Comunicações | **Footer / secondary** only | Placeholder; not primary until content exists |
+| Comunicações | **Footer / secondary** only | Hub + speech subroute; not primary (nav already full) |
 | Chat/Biblioteca/Loja | **Omit** | Future work (Step 09) |
 
 ---
@@ -91,7 +91,8 @@ Paths are **site-root relative** (GitHub Pages project site: base `/CICSR_REAA/`
 | `/documentos/1762/` | documentos | via documentos | Placeholder |
 | `/documentos/1786/` | documentos | via documentos | Placeholder |
 | `/eventos/` | eventos | primary | Placeholder (+ optional approved dates) |
-| `/comunicacoes/` | comunicacoes | footer | Placeholder |
+| `/comunicacoes/` | comunicacoes | footer | Hub (discursos) |
+| `/comunicacoes/discurso-lisboa-2026/` | comunicacoes | via hub | Discurso de posse (HTML PT/EN/FR; PDF + ES; AR note) |
 | `/contactos/` | contactos | primary | Migrate form |
 
 **Out of tree:** `/chat/`, `/biblioteca/`, `/loja/`
@@ -116,12 +117,13 @@ CICSR_REAA/
   documentos/1786/index.html
   eventos/index.html
   comunicacoes/index.html
+  comunicacoes/discurso-lisboa-2026/index.html
   contactos/index.html
   css/ …  js/ …  locales/ …  assets/ …  Docs/ …
 ```
 
 Asset paths from depth-1 pages: `../css/`, `../js/`, `../locales/`, `../assets/`  
-From depth-2 (`historia/reaa/`, `documentos/1762/`): `../../…`
+From depth-2 (`historia/reaa/`, `documentos/1762/`, `comunicacoes/discurso-lisboa-2026/`): `../../…`
 
 ---
 

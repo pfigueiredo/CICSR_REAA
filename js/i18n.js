@@ -52,14 +52,63 @@
 
       const name = document.createElement("strong");
       name.textContent = item.name || "";
+      row.appendChild(name);
+
+      if (item.sgc) {
+        const sgc = document.createElement("span");
+        sgc.className = "member-sgc";
+        sgc.textContent = item.sgc;
+        row.appendChild(sgc);
+      }
 
       const meta = document.createElement("span");
+      meta.className = "member-meta";
       meta.textContent = item.meta || "";
-
-      row.appendChild(name);
       row.appendChild(meta);
+
       container.appendChild(row);
     });
+  }
+
+  function applyEvents(container, items) {
+    if (!Array.isArray(items)) {
+      return;
+    }
+    container.innerHTML = "";
+    if (items.length === 0) {
+      return;
+    }
+    const list = document.createElement("ul");
+    list.className = "event-list";
+    items.forEach((item) => {
+      const li = document.createElement("li");
+      li.className = "event-item";
+
+      const head = document.createElement("div");
+      head.className = "event-item-head";
+
+      const date = document.createElement("time");
+      date.textContent = item.date || "";
+      head.appendChild(date);
+
+      if (item.place) {
+        const place = document.createElement("span");
+        place.className = "event-place";
+        place.textContent = item.place;
+        head.appendChild(place);
+      }
+
+      li.appendChild(head);
+
+      if (item.text) {
+        const text = document.createElement("p");
+        text.textContent = item.text;
+        li.appendChild(text);
+      }
+
+      list.appendChild(li);
+    });
+    container.appendChild(list);
   }
 
   function applySignatories(container, items) {
@@ -101,6 +150,10 @@
       }
     });
 
+    document.querySelectorAll(".speech-ar-note").forEach((el) => {
+      el.hidden = !el.textContent.trim();
+    });
+
     document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
       const pairs = el.getAttribute("data-i18n-attr").split(";");
       pairs.forEach((pair) => {
@@ -125,6 +178,11 @@
     document.querySelectorAll("[data-i18n-members]").forEach((el) => {
       const key = el.getAttribute("data-i18n-members");
       applyMembers(el, getNested(strings, key));
+    });
+
+    document.querySelectorAll("[data-i18n-events]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-events");
+      applyEvents(el, getNested(strings, key));
     });
 
     document.querySelectorAll(".lang-switcher button").forEach((btn) => {

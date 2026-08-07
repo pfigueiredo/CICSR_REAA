@@ -17,40 +17,42 @@ Replace placeholders with approved content as stakeholder replies and research l
 
 ## Tasks
 
-- [ ] Discurso do Presidente → Comunicações
-- [ ] Event calendar → Eventos (anteriores / agendadas)
-- [ ] Real contacts / ambassadors → Contactos
-- [ ] Constituição naming + PDFs → Documentos
-- [ ] Approved 1762/1786 handling → Documentos subpages
-- [ ] Expanded history threads → História
-- [ ] Membros beyond founders (if any)
+- [x] Discurso do Presidente → Comunicações (`/comunicacoes/discurso-lisboa-2026/`)
+- [x] Event calendar → Eventos (anteriores / agendadas)
+- [ ] Real contacts / ambassadors → Contactos (pending creation / post-meeting)
+- [x] Constituição naming = Regulamento Interno only (confirmed)
+- [ ] Approved 1762/1786 handling → Documentos subpages (post-meeting)
+- [ ] Expanded history threads → História (Q10 pending meeting OK)
+- [x] Membros beyond founders (Sérvia) + founder order + SGC names
+- [x] Presidência actual on Confederação / História seed
 - [ ] Update README status board as each section flips to `done`
 
 ## Content intake checklist
 
 | Section | Content received | Languages | Published |
 |---------|------------------|-----------|-----------|
-| comunicacoes | | | |
-| eventos | | | |
-| contactos | | | |
-| documentos | | | |
-| historia | | | |
-| membros | | | |
+| comunicacoes | Discurso Lisboa 2026 published | HTML PT/EN/FR; PDF + ES; AR note | yes |
+| eventos | yes | PT/EN/FR/AR | yes |
+| contactos | draft domains only — not publishable | — | no |
+| documentos | Regulamento confirmed; 1762/1786 TBD | — | Regulamento only |
+| historia | presidency seed; Q10 draft for meeting | PT/EN/FR/AR | seed only |
+| membros | order + SGC + Sérvia | PT/EN/FR/AR | yes |
 
 ## Decisions needed
 
-- Per item: publish now vs keep placeholder
+- Per item: publish now vs keep placeholder — see Step 04 reply log
 
 ## Deliverables
 
-- Updated pages + locales
-- Section specs set to `done` where published
+- Updated pages + locales (Eventos, Membros, Presidência)
+- Section specs updated
 
 ## Acceptance criteria
 
 - Nothing published without approval noted in the section spec or reply log
 - Placeholders removed only when replaced
+- Discurso Lisboa 2026 published under Comunicações (2026-08-07)
 
 ## Status
 
-`todo`
+`in progress` (2026-08-07) — Eventos / Membros / Presidência; Comunicações hub + discurso live

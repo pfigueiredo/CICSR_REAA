@@ -30,21 +30,21 @@ This folder holds the **planning docs** for evolving the website from a single-p
 | Step 01 — Inventory | done |
 | Step 02 — IA and routing | done |
 | Step 03 — Content research | done |
-| Step 04 — Stakeholder pack | ready to send (PT/EN/FR/AR) |
+| Step 04 — Stakeholder pack | replies received (partial) |
 | Step 05 — Placeholder pages | done |
 | Step 06 — Multipage migration (HTML) | done |
 | Step 07 — i18n and nav | done |
-| Step 08 — Fill content | todo |
+| Step 08 — Fill content | in progress (Eventos / Membros / Presidência; Discurso = other agent) |
 | Step 09 — Future work (Chat / private / Loja) | deferred |
 | Step 10 — Launch checklist | todo |
-| Section: Confederação | drafting |
+| Section: Confederação | ready |
 | Section: Princípios | drafting |
-| Section: Comunicações | todo |
-| Section: Eventos | todo |
-| Section: Contactos | drafting |
-| Section: Membros | drafting |
-| Section: Documentos | drafting |
-| Section: História | drafting |
+| Section: Comunicações | ready (discurso Lisboa 2026) |
+| Section: Eventos | ready |
+| Section: Contactos | drafting (no public contacts yet) |
+| Section: Membros | ready |
+| Section: Documentos | drafting (Regulamento ready; 1762/1786 TBD) |
+| Section: História | drafting (Confederação seed ready) |
 | Section: Chat | deferred (future) |
 | Section: Biblioteca | deferred (future) |
 | Section: Loja | deferred (future) |

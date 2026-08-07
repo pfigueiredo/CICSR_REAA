@@ -133,7 +133,7 @@ All four files: `locales/pt.json`, `en.json`, `fr.json`, `ar.json`.
 ### Dates
 
 - Tratado: **12 December 2025**, Lyon (preâmbulo)
-- Regulamento entry into force: **Lisboa, 3 July 2026** (Art. 15)
+- Regulamento entry into force: **Lisboa, 4 July 2026** (Art. 15)
 
 ---
 

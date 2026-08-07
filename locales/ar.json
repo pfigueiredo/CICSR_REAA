@@ -35,7 +35,11 @@
     "lead": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الاسكتلندي القديم والمقبول بموجب معاهدة وُقِّعت في 12 ديسمبر 2025 في ليون بين المجلس الأعلى للبرازيل، والمجلس الأعلى لفرنسا، والمجلس الأعلى البرتغالي، والمجلس الأعلى للمغرب.",
     "p1": "لا يمارس الاتحاد أي سلطة هرمية على المجالس العليا الأعضاء، بل يعمل كهيئة للتشاور وضمان الطقس والوفاق بين الولايات القضائية السيادية.",
     "p2": "طابعه مؤسسي، متحفظ ودبلوماسي، قائم على التقليد والاستمرارية التاريخية واحترام اختصاصات كل هيئة مكونة.",
-    "p3": "يهدف إلى الحفاظ على نقاء الطقس، وضمان الانتظام والاعتراف المتبادل بين المجالس العليا المنضوية في الاتحاد، والحفاظ على الوحدة الروحية للطقس، مع احترام مطلق لسيادة كل مجلس أعلى."
+    "p3": "يهدف إلى الحفاظ على نقاء الطقس، وضمان الانتظام والاعتراف المتبادل بين المجالس العليا المنضوية في الاتحاد، والحفاظ على الوحدة الروحية للطقس، مع احترام مطلق لسيادة كل مجلس أعلى.",
+    "presidencyTitle": "الرئاسة",
+    "presidencyName": "خوسيه مانويل موريرا",
+    "presidencyRole": "الرئيس · المجلس الأعلى البرتغالي",
+    "presidencyMandate": "الولاية: من 4 تموز/يوليو 2026 إلى 3 تموز/يوليو 2029"
   },
   "pillars": {
     "overline": "المبادئ المؤسسة",
@@ -86,10 +90,10 @@
       "تعزيز اعتماد مواقف موحدة في القضايا ذات الاهتمام المشترك بين المجالس العليا."
     ],
     "signatories": [
-      "الأخ الموقّر جداً جاك أزو 33°",
-      "الأخ الموقّر جداً نيلسون فراري 33°",
-      "الأخ الموقّر جداً خوسيه مانويل مورييرا 33°",
-      "الأخ الموقّر جداً كمال الفاضي 33°"
+      "الأخ الموقّر جداً جاك أزو, 33°",
+      "الأخ الموقّر جداً نيلسون فراري, 33°",
+      "الأخ الموقّر جداً كمال الفاضي, 33°",
+      "الأخ الموقّر جداً خوسيه مانويل مورييرا, 33°"
     ]
   },
   "members": {
@@ -98,38 +102,55 @@
     "mapLabel": "خريطة الولايات القضائية",
     "items": [
       {
-        "name": "المجلس الأعلى للبرازيل",
-        "meta": "عضو مؤسس"
-      },
-      {
         "name": "المجلس الأعلى لفرنسا",
-        "meta": "عضو مؤسس"
+        "meta": "عضو مؤسس",
+        "sgc": "جاك آزو, 33°"
       },
       {
-        "name": "المجلس الأعلى البرتغالي",
-        "meta": "عضو مؤسس"
+        "name": "المجلس الأعلى للبرازيل",
+        "meta": "عضو مؤسس",
+        "sgc": "نيلسون فراري, 33°"
       },
       {
         "name": "المجلس الأعلى للمغرب",
-        "meta": "عضو مؤسس"
+        "meta": "عضو مؤسس",
+        "sgc": "كمال الفاضي, 33°"
+      },
+      {
+        "name": "المجلس الأعلى البرتغالي",
+        "meta": "عضو مؤسس",
+        "sgc": "خوسيه مانويل موريرا, 33°"
+      }
+    ],
+    "additional": [
+      {
+        "name": "المجلس الأعلى لصربيا",
+        "meta": "عضو منذ 4 تموز/يوليو 2026"
       }
     ],
     "foundersHeading": "المؤسسون",
     "membersHeading": "الأعضاء",
-    "membersEmpty": "إلى جانب المجالس العليا المؤسسة، سيُعرض في هذا القسم الأعضاء الجدد المقبولون وفق النظام الداخلي."
+    "membersEmpty": "إلى جانب المجالس العليا المؤسسة، سيُعرض في هذا القسم الأعضاء الجدد المقبولون وفق النظام الداخلي.",
+    "sgcLabel": "القائد الأعظم السيادي"
   },
   "history": {
     "overline": "التاريخ والإطار",
     "heading": "تقليد عريق ذو رسالة دولية.",
     "t1": "1761–1801",
-    "t1Title": "التشكيل التاريخي",
+    "t1Title": "السوابق التاريخية",
     "t1Text": "التوحيد التدريجي للدرجات الفلسفية وبنية المجالس العليا.",
     "t2": "القرن 19–20",
     "t2Title": "توسع الولايات القضائية",
     "t2Text": "التأكيد الدولي للطقس وإقامة العلاقات بين المجالس العليا.",
     "t3": "2025–2026",
     "t3Title": "تأسيس الاتحاد",
-    "t3Text": "توقيع المعاهدة في ليون في 12 ديسمبر 2025؛ اعتماد اللائحة الداخلية في لشبونة في 3 يوليو 2026؛ رئاسة دورية بين الأعضاء المؤسسين (البرتغال، المغرب، البرازيل، فرنسا)."
+    "t3Text": "توقيع المعاهدة في ليون في 12 ديسمبر 2025؛ اعتماد اللائحة الداخلية في لشبونة في 4 يوليو 2026. وتُؤسَّس رئاسة دورية بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
+    "t4": "2026–2029",
+    "t4Title": "الرئاسة الأولى",
+    "t4Text": "رئاسة الاتحاد يتولاها المجلس الأعلى البرتغالي، في شخص القائد الأعظم السيادي خوسيه مانويل موريرا، 33°، للولاية من 4 تموز/يوليو 2026 إلى 3 تموز/يوليو 2029.",
+    "t5": "اعتبارًا من 2029",
+    "t5Title": "الرئاسات المقبلة",
+    "t5Text": "وفقًا للدوران بين الأعضاء المؤسسين، ستتولى الرئاسة تباعًا المجلس الأعلى للمغرب، ثم المجلس الأعلى للبرازيل، ثم المجلس الأعلى لفرنسا."
   },
   "documents": {
     "overline": "وثائق عامة",
@@ -149,7 +170,7 @@
     "regOverline": "الوثائق",
     "regTitle": "النظام الداخلي",
     "regLead": "النظام الداخلي للاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول.",
-    "regMeta": "اعتُمد في لشبونة في 3 تموز/يوليو 2026.",
+    "regMeta": "اعتُمد في لشبونة في 4 تموز/يوليو 2026.",
     "regDownload": "تنزيل PDF",
     "c1762Overline": "وثائق مؤسسة",
     "c1762Title": "دساتير ولوائح 1762",
@@ -205,12 +226,14 @@
   },
   "communications": {
     "overline": "البيانات",
-    "title": "بيانات رسمية",
-    "lead": "مساحة مخصصة لبيانات الاتحاد، بما في ذلك خطاب الرئيس.",
-    "willInclude": "سيشمل:",
-    "b1": "خطاب الرئيس",
-    "b2": "بيانات مؤسسية",
-    "b3": "نشرة رقمية (مستقبلاً)"
+    "title": "البيانات الرسمية",
+    "lead": "خطابات وبيانات مؤسسية للاتحاد.",
+    "speechesHeading": "الخطابات",
+    "futureNote": "ستُنشر البيانات والنشرة الرقمية في هذا القسم عند توفرها.",
+    "readSpeech": "قراءة الخطاب",
+    "cardDate": "لشبونة · 4 تموز/يوليو 2026",
+    "cardTitle": "خطاب تنصيب الرئيس",
+    "cardMeta": "خوسيه مانويل موريرا · الولاية الأولى"
   },
   "events": {
     "overline": "الجدول",
@@ -219,7 +242,36 @@
     "pastTitle": "السابقة",
     "pastText": "ستُنشر هنا الفعاليات العامة السابقة بعد المصادقة.",
     "upcomingTitle": "القادمة",
-    "upcomingText": "ستُعلن في هذا القسم التواريخ المستقبلية المؤكدة."
+    "upcomingText": "ستُعلن في هذا القسم التواريخ المستقبلية المؤكدة.",
+    "past": [
+      {
+        "date": "12 كانون الأول/ديسمبر 2025",
+        "place": "ليون",
+        "text": "توقيع المعاهدة المؤسسة للاتحاد"
+      },
+      {
+        "date": "4 تموز/يوليو 2026",
+        "place": "لشبونة",
+        "text": "اعتماد النظام الداخلي / الجمعية"
+      },
+      {
+        "date": "4 تموز/يوليو 2026",
+        "place": "البرتغال",
+        "text": "بداية ولاية الرئاسة (المجلس الأعلى البرتغالي)"
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "7 آب/أغسطس 2026",
+        "place": "البرازيل",
+        "text": "لقاء مؤسسي"
+      },
+      {
+        "date": "12 كانون الأول/ديسمبر 2026",
+        "place": "فرنسا",
+        "text": "لقاء مؤسسي"
+      }
+    ]
   },
   "historyPage": {
     "indexOverline": "التاريخ",
@@ -227,7 +279,7 @@
     "indexLead": "الاتحاد، والمجالس العليا، والطقس الإسكتلندي القديم والمقبول.",
     "confOverline": "التاريخ",
     "confTitle": "الاتحاد",
-    "confBody": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول بموجب معاهدة وُقّعت في ليون في 12 كانون الأول/ديسمبر 2025 بين المجلس الأعلى للبرازيل والمجلس الأعلى لفرنسا والمجلس الأعلى البرتغالي والمجلس الأعلى للمغرب. واعتُمد النظام الداخلي في لشبونة في 3 تموز/يوليو 2026. والرئاسة دورية لفترات ثلاث سنوات بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
+    "confBody": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول بموجب معاهدة وُقّعت في ليون في 12 كانون الأول/ديسمبر 2025 بين المجلس الأعلى للبرازيل والمجلس الأعلى لفرنسا والمجلس الأعلى البرتغالي والمجلس الأعلى للمغرب. واعتُمد النظام الداخلي في لشبونة في 4 تموز/يوليو 2026. والرئاسة دورية لفترات ثلاث سنوات بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
     "scOverline": "التاريخ",
     "scTitle": "المجالس العليا",
     "scLead": "إطار تاريخي عام لمؤسسة المجالس العليا في الطقس الإسكتلندي القديم والمقبول.",
@@ -249,5 +301,26 @@
     "backPrinciples": "المبادئ",
     "backHome": "الصفحة الأولى",
     "backMembers": "الأعضاء"
+  },
+  "speech": {
+    "lisboa2026": {
+      "overline": "خطاب الرئيس",
+      "title": "خطاب التنصيب",
+      "name": "خوسيه مانويل موريرا",
+      "role": "رئيس الاتحاد · الملك الكبير القائد للمجلس الأعلى البرتغالي",
+      "date": "لشبونة، 4 تموز/يوليو 2026",
+      "photoAlt": "صورة خوسيه مانويل موريرا، رئيس الاتحاد",
+      "pdfHeading": "تنزيل PDF",
+      "pdfPt": "Português",
+      "pdfEn": "English",
+      "pdfFr": "Français",
+      "pdfEs": "Español",
+      "backComms": "البيانات",
+      "arNote": "الترجمة العربية قيد الإعداد. يُعرض أدناه النص البرتغالي؛ يمكن تنزيل الترجمات المتوفرة بصيغة PDF.",
+      "salutation": "Muito Poderosos Soberanos Grandes Comendadores,<br/>Meus Ilustres Irmãos,",
+      "bodyHtml": "<p>Cumprir e fazer cumprir o Regulamento da Confederação Internacional dos Supremos Conselhos Soberanos e Regulares, hoje ratificado, é o compromisso que vou honrar e vou contribuir para que todos o honrem.</p>\n<p>Nele consta que o SCP terá o primeiro mandato e é nessa qualidade que assumo hoje a presidência desta Confederação. Compreendo o contexto em que recebi a vossa eleição. É, pois, com humildade e responsabilidade acrescidas, sentido de serviço e a firme convicção de que só cumprirei esta missão se conseguir desenvolver consensos e aprofundar a confiança coletiva e recíproca iniciada e mantida ao longo destes últimos dois anos, em reuniões presenciais e virtuais, em França, Brasil, Marrocos e Portugal.</p>\n<p>A força da Maçonaria sustenta-se no recrutamento seletivo e no desenvolvimento pessoal do maçon, contribuindo para a melhoria da Humanidade.</p>\n<p>A força de um Supremo Conselho sustenta-se, por um lado, na evolução contínua dos seus membros, através da compreensão do que é a Consciência, ou seja, a capacidade de perceber-se a si mesmo e ao Contexto, envolvendo processos que permitem atenção, autoconsciência e absorção de informações na mente e, por outro, no reforço da espiritualidade de todos, abrindo portais para estados que transcendem a realidade ordinária.</p>\n<p>A força de uma Confederação de Supremos Conselhos sustenta-se, não obstante as diferenças de estádios evolutivos, dimensão e cultura dos seus membros, na capacidade coletiva de integrar abordagens e atuações específicas de cada um, encontrando as áreas de reflexão e a forma de intervenção para a construção de consensos.</p>\n<p>O R.E.A.A., através dos seus Rituais e dos Regulamentos de 1762 e de 1786, agrega-nos e propicia-nos propósitos comuns.</p>\n<p>É neste contexto que proponho valores fundadores, fio-condutor da nossa atuação:</p>\n<ul>\n<li><strong>Tolerância e respeito</strong>, para transformar divergências de pontos de vista em diálogo fecundo.</li>\n<li><strong>Fraternidade e solidariedade</strong>, para que ninguém fique para trás, dentro e fora dos nossos Supremos Conselhos.</li>\n<li><strong>Integridade e discrição</strong>, porque a confiança é o cimento de qualquer obra duradoura.</li>\n<li><strong>Busca da Verdade e aperfeiçoamento moral</strong>, o labor silencioso que dá sentido a tudo o resto.</li>\n</ul>\n<p>Sendo uma Confederação internacional, estes valores ganham novas exigências e novas oportunidades. Precisamos de uma liderança que escute, coordene e sirva. Liderar, neste enquadramento, é construir pontes entre culturas, línguas e contextos; é promover consensos sem apagar ou minimizar identidades; é garantir padrões elevados sem impor uniformidade.</p>\n<p>Tendo em conta ser determinante que a Confederação reúne Supremos Conselhos, por um lado, Soberanos, isto é, independentes, não se envolvendo nem intervindo em cada um dos seus membros, e, por outro, Regulares, ou seja, afirmando e mantendo, obrigatoriamente, os princípios que lhe estão associados, proponho os seguintes objetivos estratégicos:</p>\n<ul>\n<li><strong>Coesão pela harmonização</strong>, respeitando a soberania de cada um, de princípios e boas práticas entre os Supremos Conselhos e criando mecanismos transparentes de decisão e prestação de contas.</li>\n<li><strong>Formação e aperfeiçoamento</strong>, pela criação e aproveitamento de programas comuns, aproveitando os já existentes de formação de Mestres nos diversos graus, partilhando conteúdos rituais e profanos compatíveis com as nossas tradições, e estimulando a investigação histórica, filosófica e simbólica, com publicações e colóquios internacionais, envolvendo alguns ou a totalidade dos Supremos Conselhos membros.</li>\n<li><strong>Solidariedade e impacto social</strong>, através da coordenação de iniciativas de filantropia transnacional em áreas diversas, como por exemplo: educação, saúde, ambiente, mar e ética pública, promovendo civilidade, combate à intolerância e valorização do espaço comum.</li>\n<li><strong>Diplomacia fraterna e expansão responsável</strong>, pelo fortalecimento do reconhecimento mútuo entre os nossos Supremos Conselhos regulares, mas também, sem nunca pôr em causa o nosso Regulamento da Confederação, estar aberto ao diálogo com outras organizações maçónicas que trabalhem com o R.E.A.A. e, ainda, acompanhar a expansão para novas regiões com apoio ritual, formativo e ético.</li>\n<li><strong>Comunicação e discrição equilibradas mais eficazes</strong>, pela modernização de canais de comunicação institucionais, explicando com serenidade quem somos e o que fazemos, sem ceder ao exibicionismo e com a confidencialidade que resguarda a liberdade interior do trabalho maçónico.</li>\n<li><strong>Sustentabilidade e futuro</strong>, através de ferramentas suportadas por digitalização responsável, compreendendo o contributo e as condicionantes da IA, e ativamente preocupados com a continuidade geracional, trazendo Irmãos mais jovens para as nossas iniciativas, lado a lado com a experiência dos mais antigos e, ainda, integrando a dimensão ambiental como expressão do nosso dever para com as gerações vindouras.</li>\n</ul>\n<p>Nos meus quarenta e oito anos de atividade maçónica ininterrupta, este é mais um projeto que co-iniciei. Sei que, no começo, há sempre muitas propostas, muitas ideias, muito boas intenções e muitas ilusões. Tenho noção clara do risco de se propor para além da capacidade de se concretizar e de poder ser menos bem interpretado mas, sem sonho e ambição, pouco se atingirá e transformará. A minha intenção é de abrir a base da discussão e avaliação coletiva para a consensualização e aprovação das iniciativas a concretizar e continuar a colaborar, daqui a três anos, com o próximo responsável da Confederação, o Soberano Grande Comendador do Supremo Conselho de Marrocos.</p>\n<p>Tenho bem consciência da importância para uma organização de uma saudável passagem de testemunho, por maioria de razão quando se trata da primeira transferência de responsabilidade.</p>\n<p>Pouco se fará sem o contributo de cada Supremo Conselho, em iniciativas da totalidade dos membros ou agregando parte deles. Peço-vos presença, franqueza e trabalho. Comprometo-me a ouvir antes de decidir, a unir antes de avançar, a servir antes de decidir.</p>\n<p>Que a Luz que nos guia inspire a Confederação Internacional dos Supremos Conselhos Soberanos e Regulares. Sigamos juntos, firmes nos valores, claros nos objetivos e fraternos nos gestos, a bem do R.E.A.A., à G.A.D.U.</p>\n<p>Nesta época em que vivemos, o ter tem-se sobreposto ao ser e, recentemente, parece que já nem faz falta ter, basta parecer.</p>\n<p>Espero que para além de termos uma Confederação, sejamos uma Confederação e, sobretudo, não pareçamos uma Confederação. Dou e darei o meu contributo para que, convosco, sejamos uma Confederação.</p>",
+      "placeDate": "Lisboa, 4 de julho de 2026 E∴V∴",
+      "signatory": "José Manuel Moreira"
+    }
   }
 }

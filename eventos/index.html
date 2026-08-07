@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css?v=20260806k" />
-  <link rel="stylesheet" href="../css/rtl.css?v=20260806k" />
+  <link rel="stylesheet" href="../css/styles.css?v=20260807b" />
+  <link rel="stylesheet" href="../css/rtl.css?v=20260807b" />
 </head>
 <body>
   <div class="page-frame">
@@ -54,19 +54,16 @@
       </section>
       <section class="section section-light">
         <p class="lead lead-compact" data-i18n="events.lead"></p>
-        <aside class="status-block" aria-live="polite">
-          <p class="status-label" data-i18n="status.preparing">Em preparação</p>
-          <div class="event-blocks">
-            <div>
-              <h2 data-i18n="events.pastTitle">Anteriores</h2>
-              <p data-i18n="events.pastText"></p>
-            </div>
-            <div>
-              <h2 data-i18n="events.upcomingTitle">Agendadas</h2>
-              <p data-i18n="events.upcomingText"></p>
-            </div>
+        <div class="event-blocks">
+          <div>
+            <h2 data-i18n="events.pastTitle">Anteriores</h2>
+            <div data-i18n-events="events.past"></div>
           </div>
-        </aside>
+          <div>
+            <h2 data-i18n="events.upcomingTitle">Agendadas</h2>
+            <div data-i18n-events="events.upcoming"></div>
+          </div>
+        </div>
         <p class="page-actions"><a href="../historia/" data-i18n="page.backHistory">História</a> · <a href="../contactos/" data-i18n="nav.contact">Contactos</a> · <a href="../" data-i18n="page.backHome">Página inicial</a></p>
       </section>
     </main>
@@ -85,7 +82,7 @@
       <p data-i18n="footer.copy">© 2026 · CISCSR</p>
     </footer>
   </div>
-  <script src="../js/i18n.js?v=20260806h"></script>
-  <script src="../js/main.js?v=20260806h"></script>
+  <script src="../js/i18n.js?v=20260807b"></script>
+  <script src="../js/main.js?v=20260807b"></script>
 </body>
 </html>

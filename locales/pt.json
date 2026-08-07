@@ -35,7 +35,11 @@
     "lead": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do Rito Escocês Antigo e Aceite foi criada por tratado assinado em 12 de dezembro de 2025 em Lyon entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos.",
     "p1": "A Confederação não exerce qualquer autoridade hierárquica sobre os Supremos Conselhos membros, mas atua como órgão de concertação, de garantia ritual e de concórdia entre jurisdições soberanas.",
     "p2": "O seu carácter é institucional, discreto e diplomático, assente na tradição, na continuidade histórica e no respeito pelas competências próprias de cada corpo constituinte.",
-    "p3": "Tem como vocação preservar a pureza do rito, assegurar a regularidade e o reconhecimento mútuo dos Supremos Conselhos confederados, e manter a unidade iniciática do rito, no respeito absoluto pela soberania de cada Supremo Conselho."
+    "p3": "Tem como vocação preservar a pureza do rito, assegurar a regularidade e o reconhecimento mútuo dos Supremos Conselhos confederados, e manter a unidade iniciática do rito, no respeito absoluto pela soberania de cada Supremo Conselho.",
+    "presidencyTitle": "Presidência",
+    "presidencyName": "José Manuel Moreira",
+    "presidencyRole": "Presidente · Supremo Conselho Português",
+    "presidencyMandate": "Mandato: 4 de julho de 2026 a 3 de julho de 2029"
   },
   "pillars": {
     "overline": "Princípios fundadores",
@@ -86,10 +90,10 @@
       "Favorecer uma posição comum dos membros da Confederação sobre todos os assuntos de interesse partilhado."
     ],
     "signatories": [
-      "Muito Ilustre Irmão Jacques AZOT 33°",
-      "Muito Ilustre Irmão Nelson FRARE 33°",
-      "Muito Ilustre Irmão José Manuel MOREIRA 33°",
-      "Muito Ilustre Irmão Kamal El Fadhi 33°"
+      "Muito Ilustre Irmão Jacques Azot, 33°",
+      "Muito Ilustre Irmão Nelson Frare, 33°",
+      "Muito Ilustre Irmão Kamal El Fadhi, 33°",
+      "Muito Ilustre Irmão José Manuel Moreira, 33°"
     ]
   },
   "members": {
@@ -98,38 +102,55 @@
     "mapLabel": "Mapa das jurisdições",
     "items": [
       {
-        "name": "Supremo Conselho do Brasil",
-        "meta": "Membro fundador"
-      },
-      {
         "name": "Supremo Conselho para a França",
-        "meta": "Membro fundador"
+        "meta": "Membro fundador",
+        "sgc": "Jacques Azot, 33°"
       },
       {
-        "name": "Supremo Conselho Português",
-        "meta": "Membro fundador"
+        "name": "Supremo Conselho do Brasil",
+        "meta": "Membro fundador",
+        "sgc": "Nelson Frare, 33°"
       },
       {
         "name": "Supremo Conselho de Marrocos",
-        "meta": "Membro fundador"
+        "meta": "Membro fundador",
+        "sgc": "Kamal El Fadhi, 33°"
+      },
+      {
+        "name": "Supremo Conselho Português",
+        "meta": "Membro fundador",
+        "sgc": "José Manuel Moreira, 33°"
+      }
+    ],
+    "additional": [
+      {
+        "name": "Supremo Conselho da Sérvia",
+        "meta": "Membro desde 4 de julho de 2026"
       }
     ],
     "foundersHeading": "Fundadores",
     "membersHeading": "Membros",
-    "membersEmpty": "Além dos Supremos Conselhos fundadores, futuros membros admitidos conforme o Regulamento Interno serão apresentados nesta secção."
+    "membersEmpty": "Além dos Supremos Conselhos fundadores, futuros membros admitidos conforme o Regulamento Interno serão apresentados nesta secção.",
+    "sgcLabel": "Soberano Grande Comendador"
   },
   "history": {
     "overline": "História e enquadramento",
     "heading": "Uma tradição antiga com vocação internacional.",
     "t1": "1761–1801",
-    "t1Title": "Formação histórica",
+    "t1Title": "Antecedentes históricos",
     "t1Text": "Consolidação progressiva dos graus filosóficos e da estrutura dos Supremos Conselhos.",
     "t2": "Séc. XIX–XX",
     "t2Title": "Expansão das jurisdições",
     "t2Text": "Afirmação internacional do R.E.A.A. e estabelecimento de relações entre Supremos Conselhos.",
     "t3": "2025–2026",
     "t3Title": "Fundação da Confederação",
-    "t3Text": "Tratado assinado em Lyon a 12 de dezembro de 2025; Regulamento Interno adotado em Lisboa a 3 de julho de 2026; presidência rotativa entre os membros fundadores (Portugal, Marrocos, Brasil, França)."
+    "t3Text": "Tratado assinado em Lyon a 12 de dezembro de 2025; Regulamento Interno adotado em Lisboa a 4 de julho de 2026. Institui-se a presidência rotativa entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
+    "t4": "2026–2029",
+    "t4Title": "Primeira presidência",
+    "t4Text": "Presidência da Confederação exercida pelo Supremo Conselho Português, na pessoa do Soberano Grande Comendador José Manuel Moreira, 33°, com mandato de 4 de julho de 2026 a 3 de julho de 2029.",
+    "t5": "A partir de 2029",
+    "t5Title": "Presidências futuras",
+    "t5Text": "Na sequência da rotação entre os membros fundadores, sucederão à presidência o Supremo Conselho de Marrocos, o Supremo Conselho do Brasil e o Supremo Conselho para a França."
   },
   "documents": {
     "overline": "Documentos públicos",
@@ -149,7 +170,7 @@
     "regOverline": "Documentos",
     "regTitle": "Regulamento Interno",
     "regLead": "Regulamento Interno da Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A.",
-    "regMeta": "Adotado em Lisboa, 3 de julho de 2026.",
+    "regMeta": "Adotado em Lisboa, 4 de julho de 2026.",
     "regDownload": "Descarregar PDF",
     "c1762Overline": "Documentos fundadores",
     "c1762Title": "Constituições e Regulamentos de 1762",
@@ -206,11 +227,13 @@
   "communications": {
     "overline": "Comunicações",
     "title": "Comunicações oficiais",
-    "lead": "Espaço destinado às comunicações da Confederação, incluindo o Discurso do Presidente.",
-    "willInclude": "Virá a incluir:",
-    "b1": "Discurso do Presidente",
-    "b2": "Comunicados institucionais",
-    "b3": "Boletim digital (futuro)"
+    "lead": "Discursos e comunicações institucionais da Confederação.",
+    "speechesHeading": "Discursos",
+    "futureNote": "Comunicados e o boletim digital serão publicados nesta área quando disponíveis.",
+    "readSpeech": "Ler o discurso",
+    "cardDate": "Lisboa · 4 de julho de 2026",
+    "cardTitle": "Discurso de posse do Presidente",
+    "cardMeta": "José Manuel Moreira · 1.º mandato"
   },
   "events": {
     "overline": "Agenda",
@@ -219,7 +242,36 @@
     "pastTitle": "Anteriores",
     "pastText": "Os eventos públicos anteriores serão publicados aqui após validação.",
     "upcomingTitle": "Agendadas",
-    "upcomingText": "As datas futuras confirmadas serão anunciadas nesta secção."
+    "upcomingText": "As datas futuras confirmadas serão anunciadas nesta secção.",
+    "past": [
+      {
+        "date": "12 de dezembro de 2025",
+        "place": "Lyon",
+        "text": "Assinatura do tratado fundador da Confederação"
+      },
+      {
+        "date": "4 de julho de 2026",
+        "place": "Lisboa",
+        "text": "Adoção do Regulamento Interno / Assembleia"
+      },
+      {
+        "date": "4 de julho de 2026",
+        "place": "Portugal",
+        "text": "Início do mandato da Presidência (Supremo Conselho Português)"
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "7 de agosto de 2026",
+        "place": "Brasil",
+        "text": "Encontro institucional"
+      },
+      {
+        "date": "12 de dezembro de 2026",
+        "place": "França",
+        "text": "Encontro institucional"
+      }
+    ]
   },
   "historyPage": {
     "indexOverline": "História",
@@ -227,7 +279,7 @@
     "indexLead": "A Confederação, os Supremos Conselhos e o R.E.A.A.",
     "confOverline": "História",
     "confTitle": "A Confederação",
-    "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 3 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
+    "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 4 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
     "scOverline": "História",
     "scTitle": "Supremos Conselhos",
     "scLead": "Enquadramento histórico geral da instituição dos Supremos Conselhos no R.E.A.A.",
@@ -249,5 +301,26 @@
     "backPrinciples": "Princípios",
     "backHome": "Página inicial",
     "backMembers": "Membros"
+  },
+  "speech": {
+    "lisboa2026": {
+      "overline": "Discurso do Presidente",
+      "title": "Discurso de posse",
+      "name": "José Manuel Moreira",
+      "role": "Presidente da Confederação · Soberano Grande Comendador do Supremo Conselho Português",
+      "date": "Lisboa, 4 de julho de 2026",
+      "photoAlt": "Retrato de José Manuel Moreira, Presidente da Confederação",
+      "pdfHeading": "Descarregar PDF",
+      "pdfPt": "Português",
+      "pdfEn": "English",
+      "pdfFr": "Français",
+      "pdfEs": "Español",
+      "backComms": "Comunicações",
+      "arNote": "",
+      "salutation": "Muito Poderosos Soberanos Grandes Comendadores,<br/>Meus Ilustres Irmãos,",
+      "bodyHtml": "<p>Cumprir e fazer cumprir o Regulamento da Confederação Internacional dos Supremos Conselhos Soberanos e Regulares, hoje ratificado, é o compromisso que vou honrar e vou contribuir para que todos o honrem.</p>\n<p>Nele consta que o SCP terá o primeiro mandato e é nessa qualidade que assumo hoje a presidência desta Confederação. Compreendo o contexto em que recebi a vossa eleição. É, pois, com humildade e responsabilidade acrescidas, sentido de serviço e a firme convicção de que só cumprirei esta missão se conseguir desenvolver consensos e aprofundar a confiança coletiva e recíproca iniciada e mantida ao longo destes últimos dois anos, em reuniões presenciais e virtuais, em França, Brasil, Marrocos e Portugal.</p>\n<p>A força da Maçonaria sustenta-se no recrutamento seletivo e no desenvolvimento pessoal do maçon, contribuindo para a melhoria da Humanidade.</p>\n<p>A força de um Supremo Conselho sustenta-se, por um lado, na evolução contínua dos seus membros, através da compreensão do que é a Consciência, ou seja, a capacidade de perceber-se a si mesmo e ao Contexto, envolvendo processos que permitem atenção, autoconsciência e absorção de informações na mente e, por outro, no reforço da espiritualidade de todos, abrindo portais para estados que transcendem a realidade ordinária.</p>\n<p>A força de uma Confederação de Supremos Conselhos sustenta-se, não obstante as diferenças de estádios evolutivos, dimensão e cultura dos seus membros, na capacidade coletiva de integrar abordagens e atuações específicas de cada um, encontrando as áreas de reflexão e a forma de intervenção para a construção de consensos.</p>\n<p>O R.E.A.A., através dos seus Rituais e dos Regulamentos de 1762 e de 1786, agrega-nos e propicia-nos propósitos comuns.</p>\n<p>É neste contexto que proponho valores fundadores, fio-condutor da nossa atuação:</p>\n<ul>\n<li><strong>Tolerância e respeito</strong>, para transformar divergências de pontos de vista em diálogo fecundo.</li>\n<li><strong>Fraternidade e solidariedade</strong>, para que ninguém fique para trás, dentro e fora dos nossos Supremos Conselhos.</li>\n<li><strong>Integridade e discrição</strong>, porque a confiança é o cimento de qualquer obra duradoura.</li>\n<li><strong>Busca da Verdade e aperfeiçoamento moral</strong>, o labor silencioso que dá sentido a tudo o resto.</li>\n</ul>\n<p>Sendo uma Confederação internacional, estes valores ganham novas exigências e novas oportunidades. Precisamos de uma liderança que escute, coordene e sirva. Liderar, neste enquadramento, é construir pontes entre culturas, línguas e contextos; é promover consensos sem apagar ou minimizar identidades; é garantir padrões elevados sem impor uniformidade.</p>\n<p>Tendo em conta ser determinante que a Confederação reúne Supremos Conselhos, por um lado, Soberanos, isto é, independentes, não se envolvendo nem intervindo em cada um dos seus membros, e, por outro, Regulares, ou seja, afirmando e mantendo, obrigatoriamente, os princípios que lhe estão associados, proponho os seguintes objetivos estratégicos:</p>\n<ul>\n<li><strong>Coesão pela harmonização</strong>, respeitando a soberania de cada um, de princípios e boas práticas entre os Supremos Conselhos e criando mecanismos transparentes de decisão e prestação de contas.</li>\n<li><strong>Formação e aperfeiçoamento</strong>, pela criação e aproveitamento de programas comuns, aproveitando os já existentes de formação de Mestres nos diversos graus, partilhando conteúdos rituais e profanos compatíveis com as nossas tradições, e estimulando a investigação histórica, filosófica e simbólica, com publicações e colóquios internacionais, envolvendo alguns ou a totalidade dos Supremos Conselhos membros.</li>\n<li><strong>Solidariedade e impacto social</strong>, através da coordenação de iniciativas de filantropia transnacional em áreas diversas, como por exemplo: educação, saúde, ambiente, mar e ética pública, promovendo civilidade, combate à intolerância e valorização do espaço comum.</li>\n<li><strong>Diplomacia fraterna e expansão responsável</strong>, pelo fortalecimento do reconhecimento mútuo entre os nossos Supremos Conselhos regulares, mas também, sem nunca pôr em causa o nosso Regulamento da Confederação, estar aberto ao diálogo com outras organizações maçónicas que trabalhem com o R.E.A.A. e, ainda, acompanhar a expansão para novas regiões com apoio ritual, formativo e ético.</li>\n<li><strong>Comunicação e discrição equilibradas mais eficazes</strong>, pela modernização de canais de comunicação institucionais, explicando com serenidade quem somos e o que fazemos, sem ceder ao exibicionismo e com a confidencialidade que resguarda a liberdade interior do trabalho maçónico.</li>\n<li><strong>Sustentabilidade e futuro</strong>, através de ferramentas suportadas por digitalização responsável, compreendendo o contributo e as condicionantes da IA, e ativamente preocupados com a continuidade geracional, trazendo Irmãos mais jovens para as nossas iniciativas, lado a lado com a experiência dos mais antigos e, ainda, integrando a dimensão ambiental como expressão do nosso dever para com as gerações vindouras.</li>\n</ul>\n<p>Nos meus quarenta e oito anos de atividade maçónica ininterrupta, este é mais um projeto que co-iniciei. Sei que, no começo, há sempre muitas propostas, muitas ideias, muito boas intenções e muitas ilusões. Tenho noção clara do risco de se propor para além da capacidade de se concretizar e de poder ser menos bem interpretado mas, sem sonho e ambição, pouco se atingirá e transformará. A minha intenção é de abrir a base da discussão e avaliação coletiva para a consensualização e aprovação das iniciativas a concretizar e continuar a colaborar, daqui a três anos, com o próximo responsável da Confederação, o Soberano Grande Comendador do Supremo Conselho de Marrocos.</p>\n<p>Tenho bem consciência da importância para uma organização de uma saudável passagem de testemunho, por maioria de razão quando se trata da primeira transferência de responsabilidade.</p>\n<p>Pouco se fará sem o contributo de cada Supremo Conselho, em iniciativas da totalidade dos membros ou agregando parte deles. Peço-vos presença, franqueza e trabalho. Comprometo-me a ouvir antes de decidir, a unir antes de avançar, a servir antes de decidir.</p>\n<p>Que a Luz que nos guia inspire a Confederação Internacional dos Supremos Conselhos Soberanos e Regulares. Sigamos juntos, firmes nos valores, claros nos objetivos e fraternos nos gestos, a bem do R.E.A.A., à G.A.D.U.</p>\n<p>Nesta época em que vivemos, o ter tem-se sobreposto ao ser e, recentemente, parece que já nem faz falta ter, basta parecer.</p>\n<p>Espero que para além de termos uma Confederação, sejamos uma Confederação e, sobretudo, não pareçamos uma Confederação. Dou e darei o meu contributo para que, convosco, sejamos uma Confederação.</p>",
+      "placeDate": "Lisboa, 4 de julho de 2026 E∴V∴",
+      "signatory": "José Manuel Moreira"
+    }
   }
 }

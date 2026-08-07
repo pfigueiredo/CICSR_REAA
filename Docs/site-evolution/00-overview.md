@@ -18,7 +18,8 @@ Outcomes:
 | Area | This phase |
 |------|------------|
 | Confederação, Princípios, Membros, História, Documentos, Contactos | Migrate / expand (HTML) |
-| Comunicações, Eventos | Placeholder pages (HTML) |
+| Comunicações | Hub + discurso Lisboa 2026 (HTML) |
+| Eventos | Placeholder pages (HTML) |
 | Documentos 1762 / 1786 | Placeholder until approved text |
 | Chat (3 níveis) | **Future work** — no route, no stub |
 | Biblioteca (if members-only / auth) | **Future work** |
@@ -33,7 +34,7 @@ THIS PHASE (static HTML)
 Confederação
   · Apresentação
   · Princípios e Valores
-  · Comunicações (Discurso)     ← placeholder OK
+  · Comunicações (Discurso)     ← first speech live
   · Eventos (Anteriores / Agendadas) ← placeholder OK
   · Contactos
 Membros · Fundadores / Membros
@@ -69,7 +70,8 @@ Soberano Grande Comendador de Marrocos: **Kamal El Fadhi** (Latin); Arabic publi
 | História | Thin chronology only |
 | Documentos | Declaração + Regulamento PDF; third card “em breve” |
 | Contactos | Form placeholder |
-| Comunicações / Eventos | Absent → HTML placeholders |
+| Comunicações | Hub + speech page |
+| Eventos | Absent → HTML placeholder |
 | Chat / Biblioteca / Loja | Future work |
 
 ## Out of scope (this phase)
@@ -96,7 +98,7 @@ Soberano Grande Comendador de Marrocos: **Kamal El Fadhi** (Latin); Arabic publi
 /documentos/1762/
 /documentos/1786/
 /eventos/               ← placeholder (Anteriores / Agendadas on one page)
-/comunicacoes/          ← footer only; placeholder
+/comunicacoes/          ← footer only; hub + discurso-lisboa-2026
 /contactos/
 ```
 

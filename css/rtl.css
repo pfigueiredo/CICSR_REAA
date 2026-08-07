@@ -85,9 +85,31 @@ html[dir="rtl"] .page-thin .section > .lead-compact,
 html[dir="rtl"] .page-thin .section > .status-block,
 html[dir="rtl"] .page-thin .section > .page-actions,
 html[dir="rtl"] .page-thin .section > .doc-meta,
+html[dir="rtl"] .page-thin .section > .speech-list-heading,
+html[dir="rtl"] .page-thin .section > .speech-card,
+html[dir="rtl"] .page-thin .section > .speech-header,
+html[dir="rtl"] .page-thin .section > .speech-ar-note,
+html[dir="rtl"] .page-thin .section > .speech-body,
 html[dir="rtl"] .section.section-compact > .status-block {
   margin-left: auto;
   margin-right: max(0px, calc((100% - var(--content)) / 2));
+}
+
+html[dir="rtl"] .speech-card-link,
+html[dir="rtl"] .speech-header {
+  direction: rtl;
+}
+
+html[dir="rtl"] .speech-ar-note {
+  border-left: none;
+  border-right: 3px solid var(--gold);
+}
+
+/* Body of the speech stays Portuguese (LTR) until an Arabic translation exists */
+html[dir="rtl"] .speech-body {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
 }
 
 html[dir="rtl"] .page-actions,

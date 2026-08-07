@@ -65,7 +65,7 @@ LOCALE_PATCHES = {
             "jumpLabel": "Nesta página",
             "confOverline": "História",
             "confTitle": "A Confederação",
-            "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 3 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
+            "confBody": "A Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A. foi criada por tratado assinado em Lyon a 12 de dezembro de 2025 entre o Supremo Conselho do Brasil, o Supremo Conselho para a França, o Supremo Conselho Português e o Supremo Conselho de Marrocos. O Regulamento Interno foi adotado em Lisboa a 4 de julho de 2026. A presidência é rotativa por períodos de três anos entre os membros fundadores, pela ordem: Portugal, Marrocos, Brasil, França.",
             "scOverline": "História",
             "scTitle": "Supremos Conselhos",
             "scLead": "Enquadramento histórico geral da instituição dos Supremos Conselhos no R.E.A.A.",
@@ -96,7 +96,7 @@ LOCALE_PATCHES = {
             "regOverline": "Documentos",
             "regTitle": "Regulamento Interno",
             "regLead": "Regulamento Interno da Confederação Internacional dos Supremos Conselhos Soberanos e Regulares do R.E.A.A.",
-            "regMeta": "Adotado em Lisboa, 3 de julho de 2026.",
+            "regMeta": "Adotado em Lisboa, 4 de julho de 2026.",
             "regDownload": "Descarregar PDF",
             "c1762Overline": "Documentos fundadores",
             "c1762Title": "Constituições e Regulamentos de 1762",
@@ -177,7 +177,7 @@ LOCALE_PATCHES = {
             "jumpLabel": "On this page",
             "confOverline": "History",
             "confTitle": "The Confederation",
-            "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 3 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
+            "confBody": "The International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R. was created by treaty signed in Lyon on 12 December 2025 between the Supreme Council of Brazil, the Supreme Council for France, the Portuguese Supreme Council, and the Supreme Council of Morocco. The Internal Regulations were adopted in Lisbon on 4 July 2026. The presidency rotates every three years among the founding members, in the order: Portugal, Morocco, Brazil, France.",
             "scOverline": "History",
             "scTitle": "Supreme Councils",
             "scLead": "General historical framing of Supreme Councils within the A.A.S.R.",
@@ -208,7 +208,7 @@ LOCALE_PATCHES = {
             "regOverline": "Documents",
             "regTitle": "Internal Regulations",
             "regLead": "Internal Regulations of the International Confederation of Sovereign and Regular Supreme Councils of the A.A.S.R.",
-            "regMeta": "Adopted in Lisbon, 3 July 2026.",
+            "regMeta": "Adopted in Lisbon, 4 July 2026.",
             "regDownload": "Download PDF",
             "c1762Overline": "Founding documents",
             "c1762Title": "Constitutions and Regulations of 1762",
@@ -289,7 +289,7 @@ LOCALE_PATCHES = {
             "jumpLabel": "Sur cette page",
             "confOverline": "Histoire",
             "confTitle": "La Confédération",
-            "confBody": "La Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A. a été créée par traité signé à Lyon le 12 décembre 2025 entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc. Le Règlement intérieur a été adopté à Lisbonne le 3 juillet 2026. La présidence est rotative par périodes de trois ans entre les membres fondateurs, dans l’ordre : Portugal, Maroc, Brésil, France.",
+            "confBody": "La Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A. a été créée par traité signé à Lyon le 12 décembre 2025 entre le Suprême Conseil du Brésil, le Suprême Conseil pour la France, le Suprême Conseil Portugais et le Suprême Conseil du Maroc. Le Règlement intérieur a été adopté à Lisbonne le 4 juillet 2026. La présidence est rotative par périodes de trois ans entre les membres fondateurs, dans l’ordre : Portugal, Maroc, Brésil, France.",
             "scOverline": "Histoire",
             "scTitle": "Suprêmes Conseils",
             "scLead": "Cadre historique général de l’institution des Suprêmes Conseils dans le R.E.A.A.",
@@ -320,7 +320,7 @@ LOCALE_PATCHES = {
             "regOverline": "Documents",
             "regTitle": "Règlement intérieur",
             "regLead": "Règlement intérieur de la Confédération internationale des Suprêmes Conseils souverains et réguliers du R.E.A.A.",
-            "regMeta": "Adopté à Lisbonne, le 3 juillet 2026.",
+            "regMeta": "Adopté à Lisbonne, le 4 juillet 2026.",
             "regDownload": "Télécharger le PDF",
             "c1762Overline": "Documents fondateurs",
             "c1762Title": "Constitutions et Règlements de 1762",
@@ -401,7 +401,7 @@ LOCALE_PATCHES = {
             "jumpLabel": "في هذه الصفحة",
             "confOverline": "التاريخ",
             "confTitle": "الاتحاد",
-            "confBody": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول بموجب معاهدة وُقّعت في ليون في 12 كانون الأول/ديسمبر 2025 بين المجلس الأعلى للبرازيل والمجلس الأعلى لفرنسا والمجلس الأعلى البرتغالي والمجلس الأعلى للمغرب. واعتُمد النظام الداخلي في لشبونة في 3 تموز/يوليو 2026. والرئاسة دورية لفترات ثلاث سنوات بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
+            "confBody": "أُنشئ الاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول بموجب معاهدة وُقّعت في ليون في 12 كانون الأول/ديسمبر 2025 بين المجلس الأعلى للبرازيل والمجلس الأعلى لفرنسا والمجلس الأعلى البرتغالي والمجلس الأعلى للمغرب. واعتُمد النظام الداخلي في لشبونة في 4 تموز/يوليو 2026. والرئاسة دورية لفترات ثلاث سنوات بين الأعضاء المؤسسين بالترتيب: البرتغال، المغرب، البرازيل، فرنسا.",
             "scOverline": "التاريخ",
             "scTitle": "المجالس العليا",
             "scLead": "إطار تاريخي عام لمؤسسة المجالس العليا في الطقس الإسكتلندي القديم والمقبول.",
@@ -432,7 +432,7 @@ LOCALE_PATCHES = {
             "regOverline": "الوثائق",
             "regTitle": "النظام الداخلي",
             "regLead": "النظام الداخلي للاتحاد الدولي للمجالس العليا السيادية والمنتظمة للطقس الإسكتلندي القديم والمقبول.",
-            "regMeta": "اعتُمد في لشبونة في 3 تموز/يوليو 2026.",
+            "regMeta": "اعتُمد في لشبونة في 4 تموز/يوليو 2026.",
             "regDownload": "تنزيل PDF",
             "c1762Overline": "وثائق مؤسسة",
             "c1762Title": "دساتير ولوائح 1762",
@@ -512,8 +512,8 @@ def head(depth: int, title_fallback: str, route: str = "/") -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{p}css/styles.css?v=20260806k" />
-  <link rel="stylesheet" href="{p}css/rtl.css?v=20260806k" />
+  <link rel="stylesheet" href="{p}css/styles.css?v=20260807a" />
+  <link rel="stylesheet" href="{p}css/rtl.css?v=20260807a" />
 </head>
 <body>
   <div class="page-frame">
@@ -616,8 +616,8 @@ def footer(depth: int, with_motto: bool = True) -> str:
       <p data-i18n="footer.copy">© 2026 · CISCSR</p>
     </footer>
   </div>
-  <script src="{p}js/i18n.js?v=20260806h"></script>
-  <script src="{p}js/main.js?v=20260806h"></script>
+  <script src="{p}js/i18n.js?v=20260807a"></script>
+  <script src="{p}js/main.js?v=20260807a"></script>
 </body>
 </html>
 """
@@ -722,7 +722,7 @@ def build() -> None:
           <article>
             <time data-i18n="history.t1">1761–1801</time>
             <div>
-              <h3 data-i18n="history.t1Title">Formação histórica</h3>
+              <h3 data-i18n="history.t1Title">Antecedentes históricos</h3>
               <p data-i18n="history.t1Text"></p>
             </div>
           </article>
@@ -738,6 +738,20 @@ def build() -> None:
             <div>
               <h3 data-i18n="history.t3Title">Fundação da Confederação</h3>
               <p data-i18n="history.t3Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t4">2026–2029</time>
+            <div>
+              <h3 data-i18n="history.t4Title">Primeira presidência</h3>
+              <p data-i18n="history.t4Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t5">A partir de 2029</time>
+            <div>
+              <h3 data-i18n="history.t5Title">Presidências futuras</h3>
+              <p data-i18n="history.t5Text"></p>
             </div>
           </article>
         </div>
@@ -924,7 +938,7 @@ def build() -> None:
           <article>
             <time data-i18n="history.t1">1761–1801</time>
             <div>
-              <h3 data-i18n="history.t1Title">Formação histórica</h3>
+              <h3 data-i18n="history.t1Title">Antecedentes históricos</h3>
               <p data-i18n="history.t1Text"></p>
             </div>
           </article>
@@ -940,6 +954,20 @@ def build() -> None:
             <div>
               <h3 data-i18n="history.t3Title">Fundação da Confederação</h3>
               <p data-i18n="history.t3Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t4">2026–2029</time>
+            <div>
+              <h3 data-i18n="history.t4Title">Primeira presidência</h3>
+              <p data-i18n="history.t4Text"></p>
+            </div>
+          </article>
+          <article>
+            <time data-i18n="history.t5">A partir de 2029</time>
+            <div>
+              <h3 data-i18n="history.t5Title">Presidências futuras</h3>
+              <p data-i18n="history.t5Text"></p>
             </div>
           </article>
         </div>
@@ -1160,21 +1188,72 @@ def build() -> None:
         + page_banner("communications.overline", "Comunicações", "communications.title", "Comunicações oficiais")
         + """      <section class="section section-light">
         <p class="lead lead-compact" data-i18n="communications.lead"></p>
+        <h2 class="members-subhead speech-list-heading" data-i18n="communications.speechesHeading">Discursos</h2>
+        <article class="speech-card">
+          <a class="speech-card-link" href="discurso-lisboa-2026/">
+            <img class="speech-card-photo" src="../assets/people/jose-manuel-moreira.jpg" width="160" height="240" alt="" data-i18n-attr="alt:speech.lisboa2026.photoAlt" />
+            <div class="speech-card-copy">
+              <p class="speech-card-date" data-i18n="communications.cardDate">Lisboa · 4 de julho de 2026</p>
+              <h3 data-i18n="communications.cardTitle">Discurso de posse do Presidente</h3>
+              <p data-i18n="communications.cardMeta">José Manuel Moreira · 1.º mandato</p>
+              <span class="text-link" data-i18n="communications.readSpeech">Ler o discurso</span>
+            </div>
+          </a>
+        </article>
+        <p class="doc-meta" data-i18n="communications.futureNote"></p>
 """
-        + status_block(
-            """          <p data-i18n="communications.willInclude">Virá a incluir:</p>
-          <ul>
-            <li data-i18n="communications.b1">Discurso do Presidente</li>
-            <li data-i18n="communications.b2">Comunicados institucionais</li>
-            <li data-i18n="communications.b3">Boletim digital (futuro)</li>
-          </ul>
-"""
-        )
         + page_actions([("../contactos/", "nav.contact", "Contactos"), ("../", "page.backHome", "Página inicial")])
         + """      </section>
     </main>
 """
         + footer(1),
+    )
+
+    write(
+        "comunicacoes/discurso-lisboa-2026/index.html",
+        head(2, "Discurso de posse — CISCSR", "/comunicacoes/discurso-lisboa-2026/")
+        + header_nav(2, "communications")
+        + """    <main class="page-thin page-speech">
+"""
+        + page_banner("speech.lisboa2026.overline", "Discurso do Presidente", "speech.lisboa2026.title", "Discurso de posse")
+        + """      <section class="section section-light">
+        <header class="speech-header">
+          <img class="speech-portrait" src="../../assets/people/jose-manuel-moreira.jpg" width="280" height="420" alt="" data-i18n-attr="alt:speech.lisboa2026.photoAlt" />
+          <div class="speech-header-copy">
+            <h2 data-i18n="speech.lisboa2026.name">José Manuel Moreira</h2>
+            <p class="speech-role" data-i18n="speech.lisboa2026.role">Presidente da Confederação · Soberano Grande Comendador do Supremo Conselho Português</p>
+            <p class="speech-date" data-i18n="speech.lisboa2026.date">Lisboa, 4 de julho de 2026</p>
+          </div>
+        </header>
+        <p class="speech-ar-note" hidden data-i18n="speech.lisboa2026.arNote"></p>
+        <article class="speech-body">
+          <p class="speech-salutation" data-i18n="speech.lisboa2026.salutation" data-i18n-html></p>
+          <div data-i18n="speech.lisboa2026.bodyHtml" data-i18n-html></div>
+          <footer class="speech-closing">
+            <p data-i18n="speech.lisboa2026.placeDate">Lisboa, 4 de julho de 2026 E∴V∴</p>
+            <p class="speech-signatory" data-i18n="speech.lisboa2026.signatory">José Manuel Moreira</p>
+          </footer>
+        </article>
+        <aside class="status-block speech-pdfs">
+          <p class="status-label" data-i18n="speech.lisboa2026.pdfHeading">Descarregar PDF</p>
+          <ul class="external-links">
+            <li><a href="../../assets/speeches/discurso-lisboa-2026-pt.pdf" target="_blank" rel="noopener" data-i18n="speech.lisboa2026.pdfPt">Português</a></li>
+            <li><a href="../../assets/speeches/discurso-lisboa-2026-en.pdf" target="_blank" rel="noopener" data-i18n="speech.lisboa2026.pdfEn">English</a></li>
+            <li><a href="../../assets/speeches/discurso-lisboa-2026-fr.pdf" target="_blank" rel="noopener" data-i18n="speech.lisboa2026.pdfFr">Français</a></li>
+            <li><a href="../../assets/speeches/discurso-lisboa-2026-es.pdf" target="_blank" rel="noopener" data-i18n="speech.lisboa2026.pdfEs">Español</a></li>
+          </ul>
+        </aside>
+"""
+        + page_actions(
+            [
+                ("../", "speech.lisboa2026.backComms", "Comunicações"),
+                ("../../", "page.backHome", "Página inicial"),
+            ]
+        )
+        + """      </section>
+    </main>
+"""
+        + footer(2),
     )
 
     write(

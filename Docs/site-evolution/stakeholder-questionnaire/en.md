@@ -16,7 +16,7 @@ We ask you to validate the points below so that “In preparation” pages can b
 ## Questions
 
 1. **Institutional document**  
-   Do you confirm that the public Confederation text to publish is the **Internal Regulations** (Lisbon, 3 July 2026)? Is there a public **Charter / Statutes** in addition to the Regulations?
+   Do you confirm that the public Confederation text to publish is the **Internal Regulations** (Lisbon, 4 July 2026)? Is there a public **Charter / Statutes** in addition to the Regulations?
 
 2. **Presidency**  
    Which Supreme Council / person currently holds the Presidency? What are the mandate dates?  
@@ -29,7 +29,7 @@ We ask you to validate the points below so that “In preparation” pages can b
 
 4. **Events**  
    Please provide a list of **public** past and upcoming events (date, place, type / short description).  
-   May we already list: Lyon, 12 December 2025 (treaty signing) and Lisbon, 3 July 2026 (Regulations / Assembly)?
+   May we already list: Lyon, 12 December 2025 (treaty signing) and Lisbon, 4 July 2026 (Regulations / Assembly)?
 
 5. **Contacts**  
    Institutional email, postal address, telephone (if any).  

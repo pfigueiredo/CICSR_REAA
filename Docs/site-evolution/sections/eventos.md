@@ -15,35 +15,42 @@ primary
 
 ## Content status
 
-`missing` (two known milestones exist in site copy — publish only if approved as “events”)
+`ready` — stakeholder calendar approved (2026-08-06)
 
 ## Sources we already have
 
 - Treaty signing: Lyon, 12 December 2025 (site copy + Regulamento preâmbulo)
-- Regulamento adoption / entry into force: Lisboa, 3 July 2026 (Art. 15)
+- Regulamento adoption / entry into force: Lisboa, 4 July 2026 (Art. 15)
+- Stakeholder 2026 calendar: Portugal 4 Jul · Brazil 7 Aug · France 12 Dec
 - Assembleia Confederal ≥1×/year (Art. 8); presidency rotation PT→MA→BR→FR (Art. 9)
-- Calendar ambitions in `Docs/specs.txt` III (Comité ≥2/year; AG before 30 June; visits)
-- Inventory Step 01 completed
+
+## Approved public list (as of 2026-08-07)
+
+**Anteriores**
+
+| Date | Place | Description |
+|------|-------|-------------|
+| 12 Dec 2025 | Lyon | Assinatura do tratado fundador |
+| 4 Jul 2026 | Lisboa | Adoção do Regulamento Interno / Assembleia |
+| 4 Jul 2026 | Portugal | Início do mandato da Presidência (SCP) |
+
+**Agendadas**
+
+| Date | Place | Description |
+|------|-------|-------------|
+| 7 Aug 2026 | Brasil | Encontro institucional / reunião |
+| 12 Dec 2026 | França | Encontro institucional / reunião |
+
+Do not invent city-level venues for BR/FR beyond country unless later specified.
 
 ## Sources to request
 
-- Full past list with public visibility flags
-- Upcoming calendar
+- Finer venue / type labels if desired
 - Whether member SC sessions appear or only CISCSR-level events
-
-## Sources to research
-
-- None beyond stakeholder calendar
 
 ## Placeholder copy (PT — Step 05 canonical)
 
-> **Agenda** · Eventos e reuniões  
-> Calendário das Assembleias Confederais, encontros institucionais e reuniões relevantes da Confederação.  
-> **Estado:** Em preparação  
-> **Anteriores:** Os eventos públicos anteriores serão publicados aqui após validação.  
-> **Agendadas:** As datas futuras confirmadas serão anunciadas nesta secção.  
-
-**Do not** list Lyon/Lisboa here until Step 04 approves (those dates remain on História / Documentos).
+Superseded by live lists (Step 08).
 
 ## Subpages / subsections
 
@@ -51,13 +58,12 @@ primary
 
 ## i18n notes
 
-Date formatting per locale when events arrive
+Date formatting per locale; event objects in `events.past` / `events.upcoming`
 
 ## Open questions
 
-- Approve Lyon/Lisboa as public “eventos”? (Step 04)
+- None blocking presentation
 
 ## Ready for implementation?
 
-yes — placeholder HTML
-
+yes — published in Step 08

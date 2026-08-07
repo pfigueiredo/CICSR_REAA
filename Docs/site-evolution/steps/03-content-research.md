@@ -128,7 +128,7 @@ Produce a research brief for content that can be found publicly (mainly 1762/178
 | Draft bullets | Public OK? | Needs approval |
 |---------------|------------|----------------|
 | Tratado, Lyon, **12 Dec 2025** — BR, FR, PT, MA | yes | Already published |
-| Regulamento Interno, Lisboa, **3 Jul 2026** | yes | Already published |
+| Regulamento Interno, Lisboa, **4 Jul 2026** | yes | Already published |
 | Non-hierarchical concertation organ | yes | Already published |
 | Presidency rotation PT → MA → BR → FR, 3 years | yes | From Regulamento |
 | Admission rules for new members (Art. 4–5) — summary only | yes | Optional |
@@ -137,10 +137,16 @@ Produce a research brief for content that can be found publicly (mainly 1762/178
 
 ## Decisions needed (→ Step 04)
 
-1. Summary-only vs link-out vs host PDF for 1762/1786?  
-2. If link-out: approve **which** URL(s) (suggest Gallica FR for 1786 + one Archive EN for 1762/1786 bundle)?  
-3. May History/R.E.A.A. mention Charleston 1801 and “several historical versions of 1786”?  
-4. Any CISCSR-owned translation to host later?
+1. Summary-only vs link-out vs host PDF for 1762/1786? — **awaiting post-meeting** (Q8–Q9)  
+2. If link-out: approve **which** URL(s) (suggest Gallica FR for 1786 + one Archive EN for 1762/1786 bundle)? — pending  
+3. May History/R.E.A.A. mention Charleston 1801 and “several historical versions of 1786”? — stakeholder asked for a **meeting suggestion** (draft in Step 04); **do not publish expansion** until Comité OK  
+4. Any CISCSR-owned translation to host later? — pending; languages of interest FR / EN / PT / ES
+
+### Q10 meeting suggestion (not live on site)
+
+- Charleston **1801** (already in Declaração)  
+- Minimal chronology: 1762 · 1786 (recognised fundamental laws) · 1801 · international expansion · CISCSR treaty 2025  
+- **No** authenticity debate on 1786
 
 ## Deliverables
 

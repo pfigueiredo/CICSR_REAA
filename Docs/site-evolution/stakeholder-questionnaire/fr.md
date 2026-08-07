@@ -16,7 +16,7 @@ Nous vous demandons de valider les points ci-dessous afin de remplacer les pages
 ## Questions
 
 1. **Document institutionnel**  
-   Confirmez-vous que le texte public de la Confédération à mettre en ligne est le **Règlement intérieur** (Lisbonne, 3 juillet 2026) ? Existe-t-il une **Charte / des Statuts** publics en plus du Règlement ?
+   Confirmez-vous que le texte public de la Confédération à mettre en ligne est le **Règlement intérieur** (Lisbonne, 4 juillet 2026) ? Existe-t-il une **Charte / des Statuts** publics en plus du Règlement ?
 
 2. **Présidence**  
    Quel Suprême Conseil / quelle personne occupe actuellement la Présidence ? Quelles sont les dates du mandat ?  
@@ -29,7 +29,7 @@ Nous vous demandons de valider les points ci-dessous afin de remplacer les pages
 
 4. **Événements**  
    Liste des événements **publics** passés et à venir (date, lieu, type / brève description).  
-   Pouvons-nous déjà indiquer : Lyon, 12/12/2025 (signature du traité) et Lisbonne, 03/07/2026 (Règlement / Assemblée) ?
+   Pouvons-nous déjà indiquer : Lyon, 12/12/2025 (signature du traité) et Lisbonne, 04/07/2026 (Règlement / Assemblée) ?
 
 5. **Contacts**  
    Courriel institutionnel, adresse postale, téléphone (s’il y a lieu).  

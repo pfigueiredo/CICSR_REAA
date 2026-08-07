@@ -16,7 +16,7 @@ Pedimos validação dos pontos abaixo para substituir páginas «Em preparação
 ## Questões
 
 1. **Documento institucional**  
-   Confirmam que o texto público da Confederação a disponibilizar é o **Regulamento Interno** (Lisboa, 3 de julho de 2026)? Existe **Carta / Estatutos** públicos além do Regulamento?
+   Confirmam que o texto público da Confederação a disponibilizar é o **Regulamento Interno** (Lisboa, 4 de julho de 2026)? Existe **Carta / Estatutos** públicos além do Regulamento?
 
 2. **Presidência**  
    Qual o Supremo Conselho / pessoa na Presidência actual? Quais as datas do mandato?  
@@ -29,7 +29,7 @@ Pedimos validação dos pontos abaixo para substituir páginas «Em preparação
 
 4. **Eventos**  
    Lista de eventos **públicos** passados e futuros (data, local, tipo / breve descrição).  
-   Podemos listar já: Lyon, 12/12/2025 (assinatura do tratado) e Lisboa, 03/07/2026 (Regulamento / Assembleia)?
+   Podemos listar já: Lyon, 12/12/2025 (assinatura do tratado) e Lisboa, 04/07/2026 (Regulamento / Assembleia)?
 
 5. **Contactos**  
    Email institucional, morada postal, telefone (se houver).  
