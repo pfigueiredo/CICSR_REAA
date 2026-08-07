@@ -703,6 +703,29 @@ h1 span {
   grid-template-columns: 1fr;
 }
 
+.contact-details {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.contact-label {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact-address {
+  margin: 0;
+  color: var(--ink);
+  font-style: normal;
+  line-height: 1.55;
+}
+
 .contact-form {
   max-width: 760px;
   width: 100%;
@@ -1339,7 +1362,8 @@ textarea {
 }
 
 /* Narrower blocks: keep own max-width */
-.section > .contact-form {
+.section > .contact-form,
+.section > .contact-details {
   width: 100%;
   margin-left: auto;
   margin-right: auto;

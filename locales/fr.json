@@ -194,6 +194,8 @@
     "overline": "Contacts",
     "heading": "Secrétariat International",
     "intro": "Espace prévu pour le siège, les contacts officiels, le formulaire institutionnel et l'accès réservé.",
+    "addressLabel": "Adresse",
+    "address": "Rua Andrade Corvo, 21 — 5º Andar<br />1050-008 Lisboa — Portugal",
     "name": "Nom",
     "namePlaceholder": "Nom complet",
     "email": "Email",

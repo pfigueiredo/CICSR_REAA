@@ -1262,6 +1262,13 @@ def build() -> None:
         + page_banner("contact.overline", "Contactos", "contact.heading", "Secretariado Internacional")
         + """      <section class="section section-light contact">
         <p class="section-intro" data-i18n="contact.intro"></p>
+        <div class="contact-details">
+          <p class="contact-label" data-i18n="contact.addressLabel">Morada</p>
+          <address class="contact-address" data-i18n="contact.address" data-i18n-html>
+            Rua Andrade Corvo, 21 — 5º Andar<br />
+            1050-008 Lisboa — Portugal
+          </address>
+        </div>
         <form class="contact-form">
           <label>
             <span data-i18n="contact.name">Nome</span>
