@@ -1149,20 +1149,17 @@ def build() -> None:
         + page_banner("events.overline", "Agenda", "events.title", "Eventos e reuniões")
         + """      <section class="section section-light">
         <p class="lead lead-compact" data-i18n="events.lead"></p>
-"""
-        + status_block(
-            """          <div class="event-blocks">
-            <div>
-              <h2 data-i18n="events.pastTitle">Anteriores</h2>
-              <p data-i18n="events.pastText"></p>
-            </div>
-            <div>
-              <h2 data-i18n="events.upcomingTitle">Agendadas</h2>
-              <p data-i18n="events.upcomingText"></p>
-            </div>
+        <div class="event-blocks">
+          <div>
+            <h2 data-i18n="events.pastTitle">Anteriores</h2>
+            <div data-i18n-events="events.past"></div>
           </div>
+          <div>
+            <h2 data-i18n="events.upcomingTitle">Agendadas</h2>
+            <div data-i18n-events="events.upcoming"></div>
+          </div>
+        </div>
 """
-        )
         + page_actions(
             [
                 ("../historia/", "page.backHistory", "História"),

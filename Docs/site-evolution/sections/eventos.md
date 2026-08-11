@@ -40,6 +40,7 @@ primary
 |------|-------|-------------|
 | 7 Aug 2026 | Brasil | Encontro institucional / reunião |
 | 12 Dec 2026 | França | Encontro institucional / reunião |
+| 18–21 Mar 2027 | Casa Blanca, Marrocos | Encontro institucional |
 
 Do not invent city-level venues for BR/FR beyond country unless later specified.
 
